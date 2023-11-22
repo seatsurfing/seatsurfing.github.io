@@ -1,0 +1,19 @@
+.md-header {
+    background-color: #343a40;
+}
+
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title[for=__drawer] {
+        background-color: #343a40;
+    }
+}
+
+.md-nav__title .md-nav__button.md-logo img,
+.md-nav__title .md-nav__button.md-logo svg,
+.md-header-nav__button.md-logo img,
+.md-header-nav__button.md-logo svg,
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    width: auto;
+    max-width: 100%;
+}

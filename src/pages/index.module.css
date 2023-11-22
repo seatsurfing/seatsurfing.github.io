@@ -1,0 +1,79 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+html {}
+
+.heroBanner {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  background-image: url('/img/hero.jpg');
+  background-size: cover;
+  background-position: top;
+  color: #000;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  h1.hero__title {
+    font-size: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.screenshotContainer {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+  margin-top: -10rem;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.screenshotContainer > .screenshot {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+}
+
+.videoContainerWrapper {
+  text-align: center;
+}
+
+.videoContainer {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+}
+
+.videoHeight {
+  margin-top: 56.25%;
+}
+
+.videoPlayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
