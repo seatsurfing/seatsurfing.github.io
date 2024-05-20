@@ -8,8 +8,8 @@ title: Imprint
 Seatsurfing is provided to you by:
 
 Heinrich Beck<br />
-Wilhelm-Busch-Str. 59<br />
-60431 Frankfurt am Main<br />
+Karl-Herbert-Scheer-Str. 6<br />
+61381 Friedrichsdorf<br />
 Germany
 
 Contact:<br />
