@@ -1,143 +1,277 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import Admonition from '@theme/Admonition';
 import styles from './styles.module.css';
 
 export default function SignupForm() {
+    //const APP_PREFIX = (window.location.host.indexOf("localhost:") > -1 ? "http://localhost:8090" : "https://app.seatsurfing.app");
+    const APP_PREFIX = "https://app.seatsurfing.app";
+
+    const [name1, setName1] = useState('')
+    const [name2, setName2] = useState('')
+    const [org, setOrg] = useState('')
+    const [domain, setDomain] = useState('')
+    const [country, setCountry] = useState('DE')
+    const [firstname, setFirstname] = useState('')
+    const [lastname, setLastname] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [terms, setTerms] = useState(false)
+    const [loading, setLoading] = useState(false)
+    const [allowSubmit, setAllowSubmit] = useState(false)
+    const [showError, setShowError] = useState(false)
+    const [showSuccess, setShowSuccess] = useState(false)
+    const [showDomainInUse, setShowDomainInUse] = useState(false)
+    const countryList = new Map([
+        ["BE", "Belgium"],
+        ["BG", "Bulgary"],
+        ["DK", "Denmark"],
+        ["DE", "Germany"],
+        ["EE", "Estonia"],
+        ["FJ", "Finland"],
+        ["FR", "France"],
+        ["GR", "Greece"],
+        ["IE", "Ireland"],
+        ["IT", "Italy"],
+        ["HR", "Croatia"],
+        ["LV", "Latvia"],
+        ["LT", "Lithunia"],
+        ["LU", "Luxembourg"],
+        ["MT", "Malta"],
+        ["NL", "Netherlands"],
+        ["AT", "Austria"],
+        ["PL", "Poland"],
+        ["PT", "Portugal"],
+        ["RO", "Rumania"],
+        ["SE", "Sweden"],
+        ["SK", "Slovakia"],
+        ["SI", "Slovenia"],
+        ["ES", "Spain"],
+        ["CY", "Czechia"],
+        ["CZ", "Hungary"],
+        ["HU", "Cyprus"]
+    ]);
+    let timerDomain = undefined
+
     const onSubmit = (event) => {
         event.preventDefault();
+        if (!allowSubmit) return;
+        if (!(email && email.indexOf("@") > 0)) {
+            return;
+        }
+        setLoading(true);
+        setShowError(false);
+        setShowSuccess(false);
+        let data = {
+            "firstname": name1,
+            "lastname": name2,
+            "email": email,
+            "organization": org,
+            "country": country,
+            "language": "en",
+            "domain": domain,
+            "contactFirstname": firstname,
+            "contactLastname": lastname,
+            "password": password,
+            "acceptTerms": terms
+        };
+        queryAjax("POST", APP_PREFIX + "/signup/", data).then((res) => {
+            if (res.status >= 200 && res.status <= 299) {
+                setShowSuccess(true);
+            } else {
+                setShowError(true);
+                setLoading(false);
+            }
+        }).catch((e) => {
+            console.log(e);
+            setShowError(true);
+            setLoading(false);
+        });
     };
 
+    const queryAjax = (method, url, data) => {
+        let headers = new Headers();
+        if (data) {
+            headers.append("Content-Type", "application/json");
+        }
+        let options = {
+            method: method,
+            mode: "cors",
+            cache: "no-cache",
+            credentials: "same-origin",
+            headers: headers
+        };
+        if (data) {
+            options.body = JSON.stringify(data);
+        }
+        return window.fetch(url, options);
+    }
+
+    const onDomainChange = (domain) => {
+        window.clearTimeout(timerDomain);
+        setLoading(true);
+        setShowDomainInUse(false);
+        let domain2 = domain.trim();
+        if (domain2.length < 3) {
+            setLoading(false);
+            return;
+        }
+        timerDomain = window.setTimeout(function () {
+            domain2 = domain2.toLowerCase() + ".on.seatsurfing.app";
+            queryAjax("GET", APP_PREFIX + "/organization/domain/" + domain2, null).then((res) => {
+                if (res.status === 404) {
+                    setAllowSubmit(true);
+                } else {
+                    setShowDomainInUse(true);
+                    setLoading(false);
+                    setAllowSubmit(false);
+                }
+                setLoading(false);
+            }).catch(() => {
+                setShowDomainInUse(true);
+                setLoading(false);
+                setAllowSubmit(false);
+            });
+        }, 500);
+    }
+
+    const setDomainFromOrg = (org) => {
+        const valid = "abcdefghijklmnopqrstuvwxyz-_";
+        let org2 = org.trim();
+        let res = "";
+        for (let i = 0; i < org2.length; i++) {
+            let c = org2[i].toLowerCase();
+            if (c === " ") {
+                res += "-";
+            } else if (valid.indexOf(c) > -1) {
+                res += c;
+            }
+        }
+        setDomain(res);
+        onDomainChange(res);
+    }
+
     return (
-        <form id="signup" onSubmit={onSubmit}>
-            <div className={styles.firstname}>
-                <label for="firstname">Firstname</label>
-                <input type="firstname" class="form-control" id="firstname" />
-            </div>
-            <div className={styles.lastname}>
-                <label for="lastname">Lastname</label>
-                <input type="lastname" class="form-control" id="lastname" />
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="organization">Organization</label>
+        <>
+            <form id="signup" onSubmit={onSubmit} hidden={showSuccess}>
+                <div className={styles.firstname}>
+                    <label for="firstname">Firstname</label>
+                    <input type="firstname" class="form-control" id="firstname"
+                        value={name1} onChange={e => setName1(e.target.value)} />
                 </div>
-                <div className='col col--6'>
-                    <input type="organization" className={styles.input} id="organization" required="required"
-                        placeholder="Your company Ltd." minlength="3" autofocus="autofocus" />
+                <div className={styles.lastname}>
+                    <label for="lastname">Lastname</label>
+                    <input type="lastname" class="form-control" id="lastname"
+                        value={name2} onChange={e => setName2(e.target.value)} />
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="domain">Domain</label>
-                </div>
-                <div className='col col--6'>
-                    <div class="domain-input">
-                        <div className={styles.domainbox}>
-                            <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
-                                required="required" minlength="3" />
-                            <span class="input-group-text" id="domain-suffix">.on.seatsurfing.app</span>
-                        </div>
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="organization">Organization</label>
                     </div>
-                    <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
-                    <Admonition type='caution'>Domain already in use.</Admonition>
+                    <div className='col col--6'>
+                        <input type="organization" className={styles.input} id="organization"
+                            placeholder="Your company Ltd." minlength="3" autofocus="autofocus"
+                            required={true} value={org} onChange={e => { setOrg(e.target.value); setDomainFromOrg(e.target.value); }} />
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="country">Country</label>
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="domain">Domain</label>
+                    </div>
+                    <div className='col col--6'>
+                        <div class="domain-input">
+                            <div className={styles.domainbox}>
+                                <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
+                                    minlength="3"
+                                    required={true} value={domain} onChange={e => { setDomain(e.target.value); onDomainChange(e.target.value); }} />
+                                <span class="input-group-text" id="domain-suffix">.on.seatsurfing.app</span>
+                            </div>
+                        </div>
+                        <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
+                        {showDomainInUse ? <Admonition type='caution'>Domain already in use.</Admonition> : <></>}
+                    </div>
                 </div>
-                <div className='col col--6'>
-                    <select className={styles.input} id="country">
-                        <option value="BE">Belgium</option>
-                        <option value="BG">Bulgary</option>
-                        <option value="DK">Denmark</option>
-                        <option value="DE" selected="selected">Germany</option>
-                        <option value="EE">Estonia</option>
-                        <option value="FJ">Finland</option>
-                        <option value="FR">France</option>
-                        <option value="GR">Greece</option>
-                        <option value="IE">Ireland</option>
-                        <option value="IT">Italy</option>
-                        <option value="HR">Croatia</option>
-                        <option value="LV">Latvia</option>
-                        <option value="LT">Lithunia</option>
-                        <option value="LU">Luxembourg</option>
-                        <option value="MT">Malta</option>
-                        <option value="NL">Netherlands</option>
-                        <option value="AT">Austria</option>
-                        <option value="PL">Poland</option>
-                        <option value="PT">Portugal</option>
-                        <option value="RO">Rumania</option>
-                        <option value="SE">Sweden</option>
-                        <option value="SK">Slovakia</option>
-                        <option value="SI">Slovenia</option>
-                        <option value="ES">Spain</option>
-                        <option value="CY">Czechia</option>
-                        <option value="CZ">Hungary</option>
-                        <option value="HU">Cyprus</option>
-                    </select>
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="country">Country</label>
+                    </div>
+                    <div className='col col--6'>
+                        <select className={styles.input} id="country" required={true} onChange={e => setCountry(e.target.value)}>
+                            {Array.from(countryList.keys()).map((k) => {
+                                return <option value={k} selected={country === k ? true : false}>{countryList.get(k)}</option>
+                            })}
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="ap-firstname">Firstname</label>
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="ap-firstname">Firstname</label>
+                    </div>
+                    <div className='col col--6'>
+                        <input type="text" className={styles.input} id="ap-firstname" placeholder="Firstname"
+                            required={true} value={firstname} onChange={e => setFirstname(e.target.value)} />
+                    </div>
                 </div>
-                <div className='col col--6'>
-                    <input type="text" className={styles.input} id="ap-firstname" placeholder="Firstname" />
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="ap-lastname">Lastname</label>
+                    </div>
+                    <div className='col col--6'>
+                        <input type="text" className={styles.input} id="ap-lastname" placeholder="Lastname"
+                            required={true} value={lastname} onChange={e => setLastname(e.target.value)} />
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="ap-lastname">Lastname</label>
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="email">Email address</label>
+                    </div>
+                    <div className='col col--6'>
+                        <input type="email" className={styles.input} id="email" aria-describedby="emailHelp"
+                            required={true} value={email} onChange={e => setEmail(e.target.value)} />
+                        <small id="emailHelp" class="form-text text-muted">We'll only use your email address for the purpose of
+                            signing up and handle it confidentially.</small>
+                    </div>
                 </div>
-                <div className='col col--6'>
-                    <input type="text" className={styles.input} id="ap-lastname" placeholder="Lastname" />
+                <div className='row'>
+                    <div className='col col--2'>
+                        <label for="password">Password</label>
+                    </div>
+                    <div className='col col--6'>
+                        <input type="password" className={styles.input} id="password"
+                            required={true} value={password} onChange={e => setPassword(e.target.value)} />
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="email">Email address</label>
+                <div className='row'>
+                    <div className='col col--8'>
+                        <input type="checkbox" class="custom-control-input" id="accept-terms"
+                            required={true} checked={terms} onChange={e => setTerms(e.target.checked)} />
+                        <label class="inline-label" for="accept-terms">I accept the <a href="/privacy-policy/" target="_blank">privacy
+                            policy</a> and the <a href="/terms/" target="_blank">terms of
+                                use</a>.</label>
+                    </div>
                 </div>
-                <div className='col col--6'>
-                    <input type="email" className={styles.input} id="email" aria-describedby="emailHelp" />
-                    <small id="emailHelp" class="form-text text-muted">We'll only use your email address for the purpose of
-                        signing up and handle it confidentially.</small>
+                <div className='row'>
+                    <div className='col col--8'>
+                        <button type="submit" class="button button--primary button--lg" disabled={!allowSubmit}>
+                            {loading ? <div class="loader" id="signup-loading">Loading...</div> : <div>Next &#10217;</div>}
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col col--2'>
-                    <label for="password">Password</label>
-                </div>
-                <div className='col col--6'>
-                    <input type="password" className={styles.input} id="password" />
-                </div>
-            </div>
+            </form >
             <div className='row'>
                 <div className='col col--8'>
-                    <input type="checkbox" class="custom-control-input" id="accept-terms" />
-                    <label class="inline-label" for="accept-terms">I accept the <a href="/privacy-policy/" target="_blank">privacy
-                        policy</a> and the <a href="/terms/" target="_blank">terms of
-                            use</a>.</label>
+                    {showSuccess ?
+                        <Admonition type='info'>
+                            <b>Thank you!</b> Please check your emails and complete your registration.
+                        </Admonition>
+                        : <></>}
+                    {showError ?
+                        <Admonition type='caution'>
+                            <b>That didn't work!</b> Please try again later.
+                        </Admonition>
+                        : <></>}
                 </div>
             </div>
-            <div className='row'>
-                <div className='col col--8'>
-                    <button type="submit" class="button button--primary button--lg">
-                        <div class="loader" id="signup-loading">Loading...</div>
-                        <div>Next &#10217;</div>
-                    </button>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col col--8'>
-                    <Admonition type='info'>
-                        <b>Thank you!</b> Please check your emails and complete your registration.
-                    </Admonition>
-                    <Admonition type='caution'>
-                        <b>That didn't work!</b> Please try again later.
-                    </Admonition>
-                </div>
-            </div>
-        </form >
+        </>
     );
 }
