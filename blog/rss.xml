@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Seatsurfing Blog</title>
+        <link>https://seatsurfing.app/blog</link>
+        <description>Seatsurfing Blog</description>
+        <lastBuildDate>Sat, 05 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Seatsurfing 1.14 released]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-14-released</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-14-released</guid>
+            <pubDate>Sat, 05 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're happy to announce the availability of Seatsurfing 1.14. Version 1.14 adds Italian translations and the ability for users to change their own password. Besides, various improvements and fixes have been implemented.]]></description>
+            <content:encoded><![CDATA[<p>We're happy to announce the availability of Seatsurfing 1.14. Version 1.14 adds Italian translations and the ability for users to change their own password. Besides, various improvements and fixes have been implemented.</p>
+<p>Here's what changed in Seatsurfing 1.14 since the release of Seatsurfing 1.13:</p>
+<ul>
+<li>Feature: Added Italian translation</li>
+<li>Feature: Ability to change own password in Booking UI</li>
+<li>Improvement: Upgraded dependencies</li>
+<li>Fix: Changing a super admin's properties in Admin UI resets super admin's role</li>
+<li>Fix: Prevent logging in to Admin UI as a regular user</li>
+<li>Fix: Access /ui and /admin without trailing slash</li>
+<li>Fix: Fixed date picker not shown correctly in daily booking mode</li>
+<li>Fix: Fixed broken Admin UI translations</li>
+<li>Fix: Incorrect redirects in admin and booking UI</li>
+<li>Fix: Language auto-detection not working / partly translated texts</li>
+<li>Fix: Missing minimum length check when changing a user's password using the Admin UI</li>
+<li>Fix: Added missing login attempt recordings so that anonymous Confluence users are not deleted immediately</li>
+</ul>
+<p>As usual, you can find the source code of version 1.14 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.13 released]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-13-released</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-13-released</guid>
+            <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A few days ago, we've released Seatsurfing 1.13. This new version adds French translations to the user interfaces. Furthermore, we've migrated the React-based front ends from Create React App (CRA) to Next.js. The move to Next.js allows for server-side rendering, resulting in faster load times. However, this leads to a breaking change, because the front ends are not shipped with the backend Docker image anymore, but in two separate containers (admin-ui and booking-ui).]]></description>
+            <content:encoded><![CDATA[<p>A few days ago, we've released Seatsurfing 1.13. This new version adds French translations to the user interfaces. Furthermore, we've migrated the React-based front ends from Create React App (CRA) to Next.js. The move to Next.js allows for server-side rendering, resulting in faster load times. However, this leads to a breaking change, because the front ends are not shipped with the backend Docker image anymore, but in two separate containers (admin-ui and booking-ui).</p>
+<p>Here's what changed in Seatsurfing 1.13 since the release of Seatsurfing 1.12:</p>
+<ul>
+<li>Feature: Migrated Booking UI and Admin UI to Next.js. This leads to a separated Docker containers (front ends not bundled with backend image anymore).</li>
+<li>Feature: Added French translation</li>
+<li>Improvement: Upgraded dependencies</li>
+<li>Fix: Incorrectly formatted SQL query in GetDomains function</li>
+</ul>
+<p>As usual, you can find the source code of version 1.13 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.12 adds user-requested features]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-12-released</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-12-released</guid>
+            <pubDate>Thu, 29 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're pleased to announce the release of Seatsurfing 1.12. The new release adds features our users have requested, such as login brute force prevention, an improved login-process for single-organization instances and more.]]></description>
+            <content:encoded><![CDATA[<p>We're pleased to announce the release of Seatsurfing 1.12. The new release adds features our users have requested, such as login brute force prevention, an improved login-process for single-organization instances and more.</p>
+<p>Here's what changed in Seatsurfing 1.12 since the release of Seatsurfing 1.10:</p>
+<ul>
+<li>Feature: Login brute force prevention</li>
+<li>Feature: Clean up anonymous confluence users</li>
+<li>Feature: Improved login process for single-org instances</li>
+<li>Feature: Make entire map scrollable in Booking UI</li>
+<li>Feature: Admin UI: Added check for Seatsurfing updates</li>
+<li>Feature: Booking UI: Improved layout of search config errors</li>
+<li>Fix: Clear SessionStorage on invalid AccessToken</li>
+<li>Fix: Fix for security issue</li>
+<li>Updated dependencies</li>
+</ul>
+<p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.10 replaces native apps with web app]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-pwa</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-pwa</guid>
+            <pubDate>Sun, 24 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></description>
+            <content:encoded><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
+<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.9 released]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-9-released</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-9-released</guid>
+            <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.]]></description>
+            <content:encoded><![CDATA[<p>Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.</p>
+<p>Here are all major new features and improvements included in Seatsurfing Backend 1.9 implemented since version 1.8:</p>
+<ul>
+<li>Backend: Admins can create bookings for users not existing yet (can be enabled in Admin UI’s settings).</li>
+<li>Confluence: When user’s email is available on login, the user is created/updated with his unique email address instead of a unique ID.</li>
+<li>Booking UI: Own booked spaces are displayed in other color.</li>
+<li>Booking UI: Space admins can see bookers’ names.</li>
+<li>Booking UI: Added tooltips.</li>
+<li>Booking UI: Fixed and improved timezone handling.</li>
+<li>Booking UI: Updated to Bootstrap v5.</li>
+<li>Admin UI: Space admins can cancel a user’s bookings.</li>
+<li>Admin UI: Fixed non-working area filter in Analysis report.</li>
+<li>Admin UI: Updated to Bootstrap v5.</li>
+<li>General: Updated URL from seatsurfing.de to seatsurfing.app.</li>
+<li>Docker image: Added multi-arch Docker image builds (amd64, arm64, arm32v7).</li>
+<li>Docker image: Server binary is built with certain ldflags to reduce file size.</li>
+<li>Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.</li>
+</ul>
+<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing is Open Source now]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-is-open-source-now</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-is-open-source-now</guid>
+            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.]]></description>
+            <content:encoded><![CDATA[<p>Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.</p>
+<p><a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Visit Seatsurfing on GitHub</a></p>]]></content:encoded>
+            <category>news</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.8 adds bookings preferences]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-8-adds-bookings-preferences</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-8-adds-bookings-preferences</guid>
+            <pubDate>Thu, 25 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re happy to announce the release of Seatsurfing 1.8. The new version applies to both backend and mobile app. It adds some requested features making the lives of both administrators and users easier. Users can now set their individual booking preferences leading to even quicker bookings. Administrators can set floor plan administrators and enjoy new reporting functionalities.]]></description>
+            <content:encoded><![CDATA[<p>We’re happy to announce the release of Seatsurfing 1.8. The new version applies to both backend and mobile app. It adds some requested features making the lives of both administrators and users easier. Users can now set their individual booking preferences leading to even quicker bookings. Administrators can set floor plan administrators and enjoy new reporting functionalities.</p>
+<p>These are the new features of Seatsurfing 1.8:</p>
+<ul>
+<li>Booking UI and mobile app: Users can now set individual bookings preferences. Configure your business days, usual check-in and check-out times, and favorite area.</li>
+<li>Admin UI: New role “Floor Plan Administrator” for users who manage floor plans and spaces, but should not be able to modify system settings or users.</li>
+<li>Admin UI: New functionality “Analysis”, showing which users have been in the office at a certain day. This is i.e. useful for Covid-19 contact tracing.</li>
+<li>Admin UI: All tables can be exported to Excel (XLSX).</li>
+<li>And as usual, minor bug fixes and improvements.</li>
+</ul>
+<p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/backend/issues" target="_blank" rel="noopener noreferrer">issue tracker on GitHub</a>.</p>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.app/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.7 with fresh design and new features]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-7-with-fresh-design-and-new-features</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-7-with-fresh-design-and-new-features</guid>
+            <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we’ve released Seatsurfing Backend and App Version 1.7.]]></description>
+            <content:encoded><![CDATA[<p>Today we’ve released Seatsurfing Backend and App Version 1.7.</p>
+<p>With version 1.7, both Seatsurfing’s app and our web booking interface got a brand new design which is much easier to use. Floor plan and search dialog have been integrated, so you can easily change your search criteria and watch the available spaces on the map update instantly. If you already know which spaces you’d like to book, you can switch to the new list mode and pick your favorite desk directly.</p>
+<p>While this is the most obvious part of the update, there’s a lot more:</p>
+<ul>
+<li>New authentication method under the hood which provides more security</li>
+<li>New “remember me” functionality</li>
+<li>Leave date and time get updated automatically when changing the enter date</li>
+<li>Added location time zone support</li>
+<li>Added ability to set maximum concurrent location occupancy</li>
+<li>Fixed bug which prevented users from booking spaces the same day with active daily basis booking</li>
+<li>Fixed bug which caused showing an incorrect booking duration in admin interface</li>
+</ul>
+<p>Head to <a href="https://seatsurfing.app/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.app/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Free test accounts]]></title>
+            <link>https://seatsurfing.app/blog/free-test-accounts</link>
+            <guid>https://seatsurfing.app/blog/free-test-accounts</guid>
+            <pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></description>
+            <content:encoded><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.5 enables self-hosted Docker instances]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-5-enables-self-hosted-docker-instances</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-5-enables-self-hosted-docker-instances</guid>
+            <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.]]></description>
+            <content:encoded><![CDATA[<p>We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.</p>
+<p>For more information, please refer to the documentation. We’ve updated it in order to represent necessary instructions on how to get your Docker container up and running quickly.</p>
+<p>Please also note that Seatsurfing’s App for iPhone and iPad got a new home at the App Store. You should therefore uninstall your existing Seatsurfing App and get the new version from the App Store. The app for Google Android remains at its known place.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Daily basis booking and bookers’ names in Seatsurfing 1.2]]></title>
+            <link>https://seatsurfing.app/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</link>
+            <guid>https://seatsurfing.app/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</guid>
+            <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.]]></description>
+            <content:encoded><![CDATA[<p>Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.</p>
+<p>The first feature is daily basis booking. We want to make it easier for the employees of some organizations to book their seats. If you want to keep seat booking really easy, you can activate the daily basis booking functionality in the administration interface. When activated, users using the App or the Booking Web Interface just need to pick a desired date and do not need to provide a time range. The selected space is then booked for one or multiple entire days.</p>
+<p>The second feature allows for showing the names of the colleagues having booked a space during the selected time range. When activated by the organization’s administrator, users are able to tap or click an occupied seat to show the names and time ranges of this seat. We did not have implemented this feature at first with respect to the users’ privacy. However, we think that you should have the chance to decide for yourself.</p>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.2 shows the user&amp;#39;s names" src="https://seatsurfing.app/assets/images/show_names-19873429cb1a59ca1c78dc9dc5f32af5.gif" width="256" height="554" class="img_ev3q"></p>]]></content:encoded>
+            <category>release</category>
+        </item>
+    </channel>
+</rss>
