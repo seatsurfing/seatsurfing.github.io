@@ -5,7 +5,7 @@ const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+export default {
   title: 'Seatsurfing',
   tagline: 'Open Source solution for free seating and co-working in your organization.',
   favicon: 'img/favicon.ico',
@@ -50,6 +50,10 @@ const config = {
     ],
   ],
 
+  clientModules: [
+    require.resolve('./_matomo.js'),
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -63,14 +67,14 @@ const config = {
           srcDark: 'img/seatsurfing_white.svg',
         },
         items: [
-          {to: '/getting-started', label: 'Getting Started', position: 'left'},
+          { to: '/getting-started', label: 'Getting Started', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/seatsurfing/backend',
             label: 'GitHub',
@@ -144,6 +148,4 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
-
-module.exports = config;
+}
