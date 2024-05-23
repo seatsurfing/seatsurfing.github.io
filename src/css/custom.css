@@ -47,6 +47,6 @@ p, li, label {
   margin-bottom: 10px;
 }
 
-.heroBanner_src-pages-index-module {
+header.hero--primary {
   background-image: url("/static/img/hero.webp") !important;
 }
