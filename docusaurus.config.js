@@ -119,7 +119,7 @@ export default {
               },
               {
                 label: 'Donate',
-                href: 'https://opencollective.com/seatsurfing/donate',
+                href: 'https://github.com/sponsors/seatsurfing',
               },
             ],
           },
