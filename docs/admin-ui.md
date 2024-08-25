@@ -60,7 +60,11 @@ In the "Settings" section you can configure settings which apply to your entire 
 
 **Max. bookings per user:** Limits the number of upcoming bookings per user.
 
+**Max. concurrent bookings per user:** Determines how many concurrent bookings each user may have.
+
 **Max. days in advance:** Specifies how many days in advance a booking can be placed.
+
+**Don't restrict admins (bookings per user, duration, in advance):** If this flag is set all admins (FloorPlan/Org/Super) are allowed to book limitless, except the max-bookings-per-area limitation.
 
 **Allow bookings on a daily basis only**: When enabled, users can book spaces for entire days only and do not need to enter enter and leave times.
 
