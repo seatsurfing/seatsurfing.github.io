@@ -50,3 +50,80 @@ p, li, label {
 header.hero--primary {
   background-image: url("/static/img/hero.webp") !important;
 }
+
+.pricing-models {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 20px 30px;
+  flex-wrap: wrap;
+}
+
+.pricing-model {
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 4px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  padding-bottom: 75px;
+  position: relative;
+  flex-basis: 350px;
+}
+
+.pricing-model .button--primary {
+  display: block;
+  background-color: #909090;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 50px);
+  border: 0;
+  margin-bottom: 25px;
+}
+
+.pricing-model-highlight {
+  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%) 1;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.pricing-model-highlight .button--primary {
+  display: block;
+  margin-top: 25px;
+}
+
+.button-gradient {
+  background: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border: 0;
+  color: #fff;
+}
+
+.pricing-price {
+  font-size: 42px;
+}
+
+.pricing-price-suffix {
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.pricing-model ul {
+  list-style: none;
+	padding-left: 0;
+}
+
+.pricing-model ul li {
+  padding-left: 1.5em;
+	margin-bottom: 0.5em;
+  position: relative;
+}
+
+.pricing-model ul li::before {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 1em;
+	height: 1em;
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check-circle' class='svg-inline--fa fa-check-circle fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='rgb(13, 110, 253)' d='M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z'></path></svg>");
+}

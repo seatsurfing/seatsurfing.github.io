@@ -68,6 +68,7 @@ export default {
         },
         items: [
           { to: '/getting-started', label: 'Getting Started', position: 'left' },
+          { to: '/pricing', label: 'Pricing', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

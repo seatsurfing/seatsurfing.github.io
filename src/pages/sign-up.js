@@ -15,7 +15,7 @@ export default function SignUp() {
           <div className='col col--8'>
             <article>
               <h1>Create Account</h1>
-              <p>Give Seatsurfing a try: Create a test account on our servers and get started within seconds. It’s free for up to ten users.</p>
+              <p>Create a free account on our servers and get started within seconds. It's free for up to ten users.</p>
               <SignupForm />
             </article>
           </div>

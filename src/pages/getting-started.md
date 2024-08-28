@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+hide_table_of_contents: true
 ---
 
 # Getting Started
