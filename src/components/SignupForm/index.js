@@ -1,17 +1,15 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Admonition from '@theme/Admonition';
 import styles from './styles.module.css';
 
 export default function SignupForm() {
-    //const APP_PREFIX = (window.location.host.indexOf("localhost:") > -1 ? "http://localhost:8090" : "https://app.seatsurfing.app");
     const APP_PREFIX = "https://app.seatsurfing.app";
 
     const [name1, setName1] = useState('')
     const [name2, setName2] = useState('')
     const [org, setOrg] = useState('')
     const [domain, setDomain] = useState('')
-    const [country, setCountry] = useState('DE')
     const [firstname, setFirstname] = useState('')
     const [lastname, setLastname] = useState('')
     const [email, setEmail] = useState('')
@@ -22,35 +20,6 @@ export default function SignupForm() {
     const [showError, setShowError] = useState(false)
     const [showSuccess, setShowSuccess] = useState(false)
     const [showDomainInUse, setShowDomainInUse] = useState(false)
-    const countryList = new Map([
-        ["BE", "Belgium"],
-        ["BG", "Bulgary"],
-        ["DK", "Denmark"],
-        ["DE", "Germany"],
-        ["EE", "Estonia"],
-        ["FJ", "Finland"],
-        ["FR", "France"],
-        ["GR", "Greece"],
-        ["IE", "Ireland"],
-        ["IT", "Italy"],
-        ["HR", "Croatia"],
-        ["LV", "Latvia"],
-        ["LT", "Lithunia"],
-        ["LU", "Luxembourg"],
-        ["MT", "Malta"],
-        ["NL", "Netherlands"],
-        ["AT", "Austria"],
-        ["PL", "Poland"],
-        ["PT", "Portugal"],
-        ["RO", "Rumania"],
-        ["SE", "Sweden"],
-        ["SK", "Slovakia"],
-        ["SI", "Slovenia"],
-        ["ES", "Spain"],
-        ["CY", "Czechia"],
-        ["CZ", "Hungary"],
-        ["HU", "Cyprus"]
-    ]);
     let timerDomain = undefined
 
     const onSubmit = (event) => {
@@ -67,7 +36,6 @@ export default function SignupForm() {
             "lastname": name2,
             "email": email,
             "organization": org,
-            "country": country,
             "language": "en",
             "domain": domain,
             "contactFirstname": firstname,
@@ -189,18 +157,6 @@ export default function SignupForm() {
                         </div>
                         <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
                         {showDomainInUse ? <Admonition type='caution'>Domain already in use.</Admonition> : <></>}
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col col--2'>
-                        <label for="country">Country</label>
-                    </div>
-                    <div className='col col--6'>
-                        <select className={styles.input} id="country" required={true} onChange={e => setCountry(e.target.value)}>
-                            {Array.from(countryList.keys()).map((k) => {
-                                return <option value={k} selected={country === k ? true : false}>{countryList.get(k)}</option>
-                            })}
-                        </select>
                     </div>
                 </div>
                 <div className='row'>
