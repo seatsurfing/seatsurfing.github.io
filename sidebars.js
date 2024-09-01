@@ -25,6 +25,7 @@ const sidebars = {
       label: 'Getting Started',
       items: ['docker', 'kubernetes'],
     },
+    'config',
     'upgrading',
     'admin-ui',
     {
