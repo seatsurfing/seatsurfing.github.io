@@ -77,7 +77,7 @@ export default {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/seatsurfing/backend',
+            href: 'https://github.com/seatsurfing/',
             label: 'GitHub',
             position: 'right',
           },

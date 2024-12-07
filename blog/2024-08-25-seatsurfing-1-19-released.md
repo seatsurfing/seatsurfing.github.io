@@ -34,4 +34,4 @@ Here's what changed in Seatsurfing 1.19 since the release of Seatsurfing 1.14:
 * Fix: Incorrect date / time format (1.15)
 * Updated dependencies (1.19)
 
-As usual, you can find the source code of version 1.19 on [GitHub](https://github.com/seatsurfing/backend). Pre-built Docker images can be pulled from the [GitHub Container Registry](https://github.com/seatsurfing?tab=packages&repo_name=backend).
+As usual, you can find the source code of version 1.19 on [GitHub](https://github.com/seatsurfing/). Pre-built Docker images can be pulled from the [GitHub Container Registry](https://github.com/seatsurfing?tab=packages&repo_name=backend).

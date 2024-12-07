@@ -24,4 +24,4 @@ Here's what changed in Seatsurfing 1.14 since the release of Seatsurfing 1.13:
 * Fix: Missing minimum length check when changing a user's password using the Admin UI
 * Fix: Added missing login attempt recordings so that anonymous Confluence users are not deleted immediately
 
-As usual, you can find the source code of version 1.14 on [GitHub](https://github.com/seatsurfing/backend) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).
+As usual, you can find the source code of version 1.14 on [GitHub](https://github.com/seatsurfing/) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).

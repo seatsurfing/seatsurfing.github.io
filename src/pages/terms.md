@@ -10,4 +10,4 @@ By using the Seatsurfing.app software or, alternatively, by creating an account 
 
 Seatsurfing is licensed under the terms of the GNU General Public License (GPL) v3.0.
 
-**[View GPL v3.0 License](https://github.com/seatsurfing/backend/blob/master/LICENSE)**
+**[View GPL v3.0 License](https://github.com/seatsurfing/seatsurfing/blob/master/LICENSE)**

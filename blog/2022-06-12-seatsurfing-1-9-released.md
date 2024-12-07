@@ -26,4 +26,4 @@ Here are all major new features and improvements included in Seatsurfing Backend
 * Docker image: Server binary is built with certain ldflags to reduce file size.
 * Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.
 
-As usual, you can find the source code of version 1.9 on [GitHub](https://github.com/seatsurfing/backend) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).
+As usual, you can find the source code of version 1.9 on [GitHub](https://github.com/seatsurfing/) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).
