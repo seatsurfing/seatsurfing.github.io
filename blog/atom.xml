@@ -38,7 +38,7 @@
 <li>Fix: Incorrect date / time format (1.15)</li>
 <li>Updated dependencies (1.19)</li>
 </ul>
-<p>As usual, you can find the source code of version 1.19 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.19 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -67,7 +67,7 @@
 <li>Fix: Missing minimum length check when changing a user's password using the Admin UI</li>
 <li>Fix: Added missing login attempt recordings so that anonymous Confluence users are not deleted immediately</li>
 </ul>
-<p>As usual, you can find the source code of version 1.14 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.14 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -88,7 +88,7 @@
 <li>Improvement: Upgraded dependencies</li>
 <li>Fix: Incorrectly formatted SQL query in GetDomains function</li>
 </ul>
-<p>As usual, you can find the source code of version 1.13 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.13 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -114,7 +114,7 @@
 <li>Fix: Fix for security issue</li>
 <li>Updated dependencies</li>
 </ul>
-<p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -128,7 +128,7 @@
         <updated>2022-07-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></summary>
         <content type="html"><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
-<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -159,7 +159,7 @@
 <li>Docker image: Server binary is built with certain ldflags to reduce file size.</li>
 <li>Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.</li>
 </ul>
-<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -173,7 +173,7 @@
         <updated>2021-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.]]></summary>
         <content type="html"><![CDATA[<p>Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.</p>
-<p><a href="https://github.com/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Visit Seatsurfing on GitHub</a></p>]]></content>
+<p><a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">Visit Seatsurfing on GitHub</a></p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -195,7 +195,7 @@
 <li>Admin UI: All tables can be exported to Excel (XLSX).</li>
 <li>And as usual, minor bug fixes and improvements.</li>
 </ul>
-<p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/backend/issues" target="_blank" rel="noopener noreferrer">issue tracker on GitHub</a>.</p>
+<p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/seatsurfing/issues" target="_blank" rel="noopener noreferrer">issue tracker on GitHub</a>.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.app/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
