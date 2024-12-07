@@ -9,4 +9,4 @@ As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be dis
 
 <!-- truncate -->
 
-As usual, you can find the source code of version 1.10 on [GitHub](https://github.com/seatsurfing/backend) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).
+As usual, you can find the source code of version 1.10 on [GitHub](https://github.com/seatsurfing/) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).

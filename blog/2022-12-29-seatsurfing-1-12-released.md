@@ -21,4 +21,4 @@ Here's what changed in Seatsurfing 1.12 since the release of Seatsurfing 1.10:
 * Fix: Fix for security issue
 * Updated dependencies
 
-As usual, you can find the source code of version 1.12 on [GitHub](https://github.com/seatsurfing/backend) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).
+As usual, you can find the source code of version 1.12 on [GitHub](https://github.com/seatsurfing/) and pre-built Docker images on [Docker Hub](https://hub.docker.com/r/seatsurfing/backend).

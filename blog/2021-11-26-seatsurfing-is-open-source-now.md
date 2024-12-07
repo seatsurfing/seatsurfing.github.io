@@ -9,4 +9,4 @@ Your contribution is welcome: We’ve published Seatsurfing’s source code on G
 
 <!-- truncate -->
 
-[Visit Seatsurfing on GitHub](https://github.com/seatsurfing/backend)
+[Visit Seatsurfing on GitHub](https://github.com/seatsurfing/)

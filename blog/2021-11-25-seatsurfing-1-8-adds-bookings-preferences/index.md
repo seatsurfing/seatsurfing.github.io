@@ -17,6 +17,6 @@ These are the new features of Seatsurfing 1.8:
 * Admin UI: All tables can be exported to Excel (XLSX).
 * And as usual, minor bug fixes and improvements.
 
-We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our [issue tracker on GitHub](https://github.com/seatsurfing/backend/issues).
+We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our [issue tracker on GitHub](https://github.com/seatsurfing/seatsurfing/issues).
 
 ![Seatsurfing 1.8 Booking Preferences](seatsurfing-1.8.png)
