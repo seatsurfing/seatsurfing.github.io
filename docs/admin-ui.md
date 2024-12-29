@@ -32,9 +32,18 @@ In the "Areas" section you can manage your areas and the spaces within them.
 
 In order to manage spaces in an area, you have to upload a floor plan in JPEG, PNG or GIF format. Make sure your floor plan has an appropriate format and resolution. If the resolution is too high, your employees need to scroll a lot and may lose the plot.
 
-You can place spaces via drag & drop. Keep the left mouse button pressed to move a space around. To change a space's size, click the lower right corner of a space. To name a space, click on the space's label and enter the new name.
+You can place spaces via drag & drop. Keep the left mouse button pressed to move a space around. To change a space's size, click the lower right corner of a space. To name a space, click on the space's label and enter the new name.^
 
 Don't forget to save your changes afterwards.
+
+### Attributes
+Attributes are pieces of information you can set and attach to locations (and prepared to be attached to spaces in later versions). Attributes can be shown per location by your users in the Booking UI. Furthermore, users of the Booking UI can search for locations which match attributes they need.
+
+For example, as an administrator, you can specify whether a location is accessible with wheelchairs or what kind of media system is installed. Your users can view a location's attributes and filter the list of locations according to their needs.
+
+To specify the available attributes, navigate to "Areas" and select "Attributes". An attribute can be of type number (integer), true / false (boolean), or text (string).
+
+After defining one or more attributers, these attributes can be selected and set per location in the "Attributes" section.
 
 ## Users
 In the "Users" section you can manage your employees which have access to your Seatsurfing organisation.
