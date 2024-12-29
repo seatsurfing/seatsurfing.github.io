@@ -4,10 +4,36 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.app/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Sun, 25 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Seatsurfing 1.21 released]]></title>
+            <link>https://seatsurfing.app/blog/seatsurfing-1-21-released</link>
+            <guid>https://seatsurfing.app/blog/seatsurfing-1-21-released</guid>
+            <pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Time for some release news! Seatsurfing 1.21 has been released today, including several features that you, Seatsurfing's users, asked for. The biggest feature is that you can now specify custom attributes which can be attached to your locations. For example, as an administrator, you can specify whether a location is accessible with wheelchairs or what kind of media system is installed. Your users can view a location's attributes and even filter the list of locations according to their needs.]]></description>
+            <content:encoded><![CDATA[<p>Time for some release news! Seatsurfing 1.21 has been released today, including several features that you, Seatsurfing's users, asked for. The biggest feature is that you can now specify custom attributes which can be attached to your locations. For example, as an administrator, you can specify whether a location is accessible with wheelchairs or what kind of media system is installed. Your users can view a location's attributes and even filter the list of locations according to their needs.</p>
+<p>Enjoy the new features, I wish you a happy new year 2025!</p>
+<p>Here's what changed in Seatsurfing 1.21 since the release of Seatsurfing 1.19:</p>
+<ul>
+<li>Feature: Added support for location attributes and filters (1.21)</li>
+<li>Feature: Added ability to (temporarily) disable locations (1.21)</li>
+<li>Feature: Added optional OAuth2 / OpenID Connect Logout URL (1.21)</li>
+<li>Feature: Added missing Italian translations to Booking UI (1.21)</li>
+<li>Feature: New setting for minimum booking duration, defaults to 0 (1.20)</li>
+<li>Feature: Support for partially booked seats (1.20)</li>
+<li>Feature: Support for custom logo (1.20)</li>
+<li>Feature: Added "Disable buddies" setting (1.20)</li>
+<li>Feature: Added maximum hours before cancellation setting (1.20)</li>
+<li>Improvement: Reduce leave time by one second automatically to avoid non-existing overlaps (1.20)</li>
+<li>Improvement: Always show search box at the bottom in Booking UI (1.20)</li>
+<li>Updated dependencies</li>
+</ul>
+<p>As usual, you can find the source code of version 1.21 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[Seatsurfing 1.19 released]]></title>
             <link>https://seatsurfing.app/blog/seatsurfing-1-19-released</link>
