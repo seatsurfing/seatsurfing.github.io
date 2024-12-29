@@ -85,6 +85,9 @@ To add an auth provider, click the Add button at the upper right. Depending on t
 
 Auth providers can be used in addition to password authentication. When logging in, Seatsurfing checks if the requested user already exists in Seatsurfing's internal user directory. If he does exist and password authentication is enabled, the user will be prompted for her password. If it does not exists or has no password set, she can log in using one of the configured auth providers.
 
+You can use the following placeholders in your specified URLs:
+* ```{logoutRedirectUri}``` - the Logout URL your users will be redirected to after logging out
+
 ### Danger zone
 Use this section to delete your Seatsurfing organisation. The deletion is performed irrevocably. All data associated with your Seatsurfing organisation will be deleted and can not be restored. You should *only* use this functionality if you're absolutely sure about what you're doing.
 
