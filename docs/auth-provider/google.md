@@ -22,4 +22,4 @@ You can connect your Google Cloud Platform as an Auth Provider for Seatsurfing.
 ## 3. Finish Google Cloud Configuration
 
 1. Head back to the OAuth Client you've created in the Google Cloud Console in Step 1.
-1. Click "Add URI" under "Authorised redirect URIs" and add the copied Callback URL from Step 2 as a Web Redirect URI (i.e. ```https://app.seatsurfing.app/auth/xyz/callback```).
+1. Click "Add URI" under "Authorised redirect URIs" and add the copied Callback URL from Step 2 as a Web Redirect URI (i.e. ```https://app.seatsurfing.io/auth/xyz/callback```).

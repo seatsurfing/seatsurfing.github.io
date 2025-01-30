@@ -4,7 +4,7 @@ import Admonition from '@theme/Admonition';
 import styles from './styles.module.css';
 
 export default function SignupForm() {
-    const APP_PREFIX = "https://app.seatsurfing.app";
+    const APP_PREFIX = "https://app.seatsurfing.io";
 
     const [name1, setName1] = useState('')
     const [name2, setName2] = useState('')
@@ -85,7 +85,7 @@ export default function SignupForm() {
             return;
         }
         timerDomain = window.setTimeout(function () {
-            domain2 = domain2.toLowerCase() + ".on.seatsurfing.app";
+            domain2 = domain2.toLowerCase() + ".on.seatsurfing.io";
             queryAjax("GET", APP_PREFIX + "/organization/domain/" + domain2, null).then((res) => {
                 if (res.status === 404) {
                     setAllowSubmit(true);
@@ -152,7 +152,7 @@ export default function SignupForm() {
                                 <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
                                     minlength="3"
                                     required={true} value={domain} onChange={e => { setDomain(e.target.value); onDomainChange(e.target.value); }} />
-                                <span class="input-group-text" id="domain-suffix">.on.seatsurfing.app</span>
+                                <span class="input-group-text" id="domain-suffix">.on.seatsurfing.io</span>
                             </div>
                         </div>
                         <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>

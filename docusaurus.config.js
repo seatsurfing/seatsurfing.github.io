@@ -11,7 +11,7 @@ export default {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://seatsurfing.app',
+  url: 'https://seatsurfing.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -108,7 +108,7 @@ export default {
             items: [
               {
                 label: 'Status',
-                href: 'https://status.seatsurfing.app/',
+                href: 'https://status.seatsurfing.io/',
               },
               {
                 label: 'GitHub',
@@ -142,7 +142,7 @@ export default {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Seatsurfing.app.`,
+        copyright: `Copyright © ${new Date().getFullYear()} seatsurfing.io.`,
       },
       prism: {
         theme: lightCodeTheme,
