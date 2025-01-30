@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://seatsurfing.app/blog</id>
+    <id>https://seatsurfing.io/blog</id>
     <title>Seatsurfing Blog</title>
     <updated>2024-12-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://seatsurfing.app/blog"/>
+    <link rel="alternate" href="https://seatsurfing.io/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
-    <icon>https://seatsurfing.app/img/favicon.ico</icon>
+    <icon>https://seatsurfing.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.21 released]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-21-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-21-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-21-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-21-released"/>
         <updated>2024-12-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Time for some release news! Seatsurfing 1.21 has been released today, including several features that you, Seatsurfing's users, asked for. The biggest feature is that you can now specify custom attributes which can be attached to your locations. For example, as an administrator, you can specify whether a location is accessible with wheelchairs or what kind of media system is installed. Your users can view a location's attributes and even filter the list of locations according to their needs.]]></summary>
         <content type="html"><![CDATA[<p>Time for some release news! Seatsurfing 1.21 has been released today, including several features that you, Seatsurfing's users, asked for. The biggest feature is that you can now specify custom attributes which can be attached to your locations. For example, as an administrator, you can specify whether a location is accessible with wheelchairs or what kind of media system is installed. Your users can view a location's attributes and even filter the list of locations according to their needs.</p>
@@ -39,8 +39,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.19 released]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-19-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-19-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-19-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-19-released"/>
         <updated>2024-08-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Long time no hear! While we've released several new versions of Seatsurfing since the last post from August 2023, we haven't blogged about them. Let's catch up with today's release of Seatsurfing 1.19.]]></summary>
         <content type="html"><![CDATA[<p>Long time no hear! While we've released several new versions of Seatsurfing since the last post from August 2023, we haven't blogged about them. Let's catch up with today's release of Seatsurfing 1.19.</p>
@@ -77,8 +77,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.14 released]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-14-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-14-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-14-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-14-released"/>
         <updated>2023-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're happy to announce the availability of Seatsurfing 1.14. Version 1.14 adds Italian translations and the ability for users to change their own password. Besides, various improvements and fixes have been implemented.]]></summary>
         <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing 1.14. Version 1.14 adds Italian translations and the ability for users to change their own password. Besides, various improvements and fixes have been implemented.</p>
@@ -106,8 +106,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.13 released]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-13-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-13-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-13-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-13-released"/>
         <updated>2023-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A few days ago, we've released Seatsurfing 1.13. This new version adds French translations to the user interfaces. Furthermore, we've migrated the React-based front ends from Create React App (CRA) to Next.js. The move to Next.js allows for server-side rendering, resulting in faster load times. However, this leads to a breaking change, because the front ends are not shipped with the backend Docker image anymore, but in two separate containers (admin-ui and booking-ui).]]></summary>
         <content type="html"><![CDATA[<p>A few days ago, we've released Seatsurfing 1.13. This new version adds French translations to the user interfaces. Furthermore, we've migrated the React-based front ends from Create React App (CRA) to Next.js. The move to Next.js allows for server-side rendering, resulting in faster load times. However, this leads to a breaking change, because the front ends are not shipped with the backend Docker image anymore, but in two separate containers (admin-ui and booking-ui).</p>
@@ -127,8 +127,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.12 adds user-requested features]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-12-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-12-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-12-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-12-released"/>
         <updated>2022-12-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're pleased to announce the release of Seatsurfing 1.12. The new release adds features our users have requested, such as login brute force prevention, an improved login-process for single-organization instances and more.]]></summary>
         <content type="html"><![CDATA[<p>We're pleased to announce the release of Seatsurfing 1.12. The new release adds features our users have requested, such as login brute force prevention, an improved login-process for single-organization instances and more.</p>
@@ -153,8 +153,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.10 replaces native apps with web app]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-pwa</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-pwa"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-pwa</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-pwa"/>
         <updated>2022-07-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></summary>
         <content type="html"><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
@@ -167,8 +167,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.9 released]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-9-released</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-9-released"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-9-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-9-released"/>
         <updated>2022-06-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.]]></summary>
         <content type="html"><![CDATA[<p>Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.</p>
@@ -198,8 +198,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing is Open Source now]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-is-open-source-now</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-is-open-source-now"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-is-open-source-now</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-is-open-source-now"/>
         <updated>2021-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.]]></summary>
         <content type="html"><![CDATA[<p>Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.</p>
@@ -212,8 +212,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.8 adds bookings preferences]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-8-adds-bookings-preferences</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-8-adds-bookings-preferences"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-8-adds-bookings-preferences</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-8-adds-bookings-preferences"/>
         <updated>2021-11-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re happy to announce the release of Seatsurfing 1.8. The new version applies to both backend and mobile app. It adds some requested features making the lives of both administrators and users easier. Users can now set their individual booking preferences leading to even quicker bookings. Administrators can set floor plan administrators and enjoy new reporting functionalities.]]></summary>
         <content type="html"><![CDATA[<p>We’re happy to announce the release of Seatsurfing 1.8. The new version applies to both backend and mobile app. It adds some requested features making the lives of both administrators and users easier. Users can now set their individual booking preferences leading to even quicker bookings. Administrators can set floor plan administrators and enjoy new reporting functionalities.</p>
@@ -226,7 +226,7 @@
 <li>And as usual, minor bug fixes and improvements.</li>
 </ul>
 <p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/seatsurfing/issues" target="_blank" rel="noopener noreferrer">issue tracker on GitHub</a>.</p>
-<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.app/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.io/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -235,8 +235,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.7 with fresh design and new features]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-7-with-fresh-design-and-new-features</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-7-with-fresh-design-and-new-features"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-7-with-fresh-design-and-new-features</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-7-with-fresh-design-and-new-features"/>
         <updated>2021-11-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we’ve released Seatsurfing Backend and App Version 1.7.]]></summary>
         <content type="html"><![CDATA[<p>Today we’ve released Seatsurfing Backend and App Version 1.7.</p>
@@ -251,8 +251,8 @@
 <li>Fixed bug which prevented users from booking spaces the same day with active daily basis booking</li>
 <li>Fixed bug which caused showing an incorrect booking duration in admin interface</li>
 </ul>
-<p>Head to <a href="https://seatsurfing.app/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
-<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.app/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content>
+<p>Head to <a href="https://seatsurfing.io/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.io/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -261,8 +261,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Free test accounts]]></title>
-        <id>https://seatsurfing.app/blog/free-test-accounts</id>
-        <link href="https://seatsurfing.app/blog/free-test-accounts"/>
+        <id>https://seatsurfing.io/blog/free-test-accounts</id>
+        <link href="https://seatsurfing.io/blog/free-test-accounts"/>
         <updated>2021-09-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></summary>
         <content type="html"><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>]]></content>
@@ -274,8 +274,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.5 enables self-hosted Docker instances]]></title>
-        <id>https://seatsurfing.app/blog/seatsurfing-1-5-enables-self-hosted-docker-instances</id>
-        <link href="https://seatsurfing.app/blog/seatsurfing-1-5-enables-self-hosted-docker-instances"/>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-5-enables-self-hosted-docker-instances</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-5-enables-self-hosted-docker-instances"/>
         <updated>2021-08-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.]]></summary>
         <content type="html"><![CDATA[<p>We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.</p>
@@ -289,14 +289,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Daily basis booking and bookers’ names in Seatsurfing 1.2]]></title>
-        <id>https://seatsurfing.app/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</id>
-        <link href="https://seatsurfing.app/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2"/>
+        <id>https://seatsurfing.io/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</id>
+        <link href="https://seatsurfing.io/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2"/>
         <updated>2021-06-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.]]></summary>
         <content type="html"><![CDATA[<p>Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.</p>
 <p>The first feature is daily basis booking. We want to make it easier for the employees of some organizations to book their seats. If you want to keep seat booking really easy, you can activate the daily basis booking functionality in the administration interface. When activated, users using the App or the Booking Web Interface just need to pick a desired date and do not need to provide a time range. The selected space is then booked for one or multiple entire days.</p>
 <p>The second feature allows for showing the names of the colleagues having booked a space during the selected time range. When activated by the organization’s administrator, users are able to tap or click an occupied seat to show the names and time ranges of this seat. We did not have implemented this feature at first with respect to the users’ privacy. However, we think that you should have the chance to decide for yourself.</p>
-<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.2 shows the user&amp;#39;s names" src="https://seatsurfing.app/assets/images/show_names-19873429cb1a59ca1c78dc9dc5f32af5.gif" width="256" height="554" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.2 shows the user&amp;#39;s names" src="https://seatsurfing.io/assets/images/show_names-19873429cb1a59ca1c78dc9dc5f32af5.gif" width="256" height="554" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
