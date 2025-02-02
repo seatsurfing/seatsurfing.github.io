@@ -37,11 +37,33 @@ Your organisation might have configured additional restrictions, such as:
 If such a restriction applies, an according message will be shown.
 
 ## Manage bookings
-To manage your upcoming bookingsm tap "My bookings".
+To manage your upcoming bookings tap "My bookings".
 
 You'll see a list of your upcoming bookings in ascending order. To show details or to cancel a booking, tap it.
 
 To keep things simple, it's not possible to modify an existing booking. Instead, you'll have to cancel and place a new booking.
+
+## Preferences
+
+### Calendar Integration
+You can link your calendar to your Seatsurfing account, which means your bookings will appear in your calendar. This way, you can easily find out which desk to head for when approaching the office.
+
+Currently, Seatsurfing supports CalDAV-enabled calendars with a default HTTP authentication. CalDAV is the standard for accessing and managing calendar data.
+
+* Google Calendar features CalDAV support, but employs Google's Sign Sign On process, which is not supported at the moment.
+* Microsoft Exchange (Outlook) does not support CalDAV at all, but relies on its own proprietary.
+* Seatsurfing has implemented a one-way-sync at the moment. This means, your desk reservations will be created, updated and removed from your calendar, but any changes you perform directly in your calendar are not being reflected within Seatsurfing.
+
+To connect your CalDAV-enabled calendar, please follow these steps:
+
+1. Go to "Preferences" and select "Integrations".
+1. Under "CalDAV calendar", enter the corresponding CalDAV url of the server hosting your calendar (please ask your administrator if unclear), and enter the credentials.
+1. Click "Connect" to retrieve the existing calendars.
+1. Choose the calendar you want your bookings to appear in and click "Save".
+
+**Nextcloud**
+* CalDAV URL: In your Nextcloud calendar, click "Settings" and then "Copy primary CalDAV address".
+* Username / password: Go to your "Personal settings", then create a new app password.
 
 ## Add to home screen
 As a Progressive Web App (PWA), your users can "install" the booking web app. This means, they can add a shortcut to their home screen so they can subsequently access it with a single tap.
