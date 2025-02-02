@@ -10,7 +10,7 @@ Get the App from the [Atlassian Marketplace](https://marketplace.atlassian.com/a
 After having installed the App in your Confluence instance, click 'Configure' within the Seatsurfing App panel under 'Manage apps'. You'll need to specify the following settings here:
 
 * Backend URL: The URL of your Seatsurfing instance. Leave empty if you use Cloud hosting.
-* Instance ID: The unique identifier of your Seatsurfig instance. To find this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a>, go to 'Settings' and copy the Instance ID.
+* Instance ID: The unique identifier of your Seatsurfing instance. To find this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a>, go to 'Settings' and copy the Instance ID.
 * Shared Secret: A self-chosen shared secret which is set both here and in your Seatsurfing's instance Admin interface. To set this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a> and go to 'Settings'.
 
 To integrate the Seatsurfing App, insert the Seatsurfing macro into a Confluence page.
@@ -25,7 +25,7 @@ Get the App from the [Atlassian Marketplace](https://marketplace.atlassian.com/a
 After having installed the App in your Confluence instance, navigate to your Confluence configuration (gear icon in the upper right) and click 'Seatsurfing Configuration'. You'll need to specify the following settings here:
 
 * Backend URL: The URL of your Seatsurfing instance. Leave empty if you use Cloud hosting.
-* Instance ID: The unique identifier of your Seatsurfig instance. To find this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a>, go to 'Settings' and copy the Instance ID.
+* Instance ID: The unique identifier of your Seatsurfing instance. To find this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a>, go to 'Settings' and copy the Instance ID.
 * Shared Secret: A self-chosen shared secret which is set both here and in your Seatsurfing's instance Admin interface. To set this, log in to Seatsurfing's <a href="https://app.seatsurfing.io/admin/" target="_blank">Admin interface</a> and go to 'Settings'.
 
 To integrate the Seatsurfing App, insert the Seatsurfing macro into a Confluence page.

@@ -11,7 +11,7 @@ If you have a feature request, need support or found a bug, please open an issue
 If you're using Seatsurfing to book spaces, seats or desks and need assistance, please contact your organisation's Seatsurfing administrators.
 
 ## Availability
-We're continuously monitoring the availability of our servers using automated monitoring systems. If an error occurs, we're notified automtically so we can act quickly. You can view the status of Seatsurfing's systems here:
+We're continuously monitoring the availability of our servers using automated monitoring systems. If an error occurs, we're notified automatically so we can act quickly. You can view the status of Seatsurfing's systems here:
 
 [status.seatsurfing.io](https://status.seatsurfing.io)
 

@@ -235,7 +235,7 @@ kubectl get pods | grep seatsurfing
 
 Afterwards, Seatsurfing can be accessed at the specified host (i.e. https://seatsurfing.your-domain.com).
 
-## 5. Initial configration
+## 5. Initial configuration
 Access the administrator web-interface using a modern web browser (i.e. Chrome, Firefox, Safari) at: /admin/
 
 By default, an organisation with one administrator account is created on backend startup if no organisation already exists in the specified database. If not defined otherwise, use ```admin@seatsurfing.local``` as the username and ```12345678``` as the password.
