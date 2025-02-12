@@ -17,7 +17,7 @@ However, your time is expensive: Save hours by selecting the Software as a Servi
         <ul>
             <li>Free for up to 10 users</li>
             <li>Managed Cloud Hosting</li>
-            <li>Servers in Germany</li>
+            <li>Servers in Germany (EU)</li>
             <li>Always the latest versions &amp; features</li>
         </ul>
         <a href="/sign-up/" class="button button--primary button--lg">Start now</a>
@@ -30,13 +30,11 @@ However, your time is expensive: Save hours by selecting the Software as a Servi
         <ul>
             <li>Everything from Starter, plus:</li>
             <li>As many users as you need</li>
-            <li>Managed Cloud Hosting</li>
-            <li>Always the latest versions &amp; features</li>
-            <li>Servers in Germany (EU)</li>
+            <li>Custom domains</li>
             <li>Monthly payment</li>
             <li>24/7 email support</li>
         </ul>
-        <a href="/sign-up-cloud/" class="button button--primary button--lg button-gradient">Sign up</a>
+        <a href="https://app.seatsurfing.io/cloud/" target="_blank" class="button button--primary button--lg button-gradient">Sign up</a>
     </div>
     <div class="pricing-model">
         <h3>Self-Hosted</h3>
