@@ -174,8 +174,6 @@ spec:
               key: db-password
         - name: POSTGRES_URL
           value: "postgres://seatsurfing:$(POSTGRES_PASS)@seatsurfing-db/seatsurfing?sslmode=disable"
-        - name: JWT_SIGNING_KEY
-          value: "a_random_key"
         - name: PUBLIC_URL
           value: "https://seatsurfing.your-domain.com" 
         - name: FRONTEND_URL
