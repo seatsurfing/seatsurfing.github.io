@@ -85,7 +85,7 @@ export default function SignupForm() {
             return;
         }
         timerDomain = window.setTimeout(function () {
-            domain2 = domain2.toLowerCase() + ".on.seatsurfing.io";
+            domain2 = domain2.toLowerCase() + ".seatsurfing.app";
             queryAjax("GET", APP_PREFIX + "/organization/domain/" + domain2, null).then((res) => {
                 if (res.status === 404) {
                     setAllowSubmit(true);
@@ -152,7 +152,7 @@ export default function SignupForm() {
                                 <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
                                     minlength="3"
                                     required={true} value={domain} onChange={e => { setDomain(e.target.value); onDomainChange(e.target.value); }} />
-                                <span class="input-group-text" id="domain-suffix">.on.seatsurfing.io</span>
+                                <span class="input-group-text" id="domain-suffix">.seatsurfing.app</span>
                             </div>
                         </div>
                         <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
