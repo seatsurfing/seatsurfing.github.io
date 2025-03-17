@@ -4,8 +4,8 @@
 To set up the Seatsurfing backend on your server, the following system requirements must be met:
 
 * Linux server
-* Docker runtime environment (or CRI/containerd in case of Kubernetes, tested with Docker Engine version 20.x and containerd version 1.4.x)
-* PostgreSQL (tested with PostgreSQL version 12.x and 13.x)
+* Docker runtime environment (or CRI/containerd in case of Kubernetes, tested with Docker Engine version 28.x and Podman version 1.4.x)
+* PostgreSQL (tested with PostgreSQL version 16.x and 17.x)
 * Optionally: Docker Compose (tested with Docker Compose version 2.x)
 * Recommended: Reverse proxy with TLS termination (tested with Traefik version 2.x)
 
@@ -17,8 +17,6 @@ For simplicity and demonstration purposes only, container port 8080 is published
 #### docker-compose.yml
 
 ```
-version: '3.7'
-
 services:
   server:
     image: seatsurfing/backend
@@ -49,7 +47,7 @@ services:
     environment:
       FRONTEND_URL: 'https://seatsurfing.your-domain.com'
   db:
-    image: postgres:12
+    image: postgres:17
     restart: always
     networks:
       sql:

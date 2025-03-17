@@ -73,7 +73,7 @@ spec:
           readOnly: false
           subPath: postgres
       containers:
-      - image: postgres:13
+      - image: postgres:17
         name: db
         imagePullPolicy: Always
         ports:
