@@ -10,7 +10,7 @@ However, your time is expensive: Save hours by selecting the Software as a Servi
 
 <section class="pricing-models">
     <div class="pricing-model">
-        <h3>Starter</h3>
+        <h3>Free</h3>
         <p class="pricing-price">€ 0</p>
         <p class="pricing-desc">For organizations with up to 10 users – free forever.</p>
         <hr />
@@ -23,12 +23,12 @@ However, your time is expensive: Save hours by selecting the Software as a Servi
         <a href="/sign-up/" class="button button--primary button--lg">Start now</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
-        <h3>Cloud</h3>
+        <h3>Paid</h3>
         <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">per user / month</span></p>
         <p class="pricing-desc">Software as a Service: Let us handle the entire technical stuff for you.</p>
         <hr />
         <ul>
-            <li>Everything from Starter, plus:</li>
+            <li>Everything from Free, plus:</li>
             <li>As many users as you need</li>
             <li>Custom domains</li>
             <li>Monthly payment</li>
