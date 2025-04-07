@@ -5,7 +5,7 @@ title: Imprint
 # Imprint
 
 ## Legal information
-Seatsurfing GmbH i.G.<br />
+Seatsurfing GmbH<br />
 Karl-Herbert-Scheer-Str. 6<br />
 61381 Friedrichsdorf<br />
 Germany
@@ -16,7 +16,7 @@ Represented by the directors:<br />
 Jan Jonas, Heinrich Beck
 
 Commercial Register No.:<br />
-Local Court of Frankfurt (Amtsgericht Frankfurt), HRB after registration is completed
+Amtsgericht Bad Homburg v.d.H., HRB 16997
 
 ## Limitation of liability for internal content
 The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages. Pursuant to section 7, para. 1 of the TMG (Telemediengesetz – Tele Media Act by German law), we as service providers are liable for our own content on these pages in accordance with general laws. However, pursuant to sections 8 to 10 of the TMG, we as service providers are not under obligation to monitor external information provided or stored on our website. Once we have become aware of a specific infringement of the law, we will immediately remove the content in question. Any liability concerning this matter can only be assumed from the point in time at which the infringement becomes known to us.

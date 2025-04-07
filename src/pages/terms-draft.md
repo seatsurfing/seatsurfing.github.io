@@ -75,7 +75,7 @@ While the Licensee has an active license (evaluation, paid or free), the Licenso
 
 Depending of whether The Software is used as a hosted solution provided by The Licensor (Software as a Service, SaaS) or a in a self-managed environment, one of the following two sections applies:
 
-### Confluence Cloud
+### Software as a Service (SaaS)
 The processing of the Licensee's login details (username, password, and other information) happens on The Licensor's servers or directly on the servers of the Licensee's organization, depending the Licensee's configuration. If The Licensee's organization processes login information, The Licensor uses established standards such as OpenID Connect or OAuth so the Licensee's sensitive data is processed directly by The Licensee's systems. In this case, the Licensee's log in details are neither stored nor processed by The Licensor's servers. However, certain details such as the users' email address is always stored on and processed by The Licensor's systems to identify the relevant organization and the available authentication methods.
 
 To enable a personalized usage of the app, it’s necessary to store a minimum set of personal information after logging in. This includes the users' email addresses as an identifier, the users' names and a unique account ID provided by the Licensee's authentication system.
