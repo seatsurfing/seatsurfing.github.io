@@ -10,7 +10,9 @@ Karl-Herbert-Scheer-Str. 6<br />
 61381 Friedrichsdorf<br />
 Germany
 
-hello@seatsurfing.io
+Email: hello@seatsurfing.io
+
+Phone: <a href="tel:+4961723951022">+49 6172 3951022</a>
 
 Represented by the directors:<br />
 Jan Jonas, Heinrich Beck

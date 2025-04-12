@@ -118,10 +118,6 @@ export default {
                 label: 'Docker Hub',
                 href: 'https://hub.docker.com/u/seatsurfing',
               },
-              {
-                label: 'Donate',
-                href: 'https://github.com/sponsors/seatsurfing',
-              },
             ],
           },
           {
@@ -142,7 +138,7 @@ export default {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} seatsurfing.io.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Seatsurfing GmbH.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Version: May 6, 2023
+Effective 2025-04-12
 
 We created this privacy policy in order to inform you about the information we collect, how we use your data and which choices you as a visitor of the Seatsurfing website and the Seatsurfing app have.
 
@@ -56,17 +56,6 @@ We will not share your data with third parties. Please note that your organizati
 
 ## TLS encryption using HTTPS
 In both our website and our app, we use HTTPS to transport data securely (data protection by technical means [article 25 (1) DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE&tid=311177212)). By using TLS (Transport Layer Security), an encryption protocol to securely transport data on the internet, we can protect sensitive data. Most browsers show a lock symbol in your browser when HTTPS is active.
-
-## Cloudflare
-We use the “Cloudflare” service provided by Cloudflare Inc., 101 Townsend St., San Francisco, CA 94107, USA. (hereinafter referred to as “Cloudflare”).
-
-Cloudflare offers a content delivery network with DNS that is available worldwide. As a result, the information transfer that occurs between your browser and our website is technically routed via Cloudflare’s network. This enables Cloudflare to analyze data transactions between your browser and our website and to work as a filter between our servers and potentially malicious data traffic from the Internet. In this context, Cloudflare may also use cookies or other technologies deployed to recognize Internet users, which shall, however, only be used for the herein described purpose.
-
-The use of Cloudflare is based on our legitimate interest in a provision of our website offerings that is as error free and secure as possible (Art. 6(1)(f) GDPR).
-
-Data transmission to the US is based on the Standard Contractual Clauses (SCC) of the European Commission. Details can be found here: https://www.cloudflare.com/privacypolicy/
-
-For more information on Cloudflare's security precautions and data privacy policies, please follow this link: https://www.cloudflare.com/privacypolicy/
 
 ## Web Analytics
 For statistical purposes, this website uses Matomo, an open source web analysis tool. Matomo does not transfer any data to servers outside our control. All data is processed and stored anonymised. Matomo is provided by InnoCraft Ltd, 7 Waterloo Quay PO625, 6140 Wellington, New Zealand. You can find out more about the data being processed by Matomo in its privacy policy at https://matomo.org/privacy-policy/. If you have any questions regarding the protection of your web analytics data, please contact privacy@matomo.org.
