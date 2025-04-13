@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://seatsurfing.io/blog</id>
     <title>Seatsurfing Blog</title>
-    <updated>2024-12-29T00:00:00.000Z</updated>
+    <updated>2025-04-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://seatsurfing.io/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
     <icon>https://seatsurfing.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Fast forward - from Seatsurfing 1.21 to 1.29]]></title>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-29-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-29-released"/>
+        <updated>2025-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The past weeks ran fast: We've released eight new versions (plus multiple fix versions) of Seatsurfing, each containing exciting new features. Features which our users asked for. As we've not blogged about versions 1.22 to 1.28, this blog post summarized the most remarkable features and improvements since the release of version 1.21 which was released by the end of 2024.]]></summary>
+        <content type="html"><![CDATA[<p>The past weeks ran fast: We've released eight new versions (plus multiple fix versions) of Seatsurfing, each containing exciting new features. Features which our users asked for. As we've not blogged about versions 1.22 to 1.28, this blog post summarized the most remarkable features and improvements since the release of version 1.21 which was released by the end of 2024.</p>
+<p>Here's what changed in Seatsurfing 1.29 since the release of Seatsurfing 1.21:</p>
+<ul>
+<li>Feature: Add Estonian translation for Booking UI (1.28)</li>
+<li>Feature: Add ability to assign attributes to spaces in Admin UI (1.27)</li>
+<li>Feature: Show and search for space attributes in Booking UI (1.27)</li>
+<li>Feature: Add Azure Communication Services (ACS) as alternative to SMTP for sending mails (1.26)</li>
+<li>Feature: Cloud hosted Seatsurfing adds individual subdomains and custom domains (1.25)</li>
+<li>Feature: Sse real email address as username (1.25)</li>
+<li>Feature: ARIA labels to Booking UI form for improved accessibility (1.25)</li>
+<li>Feature: Allow to cancel your bookings directly from the map (1.23)</li>
+<li>Feature: Connect your calendar via CalDAV and keep track of your space bookings (1.22)</li>
+<li>Feature: Add filtering options for Number of spaces, Number of free spaces and Buddies on site (1.22)</li>
+<li>Improvement: Make language changes persistent (1.28)</li>
+<li>Improvement: Display version on preferences page in Admin UI (1.28)</li>
+<li>Improvement: Optimize language handling in Admin and Booking UI (1.27)</li>
+<li>Improvement: Perform database schema updates more resilient (1.26)</li>
+<li>Improvement: Support PostgreSQL &lt; v16 (1.26)</li>
+<li>Improvement: Sdd auth provider template for Okta (1.26)</li>
+<li>Improvement: Improve password reset process (1.25)</li>
+<li>Improvement: List user bookings according to location's timezone (1.24)</li>
+<li>Improvement: Create/verify JWT Access Tokens with asymmetric RSA algorithm (1.24)</li>
+<li>Improvement: Optimized date formatting (1.22)</li>
+<li>Improvement: Added Content Security Policy (CSP) to the frontends (1.22)</li>
+<li>Various bug fixes</li>
+<li>Updated dependencies</li>
+</ul>
+<p>As usual, you can find the source code of version 1.29 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+        <author>
+            <name>Heiner</name>
+            <uri>https://github.com/virtualzone</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.21 released]]></title>
         <id>https://seatsurfing.io/blog/seatsurfing-1-21-released</id>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite_docusaurus=self.webpackChunkwebsite_docusaurus||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Heiner","title":"Seatsurfing Developer","url":"https://github.com/virtualzone","imageURL":"https://github.com/virtualzone.png","key":"heiner","page":null,"count":14}]}')}}]);
