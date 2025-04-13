@@ -94,12 +94,20 @@ export default {
                 to: 'getting-started/',
               },
               {
+                label: 'Pricing',
+                to: 'pricing/',
+              },
+              {
                 label: 'Documentation',
                 to: 'docs/',
               },
               {
                 label: 'Blog',
                 to: 'blog/',
+              },
+              {
+                label: 'Support',
+                to: 'support/',
               },
             ],
           },
