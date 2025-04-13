@@ -152,10 +152,10 @@ export default function SignupForm() {
                                 <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
                                     minlength="3"
                                     required={true} value={domain} onChange={e => { setDomain(e.target.value); onDomainChange(e.target.value); }} />
-                                <span class="input-group-text" id="domain-suffix">.seatsurfing.app</span>
+                                <span class="input-group-text" id="domain-suffix">&nbsp;.seatsurfing.app</span>
                             </div>
                         </div>
-                        <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
+                        <small id="domain-help" class="form-text text-muted">You can add your company's domain later (Paid Plan only).</small>
                         {showDomainInUse ? <Admonition type='caution'>Domain already in use.</Admonition> : <></>}
                     </div>
                 </div>
@@ -201,7 +201,7 @@ export default function SignupForm() {
                     <div className='col col--8'>
                         <input type="checkbox" class="custom-control-input" id="accept-terms"
                             required={true} checked={terms} onChange={e => setTerms(e.target.checked)} />
-                        <label class="inline-label" for="accept-terms">I accept the <a href="/privacy-policy/" target="_blank">privacy
+                        <label class="inline-label" for="accept-terms">&nbsp;I accept the <a href="/privacy-policy/" target="_blank">privacy
                             policy</a> and the <a href="/terms/" target="_blank">terms of
                                 use</a>.</label>
                     </div>

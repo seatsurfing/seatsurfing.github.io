@@ -34,7 +34,7 @@ However, your time is expensive: Save hours by selecting the Software as a Servi
             <li>Monthly payment</li>
             <li>24/7 email support</li>
         </ul>
-        <a href="https://app.seatsurfing.io/cloud/" target="_blank" class="button button--primary button--lg button-gradient">Sign up</a>
+        <a href="/sign-up-paid/" class="button button--primary button--lg button-gradient">Sign up</a>
     </div>
     <div class="pricing-model">
         <h3>Self-Hosted</h3>

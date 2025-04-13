@@ -106,18 +106,21 @@ header.hero--primary {
   padding-left: 5px;
 }
 
-.pricing-model ul {
+.pricing-model ul,
+ul.blue-dots {
   list-style: none;
 	padding-left: 0;
 }
 
-.pricing-model ul li {
+.pricing-model ul li,
+ul.blue-dots li {
   padding-left: 1.5em;
 	margin-bottom: 0.5em;
   position: relative;
 }
 
-.pricing-model ul li::before {
+.pricing-model ul li::before,
+ul.blue-dots li::before {
   content: '';
 	position: absolute;
 	left: 0;
