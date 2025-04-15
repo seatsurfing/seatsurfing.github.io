@@ -53,7 +53,7 @@ By signing up for the Free Plan, you get access to almost all of Seatsurfing's f
 Yes, you can easily upgrade from the Free Plan to the Paid Plan using your Seatsurfing administrator account.
 
 #### Can I switch betweens Plans?
-Yes, you can upgrade and downgrade your plan once per month.
+Yes, you can upgrade and downgrade at any time.
 
 #### How is the Paid Plan billed?
 The Paid Plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
@@ -63,4 +63,10 @@ Payment is handled by [Stripe](https://stripe.com). We accept credit card paymen
 
 #### Will tax be added to the prices?
 At the moment, no taxes are added to the prices stated above (§ 19 UStG in Germany). This is subject to change at a later point in time.
+
+#### Will I receive an invoice?
+Yes, you will receive an invoice for every payment automatically.
+
+#### Where is my data stored?
+Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Paid Plan. [Contact us](/support/) for further information.
 </div>
