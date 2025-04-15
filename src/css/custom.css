@@ -57,6 +57,7 @@ header.hero--primary {
   align-items: stretch;
   gap: 20px 30px;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .pricing-model {
@@ -151,4 +152,8 @@ ul.blue-dots li::before {
   .pricing-model-highlight {
     order: 1;
   }
+}
+
+.faq {
+  max-width: 600px;
 }
