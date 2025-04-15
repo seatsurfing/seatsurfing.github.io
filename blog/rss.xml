@@ -4,10 +4,28 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Sun, 13 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Cloud-hosted Paid Plan launched]]></title>
+            <link>https://seatsurfing.io/blog/cloud-saas-paid-plan-launched</link>
+            <guid>https://seatsurfing.io/blog/cloud-saas-paid-plan-launched</guid>
+            <pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Paid Plan 🤩]]></description>
+            <content:encoded><![CDATA[<p>Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Paid Plan 🤩</p>
+<p>The Paid Plan includes all features known from the Open Source Edition of Seatsurfing, plus:</p>
+<ul class="blue-dots"><li>Carefree Software as a Service (Saas) hosting on fast servers located in Germany</li><li>As many users as you need (pay per user)</li><li>Add your organization's custom domain to access your Seatsurfing instance</li><li>24/7 premium support</li><li>Monthly payment</li><li>...and there's more to come!</li></ul>
+<p>Of course, the Open Source Edition will still be the basis of the Paid Plan. This is why you can expect regular updates, enhancements and new features.</p>
+<p>Moreover, we will continue to provide the Cloud-hosted Free Plan, which will remain cost-free for up to ten users. Perfectly suited to give Seatsurfing a try or to provide desk sharing, room reservations and other kinds of "space bookings" to small organizations.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade">You are already subscribed to the Free Plan and want to upgrade?<a href="https://seatsurfing.io/blog/cloud-saas-paid-plan-launched#you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade" class="hash-link" aria-label="Direct link to You are already subscribed to the Free Plan and want to upgrade?" title="Direct link to You are already subscribed to the Free Plan and want to upgrade?">​</a></h4>
+<p>Just log in to your organizations' administration web-interface, navigate to "Subscription" and upgrade in no time.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="you-are-new-to-seatsurfing-and-want-to-sign-up">You are new to Seatsurfing and want to sign up?<a href="https://seatsurfing.io/blog/cloud-saas-paid-plan-launched#you-are-new-to-seatsurfing-and-want-to-sign-up" class="hash-link" aria-label="Direct link to You are new to Seatsurfing and want to sign up?" title="Direct link to You are new to Seatsurfing and want to sign up?">​</a></h4>
+<p>Create a new account and have your Seatsurfing instance ready within seconds:</p>
+<a href="https://seatsurfing.io/sign-up/" class="button button--primary button--lg button-gradient">Create Account</a>]]></content:encoded>
+            <category>hosting</category>
+        </item>
         <item>
             <title><![CDATA[Fast forward - from Seatsurfing 1.21 to 1.29]]></title>
             <link>https://seatsurfing.io/blog/seatsurfing-1-29-released</link>
