@@ -36,13 +36,14 @@ Our servers are located in Germany.
 ## Your rights according to General Data Protection Regulation (GDPR)
 According to the regulations of the General Data Protection Regulation (GDPR) you have the following rights:
 
-Right to have your data corrected (article 16 DSGVO)
-Right to have your data deleted (article 17 DSGVO)
-Right to limit the processing of your data (article 18 DSGVO)
-Right to be notified – Duty regarding the correction, deletion or limitation of your data and its processing (article 19 DSGVO)
-Right to data portability (article 20 DSGVO)
-Right to refuse (article 21 DSGVO)
-Right to be not subject to sole automatic decision making, including profiling (article 22 DSGVO)
+* Right to have your data corrected (article 16 DSGVO)
+* Right to have your data deleted (article 17 DSGVO)
+* Right to limit the processing of your data (article 18 DSGVO)
+* Right to be notified – Duty regarding the correction, deletion or limitation of your data and its processing (article 19 DSGVO)
+* Right to data portability (article 20 DSGVO)
+* Right to refuse (article 21 DSGVO)
+* Right to be not subject to sole automatic decision making, including profiling (article 22 DSGVO)
+
 If you think the processing of your data violates the terms of the General Data Protection Regulation (GDPR) or your claims for data protection are violated in any way, you can contact the Federal Commissioner for Data Protection and Freedom of Information in Germany.
 
 ## How long we store your data
