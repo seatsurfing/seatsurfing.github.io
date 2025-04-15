@@ -327,7 +327,8 @@
         <link href="https://seatsurfing.io/blog/free-test-accounts"/>
         <updated>2021-09-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></summary>
-        <content type="html"><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>]]></content>
+        <content type="html"><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>
+<a href="https://seatsurfing.io/sign-up/" class="button button--primary button--lg">Create Account</a>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
