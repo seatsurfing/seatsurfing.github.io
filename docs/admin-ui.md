@@ -2,7 +2,8 @@
 
 You can access the administration web interface using a modern web browser by visiting your Seatsurfing's instance backend:
 
-[http://localhost:8080/admin/](http://localhost:8080/admin/)
+* Cloud-hosted environments / SaaS: https://&lt;your-domain&gt;.seatsurfing.app/admin/
+* Self-hosted environments: [http://localhost:8080/admin/](http://localhost:8080/admin/)
 
 To log in to the administrator interface, your user must be equipped with org admin permissions.
 

@@ -1,5 +1,7 @@
 # Configuration
 
+***Only relevant for self-hosted environments.***
+
 While you can configure organisation-specific settings in the administrator web interface, global settings are set using environment variables. Set these environment variables when running the Seatsurfing backend Docker container.
 
 ## Example: Using Docker Compose

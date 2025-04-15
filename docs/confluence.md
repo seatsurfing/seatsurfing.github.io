@@ -17,8 +17,6 @@ To integrate the Seatsurfing App, insert the Seatsurfing macro into a Confluence
 
 When using the Seatsurfing App for Confluence, users will be assigned a somewhat cryptic email address like confluence-&lt;username&gt;@&lt;seatsurfing-defaultdomain&gt;. This is due to the fact the the actual email address cannot be consumed by the App. If required, users can merge these accounts with their actual Seatsurfing accounts by clicking the Merge Icon in the upper right corner.
 
-**Note:** Before 2022-06-16, there was a bug in registering client instances correctly. If you see the error message *"Could not find stored client data for &lt;UUID&gt;. Is this client registered?"*, please uninstall and then re-install the App from Atlassian Marketplace. This will *not* affect your existing settings, users or bookings.
-
 ## Confluence Data Center
 Get the App from the [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224242/?hosting=datacenter).
 
@@ -31,6 +29,3 @@ After having installed the App in your Confluence instance, navigate to your Con
 To integrate the Seatsurfing App, insert the Seatsurfing macro into a Confluence page.
 
 If available, users are identified by their email address. If a user's email address in Confluence is the same as a user's email address in Seatsurfing, it is handled as the same user account. If not, it's possible to manually merge a user account created via Confluence with a "regular" Seatsurfing account. Users can do this by clicking the Merge Icon in the upper right corner.
-
-## Confluence Server
-Coming soon.

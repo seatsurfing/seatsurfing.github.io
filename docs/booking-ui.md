@@ -2,7 +2,8 @@
 
 Seatsurfing features a mobile-ready Web Booking Interface. The web app is a Progressive Web App (PWA), which means it can be "installed" on your mobile device's home screen and includes caching mechanisms. You can access the web booking UI using a modern web browser at:
 
-[http://localhost:8080/ui/](http://localhost:8080/ui/)
+* Cloud-hosted environments / SaaS: https://&lt;your-domain&gt;.seatsurfing.app/ui/
+* Self-hosted environments: [http://localhost:8080/ui/](http://localhost:8080/ui/)
 
 Your employees can use the web app to book their spaces independently and to manage their bookings, including the cancellation of their own existing bookings.
 
