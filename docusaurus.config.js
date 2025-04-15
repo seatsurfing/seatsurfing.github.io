@@ -67,7 +67,7 @@ export default {
           srcDark: 'img/seatsurfing_white.svg',
         },
         items: [
-          { to: '/getting-started', label: 'Getting Started', position: 'left' },
+          { to: '/sign-up', label: 'Sign up', position: 'left' },
           { to: '/pricing', label: 'Pricing', position: 'left' },
           {
             type: 'docSidebar',
@@ -90,8 +90,8 @@ export default {
             title: 'Seatsurfing',
             items: [
               {
-                label: 'Getting Started',
-                to: 'getting-started/',
+                label: 'Create free account',
+                to: 'sign-up/',
               },
               {
                 label: 'Pricing',
