@@ -59,7 +59,7 @@ Yes, you can upgrade and downgrade at any time.
 The Paid Plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
 
 #### Which payment types do you support?
-Payment is handled by [Stripe](https://stripe.com). We accept credit card payments and PayPal.
+Payment is handled by [Stripe](https://stripe.com). We accept payments by credit card, PayPal, SEPA Direct Debit, Apple Pay and Google Pay.
 
 #### Will tax be added to the prices?
 At the moment, no taxes are added to the prices stated above (§ 19 UStG in Germany). This is subject to change at a later point in time.
