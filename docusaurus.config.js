@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 export default {
   title: 'Seatsurfing',
-  tagline: 'Open Source solution for desk sharing, room reservation, and co-working in your organization.',
+  tagline: 'Desk sharing, room reservation, free seating, and co-working in your organization.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -67,8 +67,8 @@ export default {
           srcDark: 'img/seatsurfing_white.svg',
         },
         items: [
-          { to: '/sign-up', label: 'Sign up', position: 'left' },
           { to: '/pricing', label: 'Pricing', position: 'left' },
+          { to: '/features', label: 'Features', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -76,6 +76,7 @@ export default {
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/sign-up', label: 'Get it free', position: 'right', className: 'button button--primary' },
           {
             href: 'https://github.com/seatsurfing/',
             label: 'GitHub',
