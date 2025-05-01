@@ -10,7 +10,7 @@ Get started with Seatsurfing desk sharing for free.
     <div class="pricing-model pricing-model-free">
         <h3>Free</h3>
         <p class="pricing-price">€ 0</p>
-        <p class="pricing-desc">For organizations with up to 10 users – free forever.</p>
+        <p class="pricing-desc">For small teams with up to 10 users – free forever.</p>
         <hr />
         <ul>
             <li>Free for up to 10 users</li>
@@ -23,7 +23,7 @@ Get started with Seatsurfing desk sharing for free.
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Paid</h3>
         <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">per user / month</span></p>
-        <p class="pricing-desc">Software as a Service: Let us handle the entire technical stuff for you.</p>
+        <p class="pricing-desc">Enterprise features and no user limit – everything you need.</p>
         <hr />
         <ul>
             <li>Everything from Free, plus:</li>
