@@ -5,7 +5,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    branches: [ main ]
 
 jobs:
   deploy:
@@ -26,4 +25,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          cname: seatsurfing.app
+          cname: seatsurfing.io

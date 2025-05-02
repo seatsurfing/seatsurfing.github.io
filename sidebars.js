@@ -20,10 +20,11 @@ const sidebars = {
   tutorialSidebar: [
     'index',
     'features',
+    'concepts',
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['docker', 'kubernetes'],
+      items: ['saas', 'docker', 'kubernetes'],
     },
     'config',
     'upgrading',

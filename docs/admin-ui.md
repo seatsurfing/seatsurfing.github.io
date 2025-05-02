@@ -1,8 +1,9 @@
 # Administration UI
 
-You can access the adminisatration web interface using a modern web browser by visiting your Seatsurfing's instance backend:
+You can access the administration web interface using a modern web browser by visiting your Seatsurfing's instance backend:
 
-[http://localhost:8080/admin/](http://localhost:8080/admin/)
+* Cloud-hosted environments / SaaS: https://&lt;your-domain&gt;.seatsurfing.app/admin/
+* Self-hosted environments: [http://localhost:8080/admin/](http://localhost:8080/admin/)
 
 To log in to the administrator interface, your user must be equipped with org admin permissions.
 
@@ -19,7 +20,7 @@ The main area views the functionality you've selected. Right after logging in, t
 ## Dashboard
 The dashboard shows current statistics for your Seatsurfing organisation. The statistics and numbers are intended to support you in review usage and user acceptance. Furthermore, Seatsurfing calculates space utilization in real time. This way you can always keep an eye on supply and demand.
 
-The top of the dashboard shows information regarding the number of users, locations and spaces as well as the total mumber of bookings.
+The top of the dashboard shows information regarding the number of users, locations and spaces as well as the total number of bookings.
 
 Below that, you can see current booking numbers of today, yesterday, the current week and the previous week.
 
@@ -43,7 +44,7 @@ For example, as an administrator, you can specify whether a location is accessib
 
 To specify the available attributes, navigate to "Areas" and select "Attributes". An attribute can be of type number (integer), true / false (boolean), or text (string).
 
-After defining one or more attributers, these attributes can be selected and set per location in the "Attributes" section.
+After defining one or more attributes, these attributes can be selected and set per location in the "Attributes" section.
 
 ## Users
 In the "Users" section you can manage your employees which have access to your Seatsurfing organisation.
@@ -55,7 +56,7 @@ To create or modify users manually, click the "Add" button or click a user from 
 Additionally, you can flag certain users as organisation administrators. Administrators have full access to Seatsurfing's administrator web-interface. Thus, administrators should have long, secure and complex passwords.
 
 ## Bookings
-In the "Bookings" section you can view the bookings of your emloyees in a certain period.
+In the "Bookings" section you can view the bookings of your employees in a certain period.
 
 You can choose the period to be shown in the area at the top.
 
@@ -101,6 +102,6 @@ You can use the following placeholders in your specified URLs:
 Use this section to delete your Seatsurfing organisation. The deletion is performed irrevocably. All data associated with your Seatsurfing organisation will be deleted and can not be restored. You should *only* use this functionality if you're absolutely sure about what you're doing.
 
 ## Search
-The search box at the top of the administator web-interface can be used by entering a keyword and pressing the enter key.
+The search box at the top of the administrator web-interface can be used by entering a keyword and pressing the enter key.
 
 Search includes your users' email addresses (usernames) as well as the names of areas and spaces.

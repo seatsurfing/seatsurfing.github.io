@@ -1,5 +1,7 @@
 # Configuration
 
+***Only relevant for self-hosted environments.***
+
 While you can configure organisation-specific settings in the administrator web interface, global settings are set using environment variables. Set these environment variables when running the Seatsurfing backend Docker container.
 
 ## Example: Using Docker Compose
@@ -23,7 +25,8 @@ environment:
 | BOOKING_UI_BACKEND | string | localhost:3001 | Host serving the Booking UI frontend |
 | DISABLE_UI_PROXY | bool | 0 | Disable proxy for admin and booking UI, set to 1 to disable the proxy |
 | POSTGRES_URL | string | postgres://postgres:root @ localhost/seatsurfing?sslmode=disable | PostgreSQL Connection |
-| JWT _SIGNING_KEY | string | random string | JWT Signing Key |
+| JWT_PRIVATE_KEY | string |  | Path to PEM file with RSA private key for JWT signing |
+| JWT_PUBLIC_KEY | string |  | Path to PEM file with RSA public key for JWT verification |
 | SMTP_HOST | string | 127.0.0.1 | SMTP server address |
 | SMTP_PORT | int | 25 | SMTP server port |
 | SMTP_START_TLS | bool | 0 | Use SMTP STARTTLS extension, set to 1 to enable |
@@ -47,6 +50,7 @@ environment:
 | LOGIN_PROTECTION_MAX_FAILS | int | 10 | Number of failed login attempts before user gets banned |
 | LOGIN_PROTECTION_SLIDING_WINDOW_SECONDS | int | 600 | Sliding window size in seconds for checking failed login attempts  |
 | LOGIN_PROTECTION_BAN_MINUTES | int | 5 | Ban time in minutes |
+| CRYPT_KEY | string |  | A 32 bytes long string used for encrypting certain database fields  |
 
 ### Frontend (Admin UI, Booking UI)
 | Environment Variable | Type | Default | Description |

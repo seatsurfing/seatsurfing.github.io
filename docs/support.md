@@ -1,21 +1,24 @@
 # Support
 
-GitHub is a free open source project. We currently don't provide commercial support. Please refer to the following channels for more information:
+## Users on our Cloud-hosted Paid Plan
 
-## Feature Requests & Issues
-If you have a feature request, need support or found a bug, please open an issue on GitHub:
+Your plan included premium support.
 
-[github.com/seatsurfing](https://github.com/seatsurfing/)
+<a href="/support/" class="button button--primary button--lg">Contact support</a>
 
-## For users
+## Users on the Free Plan or self-hosted environments
+
+Please refer to the following channels for more information:
+
+### Feature Requests & Issues
+If you have a feature request or found a bug, please open an issue on GitHub:
+
+[github.com/seatsurfing/seatsurfing](https://github.com/seatsurfing/seatsurfing)
+
+### For users
 If you're using Seatsurfing to book spaces, seats or desks and need assistance, please contact your organisation's Seatsurfing administrators.
 
-## Availability
-We're continuously monitoring the availability of our servers using automated monitoring systems. If an error occurs, we're notified automtically so we can act quickly. You can view the status of Seatsurfing's systems here:
+### Availability
+We're continuously monitoring the availability of our servers using automated monitoring systems. If an error occurs, we're notified automatically so we can act quickly. You can view the status of Seatsurfing's systems here:
 
-[status.seatsurfing.app](https://status.seatsurfing.app)
-
-## Donating / Sponsoring
-We would be pleased if you support our effort by donating / sponsoring:
-
-[github.com/sponsors/seatsurfing](https://github.com/sponsors/seatsurfing)
+[status.seatsurfing.io](https://status.seatsurfing.io)

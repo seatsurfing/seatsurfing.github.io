@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="/getting-started">
-            Getting started
+            to="/sign-up">
+            Start for free
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={``}
-      description="Open Source solution for free seating and co-working in your organization. Via mobile app or web.">
+      description="Open Source solution for desk sharing, room reservation, and co-working in your organization.">
       <HomepageHeader />
       <main>
         <div className={styles.screenshotContainer}>

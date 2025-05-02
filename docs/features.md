@@ -1,7 +1,7 @@
 # Features
 
 ## Introduction
-Seatsurfing is a solution for organisations and enterprises. It allows your employees to book spaces and seats on their own. Seatsurfing enables organisations to drive change towards flexible working times and free seating.
+Seatsurfing is a solution for organisations and enterprises. It allows your employees to book spaces and seats on their own. Seatsurfing enables organisations to drive change towards flexible working times and desk sharing.
 
 Seatsurfing uses an abstract model for bookable locations. You can therefore use Seatsurfing for multiple purposes:
 
@@ -22,12 +22,22 @@ Seatsurfing consists of:
 ## Features
 The most important features of Seatsurfing are:
 
-* Booking seats quickly and flexibly using a mobile-ready web app
-* Logging in via password or OAuth2
-* Uploading room plans as JPEG, PNG or GIF
-* Placing spaces/seats via drag & drop
+### From a user's perspective
+* Book spaces quickly and flexibly using a mobile-ready web app
+* Select spaces using visual floor plans or list views
+* Filter appropriate areas and spaces
+* Keep track of upcoming bookings and cancel if necessary
+* View bookings in personal calendar via the standardized CalDAV protocol
+
+### From an organization administrator's perspective
+* Upload floor plans as JPEG, PNG or GIF
+* Place spaces/seats via drag & drop
+* Attach freely declarable attributes and values to areas and spaces
 * Configurable booking settings (i.e. max. booking duration, notice and count)
-* Viewing booking and utilization statistics
+* View booking and utilization statistics
+* Authentication via username/password or OAuth2
 
 ## Hosting
-Seatsurfing is provided as a Docker image for hosting on-premises. It has been tested using ```docker run```, Docker Compose and Kubernetes.
+You can choose your desired hosting model:
+* Software as a Servic (SaaS) in free and paid plans provided by seatsurfing.io ([click here to create a free account](/sign-up/))
+* Hosting on your own server by deploying a pre-built container image (i.e. Docker, Podman, Kubernates)

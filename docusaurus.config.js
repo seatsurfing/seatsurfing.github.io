@@ -104,6 +104,10 @@ export default {
                 label: "Blog",
                 to: "blog/",
               },
+              {
+                label: "Support",
+                to: "support/",
+              },
             ],
           },
           {
@@ -145,7 +149,7 @@ export default {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Seatsurfing.app.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Seatsurfing GmbH.`,
       },
       prism: {
         theme: lightCodeTheme,

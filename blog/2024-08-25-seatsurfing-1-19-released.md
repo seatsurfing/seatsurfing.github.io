@@ -7,7 +7,7 @@ tags: [release]
 
 Long time no hear! While we've released several new versions of Seatsurfing since the last post from August 2023, we haven't blogged about them. Let's catch up with today's release of Seatsurfing 1.19.
 
-Here are some of the awesome new features: You can now quickly access certrain floors and spaces by direct links / QR codes. A brand-new slider allows for quickly getting an overview of the space availability in the upcoming days. Space admins can manually add and edit reservations for their users. Find out where your buddies sit at a glance. Furthermore, multiple translations made it into the new version - namely Hebrew, Romanian, Hungarian, and Dutch.
+Here are some of the awesome new features: You can now quickly access certain floors and spaces by direct links / QR codes. A brand-new slider allows for quickly getting an overview of the space availability in the upcoming days. Space admins can manually add and edit reservations for their users. Find out where your buddies sit at a glance. Furthermore, multiple translations made it into the new version - namely Hebrew, Romanian, Hungarian, and Dutch.
 
 <!-- truncate -->
 

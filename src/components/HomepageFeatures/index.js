@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_cloud_files_wmo8.svg').default,
     description: (
       <>
-        Seatsurfing comes as a Docker container for your cloud. You can set it up within minutes and get started. Your data belongs to you and stays on your server.
+        Seatsurfing is a cloud native Software as a Service (SaaS) solution that gets you aboard within seconds. <a href="/sign-up/">Test-drive with our free plan</a> today and upgrade at any time to experience advanced features and unlimited users.
       </>
     ),
   },

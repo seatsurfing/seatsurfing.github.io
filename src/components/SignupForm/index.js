@@ -4,7 +4,7 @@ import Admonition from '@theme/Admonition';
 import styles from './styles.module.css';
 
 export default function SignupForm() {
-    const APP_PREFIX = "https://app.seatsurfing.app";
+    const APP_PREFIX = "https://app.seatsurfing.io";
 
     const [name1, setName1] = useState('')
     const [name2, setName2] = useState('')
@@ -85,7 +85,7 @@ export default function SignupForm() {
             return;
         }
         timerDomain = window.setTimeout(function () {
-            domain2 = domain2.toLowerCase() + ".on.seatsurfing.app";
+            domain2 = domain2.toLowerCase() + ".seatsurfing.app";
             queryAjax("GET", APP_PREFIX + "/organization/domain/" + domain2, null).then((res) => {
                 if (res.status === 404) {
                     setAllowSubmit(true);
@@ -152,10 +152,10 @@ export default function SignupForm() {
                                 <input type="text" className={styles.subdomain} id="domain" aria-describedby="domain-invalid domain-help"
                                     minlength="3"
                                     required={true} value={domain} onChange={e => { setDomain(e.target.value); onDomainChange(e.target.value); }} />
-                                <span class="input-group-text" id="domain-suffix">.on.seatsurfing.app</span>
+                                <span class="input-group-text" id="domain-suffix">&nbsp;.seatsurfing.app</span>
                             </div>
                         </div>
-                        <small id="domain-help" class="form-text text-muted">You can add your company's domain later.</small>
+                        <small id="domain-help" class="form-text text-muted">You can add your company's domain later (Paid Plan only).</small>
                         {showDomainInUse ? <Admonition type='caution'>Domain already in use.</Admonition> : <></>}
                     </div>
                 </div>
@@ -201,7 +201,7 @@ export default function SignupForm() {
                     <div className='col col--8'>
                         <input type="checkbox" class="custom-control-input" id="accept-terms"
                             required={true} checked={terms} onChange={e => setTerms(e.target.checked)} />
-                        <label class="inline-label" for="accept-terms">I accept the <a href="/privacy-policy/" target="_blank">privacy
+                        <label class="inline-label" for="accept-terms">&nbsp;I accept the <a href="/privacy-policy/" target="_blank">privacy
                             policy</a> and the <a href="/terms/" target="_blank">terms of
                                 use</a>.</label>
                     </div>
