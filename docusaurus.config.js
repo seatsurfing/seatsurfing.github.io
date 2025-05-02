@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 export default {
   title: "Seatsurfing",
   tagline:
-    "Open Source solution for free seating and co-working in your organization.",
+    "Desk sharing, room reservation, free seating, and co-working in your organization.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -66,12 +66,8 @@ export default {
           srcDark: "img/seatsurfing_white.svg",
         },
         items: [
-          {
-            to: "/getting-started",
-            label: "Getting Started",
-            position: "left",
-          },
           { to: "/pricing", label: "Pricing", position: "left" },
+          { to: "/features", label: "Features", position: "left" },
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
@@ -79,6 +75,12 @@ export default {
             label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          {
+            to: "/sign-up",
+            label: "Get it free",
+            position: "right",
+            className: "button button--primary",
+          },
           {
             href: "https://github.com/seatsurfing/seatsurfing/",
             label: "GitHub",
@@ -93,8 +95,12 @@ export default {
             title: "Seatsurfing",
             items: [
               {
-                label: "Getting Started",
-                to: "getting-started/",
+                label: "Create free account",
+                to: "sign-up/",
+              },
+              {
+                label: "Pricing",
+                to: "pricing/",
               },
               {
                 label: "Documentation",
@@ -115,7 +121,7 @@ export default {
             items: [
               {
                 label: "Status",
-                href: "https://status.seatsurfing.app/",
+                href: "https://status.seatsurfing.io/",
               },
               {
                 label: "GitHub",
@@ -124,10 +130,6 @@ export default {
               {
                 label: "Docker Hub",
                 href: "https://hub.docker.com/u/seatsurfing",
-              },
-              {
-                label: "Donate",
-                href: "https://github.com/sponsors/seatsurfing",
               },
             ],
           },
