@@ -4,10 +4,30 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Tue, 15 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Seatsurfing 1.31 released]]></title>
+            <link>https://seatsurfing.io/blog/seatsurfing-1-31-released</link>
+            <guid>https://seatsurfing.io/blog/seatsurfing-1-31-released</guid>
+            <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're happy to announce the availability of Seatsurfing version 1.31. The new version lets users import their bookings into their calendar applications (such as Microsoft Outlook, Apple Calendar, Google Mail etc.) using the Booking Web Interface. Additionally, users can opt for receiving booking confirmations via email, and these emails also include an attachment which can be imported to calendars in no time. By the way, we're now sending emails in HTML formatting, providing a greater user experience.]]></description>
+            <content:encoded><![CDATA[<p>We're happy to announce the availability of Seatsurfing version 1.31. The new version lets users import their bookings into their calendar applications (such as Microsoft Outlook, Apple Calendar, Google Mail etc.) using the Booking Web Interface. Additionally, users can opt for receiving booking confirmations via email, and these emails also include an attachment which can be imported to calendars in no time. By the way, we're now sending emails in HTML formatting, providing a greater user experience.</p>
+<p>Here's what changed in Seatsurfing 1.31 since the release of Seatsurfing 1.28:</p>
+<ul>
+<li>Feature: Add ability to download iCalendar (.ics) events from Booking UI (1.30)</li>
+<li>Feature: Add email booking confirmations per user opt-in in Booking UI (1.31)</li>
+<li>Feature: Add support for HTML emails (1.31)</li>
+<li>Feature: Add email footer support (1.31)</li>
+<li>Various bug fixes</li>
+<li>Updated dependencies</li>
+</ul>
+<p>Customers on our free and paid hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.31 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[Cloud-hosted Paid Plan launched]]></title>
             <link>https://seatsurfing.io/blog/cloud-saas-paid-plan-launched</link>
