@@ -27,10 +27,11 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title="Desk sharing, room reservation, free seating & co-working"
-      description="Desk sharing, room reservation, free seating, and co-working in your organization."
+      description={siteConfig.tagline}
     >
       <HomepageHeader />
       <main>
