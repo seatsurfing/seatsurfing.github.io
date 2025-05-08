@@ -4,6 +4,7 @@ hide_table_of_contents: true
 ---
 
 # Pricing
+
 Get started with Seatsurfing desk sharing for free.
 
 <section class="pricing-models">
@@ -49,24 +50,32 @@ Get started with Seatsurfing desk sharing for free.
 #### How does the Free Plan work?
 By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Paid Plan if you need more features or more users. Perfectly suited for testing.
 
-#### Can I upgrade to the Paid Plan?
-Yes, you can easily upgrade from the Free Plan to the Paid Plan using your Seatsurfing administrator account.
+#### How can I upgrade my existing instance to the Paid Plan?
 
-#### Can I switch betweens Plans?
+To upgrade an existing instance, use your Seatsurfing administrator account and navigate to "Subscription".
+
+#### Can I switch betweens plans?
+
 Yes, you can upgrade and downgrade at any time.
 
 #### How is the Paid Plan billed?
+
 The Paid Plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
 
 #### Which payment types do you support?
+
 Payment is handled by [Stripe](https://stripe.com). We accept payments by credit card, PayPal, SEPA Direct Debit, Apple Pay and Google Pay.
 
 #### Will tax be added to the prices?
+
 At the moment, no taxes are added to the prices stated above (§ 19 UStG in Germany). This is subject to change at a later point in time.
 
 #### Will I receive an invoice?
+
 Yes, you will receive an invoice for every payment automatically.
 
 #### Where is my data stored?
+
 Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Paid Plan. [Contact us](/support/) for further information.
+
 </div>
