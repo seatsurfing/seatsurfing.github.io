@@ -18,7 +18,7 @@ export default function SignUpPaid() {
                 After signing up, you need to upgrade to the Paid Plan in your
                 administration interface to unlock all features 🚀.
               </p>
-              <SignupForm />
+              <SignupForm plan="paid" />
             </article>
           </div>
           <div className="col col--2"></div>
