@@ -323,7 +323,11 @@ export default function SignupForm({ plan }) {
           )}
           {showError ? (
             <Admonition type="caution">
-              <b>That didn't work!</b> Please try again later.
+              <b>That didn't work!</b> Please try again later or{" "}
+              <a href="/support" target="_blank">
+                contact us
+              </a>
+              .
             </Admonition>
           ) : (
             <></>
