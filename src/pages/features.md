@@ -29,4 +29,7 @@ Whatever you choose, Seatsurfing comes packed with all the features you need to 
 | Custom Domains |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
 | Premium Support |  | <span class="blue-dot"></span> |  |
 | Monthly price | Free | € 0,90<br />per user| Free |
+|  | <a href="/sign-up" class="button button--secondary">Sign up</a> | <a href="/sign-up-paid" class="button button--primary button-gradient">Sign up</a> | <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--secondary">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a> |
 </div>
+
+To migrate your self-hosted instance to our fully managed cloud version, please contact us at hello@seatsurfing.io. We will guide you through the entire data migration process.
