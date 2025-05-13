@@ -18,7 +18,7 @@ export default function SignUp() {
                 You can always upgrade to our Paid Plan after signing-up to
                 unlock unlimited users and other enterprise features 🚀.
               </p>
-              <SignupForm />
+              <SignupForm plan="free" />
             </article>
           </div>
           <div className="col col--2"></div>
