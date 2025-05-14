@@ -23,11 +23,13 @@ Whatever you choose, Seatsurfing comes packed with all the features you need to 
 | Booking settings | <span class="blue-dot"></span> | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
 | Statistics | <span class="blue-dot"></span> | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
 | Integrated username/password authentication | <span class="blue-dot"></span> | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
-| Connect Identity Provider (OAuth / OIDC) | <span class="blue-dot"></span> | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
 | Fully managed cloud-hosting | <span class="blue-dot"></span> | <span class="blue-dot"></span> |  |
 | Ready within seconds | <span class="blue-dot"></span> | <span class="blue-dot"></span> |  |
-| Custom Domains |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
-| Premium Support |  | <span class="blue-dot"></span> |  |
+| Custom domains |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
+| Organize users in groups |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
+| Booking approvals & restrictions |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
+| 3rd party Identity Provider (IDP) |  | <span class="blue-dot"></span> | <span class="blue-dot"></span> |
+| Premium support |  | <span class="blue-dot"></span> |  |
 | Monthly price | Free | € 0,90<br />per user| Free |
 |  | <a href="/sign-up" class="button button--secondary">Sign up</a> | <a href="/sign-up-paid" class="button button--primary button-gradient">Sign up</a> | <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--secondary">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a> |
 </div>
