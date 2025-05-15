@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://seatsurfing.io/blog</id>
     <title>Seatsurfing Blog</title>
-    <updated>2025-05-03T00:00:00.000Z</updated>
+    <updated>2025-05-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://seatsurfing.io/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
     <icon>https://seatsurfing.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Seatsurfing 1.32 released]]></title>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-32-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-32-released"/>
+        <updated>2025-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're happy to announce the availability of Seatsurfing version 1.32. Everything in this new version is about groups: You can now organize your users in groups. These groups can be used as approvers for your spaces, i.e. a space admin in a space's approver group must approve a user's booking request before it becomes definite. Furthermore, you can use groups to restrict users who can book specific spaces, i.e. only users in an allowed group are permitted to place a booking.]]></summary>
+        <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing version 1.32. Everything in this new version is about groups: You can now organize your users in groups. These groups can be used as approvers for your spaces, i.e. a space admin in a space's approver group must approve a user's booking request before it becomes definite. Furthermore, you can use groups to restrict users who can book specific spaces, i.e. only users in an allowed group are permitted to place a booking.</p>
+<p>Here's what changed in Seatsurfing 1.32 since the release of Seatsurfing 1.31:</p>
+<ul>
+<li>Feature: Organize users in groups</li>
+<li>Feature: Specify approver and allowed booker groups per space</li>
+<li>Feature: Approve bookings</li>
+<li>Feature: Restrict space-booking by group memberships</li>
+<li>Various bug fixes</li>
+<li>Updated dependencies</li>
+</ul>
+<p>Customers on our free and paid hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.32 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+        <author>
+            <name>Heiner</name>
+            <uri>https://github.com/virtualzone</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.31 released]]></title>
         <id>https://seatsurfing.io/blog/seatsurfing-1-31-released</id>
