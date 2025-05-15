@@ -43,7 +43,7 @@ Get started with Seatsurfing desk sharing for free.
         <p class="pricing-price">€ 0</p>
         <p class="pricing-desc">Get started for free by hosting Seatsurfing on your own servers.</p>
         <hr />
-        <p class="pricing-desc">Everything is open source. No user and feature limits.</p>
+        <p class="pricing-desc">Everything is open source, unlimited users and all features.</p>
         <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--primary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
     </div>
 </section>
