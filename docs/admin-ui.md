@@ -33,7 +33,7 @@ In the "Areas" section you can manage your areas and the spaces within them.
 
 In order to manage spaces in an area, you have to upload a floor plan in JPEG, PNG or GIF format. Make sure your floor plan has an appropriate format and resolution. If the resolution is too high, your employees need to scroll a lot and may lose the plot.
 
-You can place spaces via drag & drop. Keep the left mouse button pressed to move a space around. To change a space's size, click the lower right corner of a space. To name a space, click on the space's label and enter the new name.^
+You can place spaces via drag & drop. Keep the left mouse button pressed to move a space around. To change a space's size, click the lower right corner of a space. To name a space, click on the space's label and enter the new name. Select a space and click "Edit" or double-click a space in order to set additional settings.
 
 Don't forget to save your changes afterwards.
 
@@ -46,6 +46,15 @@ To specify the available attributes, navigate to "Areas" and select "Attributes"
 
 After defining one or more attributes, these attributes can be selected and set per location in the "Attributes" section.
 
+## Bookings
+The "Bookings" section shows a list of bookings in your organization. You can narrow the bookings listed by adjusting the Enter and Leave times above the table.
+
+## Approvals
+The "Approvals" section shows a list of booking requests that require an approval before being confirmed. Space and organization administrators can navigate to this section. Only approvals which can be approved by the current admin (depending on the approval groups set on the corresponding space) are listed.
+
+## Analysis
+The "Analysis" section shows a report of bookings / days of presence during the specified period.
+
 ## Users
 In the "Users" section you can manage your employees which have access to your Seatsurfing organisation.
 
@@ -55,12 +64,8 @@ To create or modify users manually, click the "Add" button or click a user from 
 
 Additionally, you can flag certain users as organisation administrators. Administrators have full access to Seatsurfing's administrator web-interface. Thus, administrators should have long, secure and complex passwords.
 
-## Bookings
-In the "Bookings" section you can view the bookings of your employees in a certain period.
-
-You can choose the period to be shown in the area at the top.
-
-Adding or changing bookings through administrators is not possible.
+## Groups
+A "Group" is a set of users. Groups can i.e. be used as approvers or in order to limit the disposability of spaces (by adjusting a space's settings).
 
 ## Settings
 In the "Settings" section you can configure settings which apply to your entire Seatsurfing organisation.
@@ -100,6 +105,13 @@ You can use the following placeholders in your specified URLs:
 
 ### Danger zone
 Use this section to delete your Seatsurfing organisation. The deletion is performed irrevocably. All data associated with your Seatsurfing organisation will be deleted and can not be restored. You should *only* use this functionality if you're absolutely sure about what you're doing.
+
+## Subscription
+**_Only relevant for cloud-hosted environments._**
+
+As an organization administrator, you can manage your subscription. 
+
+This allows you to upgrade to the Paid Plan, or, just in case, to downgrade to the Free Plan at any time.
 
 ## Search
 The search box at the top of the administrator web-interface can be used by entering a keyword and pressing the enter key.

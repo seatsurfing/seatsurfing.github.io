@@ -35,7 +35,9 @@ The most important features of Seatsurfing are:
 * Attach freely declarable attributes and values to areas and spaces
 * Configurable booking settings (i.e. max. booking duration, notice and count)
 * View booking and utilization statistics
-* Authentication via username/password or OAuth2
+* Authentication via username/password or OAuth2 (use your own Identity Provider/IdP)
+* Set spaces (i.e. rooms) that require an approval before a booking request is confirmed
+* Set booking limitations, i.e. limit booking to specific groups of users
 
 ## Hosting
 You can choose your desired hosting model:
