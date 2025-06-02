@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Administration UI | Seatsurfing</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://seatsurfing.io/docs/admin-ui"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Administration UI | Seatsurfing"><meta data-rh="true" name="description" content="You can access the administration web interface using a modern web browser by visiting your Seatsurfing&#x27;s instance backend:"><meta data-rh="true" property="og:description" content="You can access the administration web interface using a modern web browser by visiting your Seatsurfing&#x27;s instance backend:"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://seatsurfing.io/docs/admin-ui"><link data-rh="true" rel="alternate" href="https://seatsurfing.io/docs/admin-ui" hreflang="en"><link data-rh="true" rel="alternate" href="https://seatsurfing.io/docs/admin-ui" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Seatsurfing RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Seatsurfing Atom Feed"><link rel="stylesheet" href="/assets/css/styles.260563df.css">
-<script src="/assets/js/runtime~main.beca4693.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f5367391.js" defer="defer"></script>
 <script src="/assets/js/main.e5082d17.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -47,7 +47,14 @@
 <p>In the &quot;Users&quot; section you can manage your employees which have access to your Seatsurfing organisation.</p>
 <p>Depending on your configuration in the Settings (see below), your employees can log in to Seatsurfing when successfully authenticated against your corporation&#x27;s user directory service. This way, there&#x27;s no need to administer all Seatsurfing users manually. When logging in for the first time, a Seatsurfing user account is created automatically.</p>
 <p>To create or modify users manually, click the &quot;Add&quot; button or click a user from the list. You can set the username (using the user&#x27;s email address) and his password. Setting a password is only necessary if your user is not authenticating using a linked authentication provider.</p>
-<p>Additionally, you can flag certain users as organisation administrators. Administrators have full access to Seatsurfing&#x27;s administrator web-interface. Thus, administrators should have long, secure and complex passwords.</p>
+<p>You can assign a user one of the following roles:</p>
+<ul>
+<li>User: A regular user which is able to use the Booking UI to manage his/her own bookings. A user is <em>not</em> able to access the Administrator Interface.</li>
+<li>Floor Plan Administrator: Everything a User can do, plus access the administrator interface to manage areas and floor plans, spaces, and approvals.</li>
+<li>Organization Administrator: Everything a Floor Plan Administrator can do, plus manage users, groups, settings and subscriptions.</li>
+<li>Service Account: A special kind of Organization Administrator which can only be used to call Seatsurfing&#x27;s REST APIs. A Service Account can not log in to Seatsurfing&#x27;s web interfaces. To call a REST API using a Service Account, use HTTP Basic Authentication.</li>
+</ul>
+<p>All kind of administrators should have long, secure and complex passwords.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="groups">Groups<a href="#groups" class="hash-link" aria-label="Direct link to Groups" title="Direct link to Groups">​</a></h2>
 <p>A &quot;Group&quot; is a set of users. Groups can i.e. be used as approvers or in order to limit the disposability of spaces (by adjusting a space&#x27;s settings).</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="settings">Settings<a href="#settings" class="hash-link" aria-label="Direct link to Settings" title="Direct link to Settings">​</a></h2>
