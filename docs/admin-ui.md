@@ -62,7 +62,14 @@ Depending on your configuration in the Settings (see below), your employees can 
 
 To create or modify users manually, click the "Add" button or click a user from the list. You can set the username (using the user's email address) and his password. Setting a password is only necessary if your user is not authenticating using a linked authentication provider.
 
-Additionally, you can flag certain users as organisation administrators. Administrators have full access to Seatsurfing's administrator web-interface. Thus, administrators should have long, secure and complex passwords.
+You can assign a user one of the following roles:
+
+* User: A regular user which is able to use the Booking UI to manage his/her own bookings. A user is *not* able to access the Administrator Interface.
+* Floor Plan Administrator: Everything a User can do, plus access the administrator interface to manage areas and floor plans, spaces, and approvals.
+* Organization Administrator: Everything a Floor Plan Administrator can do, plus manage users, groups, settings and subscriptions.
+* Service Account: A special kind of Organization Administrator which can only be used to call Seatsurfing's REST APIs. A Service Account can not log in to Seatsurfing's web interfaces. To call a REST API using a Service Account, use HTTP Basic Authentication.
+
+All kind of administrators should have long, secure and complex passwords.
 
 ## Groups
 A "Group" is a set of users. Groups can i.e. be used as approvers or in order to limit the disposability of spaces (by adjusting a space's settings).
