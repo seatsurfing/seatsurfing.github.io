@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://seatsurfing.io/blog</id>
     <title>Seatsurfing Blog</title>
-    <updated>2025-05-15T00:00:00.000Z</updated>
+    <updated>2025-06-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://seatsurfing.io/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
     <icon>https://seatsurfing.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Seatsurfing 1.34 released]]></title>
+        <id>https://seatsurfing.io/blog/seatsurfing-1-34-released</id>
+        <link href="https://seatsurfing.io/blog/seatsurfing-1-34-released"/>
+        <updated>2025-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we've released Seatsurfing version 1.34. The new version improves the way users can navigate floor plans, introduces the specification of subjects when placing bookings, and adds technical Service Accounts.]]></summary>
+        <content type="html"><![CDATA[<p>Today we've released Seatsurfing version 1.34. The new version improves the way users can navigate floor plans, introduces the specification of subjects when placing bookings, and adds technical Service Accounts.</p>
+<p>Here's what changed in Seatsurfing 1.34 since the release of Seatsurfing 1.32:</p>
+<ul>
+<li>Feature: New and intuitive way of navigating the map using Zoom-Pan-Pinch in the Booking UI</li>
+<li>Feature: Option for mandatory booking subjects per space</li>
+<li>Feature: New user role "Service Account", meant to calling REST APIs programatically</li>
+<li>Feature: New environment variables PUBLIC_SCHEME and PUBLIC_PORT to support non-standard (HTTPS port 443) setups</li>
+<li>Various bug fixes</li>
+<li>Updated dependencies</li>
+</ul>
+<p>Customers on our free and paid hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.34 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+        <author>
+            <name>Heiner</name>
+            <uri>https://github.com/virtualzone</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Seatsurfing 1.32 released]]></title>
         <id>https://seatsurfing.io/blog/seatsurfing-1-32-released</id>
