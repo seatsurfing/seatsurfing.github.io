@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import Admonition from "@theme/Admonition";
 import styles from "./styles.module.css";
@@ -194,7 +193,7 @@ export default function SignupForm({ plan }) {
               </div>
             </div>
             <small id="domain-help" class="form-text text-muted">
-              You can add your company's domain later (Paid Plan only).
+              Add your company's domain later (requires Paid Plan).
             </small>
             {showDomainInUse ? (
               <Admonition type="caution">Domain already in use.</Admonition>
