@@ -2,7 +2,7 @@
 
 **_Only relevant for self-hosted environments._**
 
-While you can configure organisation-specific settings in the administrator web interface, global settings are set using environment variables. Set these environment variables when running the Seatsurfing backend Docker container.
+While you can configure organization-specific settings in the administrator web interface, global settings are set using environment variables. Set these environment variables when running the Seatsurfing backend Docker container.
 
 ## Example: Using Docker Compose
 
@@ -43,17 +43,17 @@ environment:
 | INIT_ORG_USER                           | string | admin                                                            | Your organization's admin username                                    |
 | INIT_ORG_PASS                           | string | 12345678                                                         | Your organization's admin password                                    |
 | INIT_ORG_LANGUAGE                       | string | en                                                               | Your organization's ISO language code                                 |
-| ALLOW_ORG_DELETE                        | bool   | 0                                                                | Allow admins to delete their own organisation                         |
+| ALLOW_ORG_DELETE                        | bool   | 0                                                                | Allow admins to delete their own organization                         |
 | LOGIN_PROTECTION_MAX_FAILS              | int    | 10                                                               | Number of failed login attempts before user gets banned               |
 | LOGIN_PROTECTION_SLIDING_WINDOW_SECONDS | int    | 600                                                              | Sliding window size in seconds for checking failed login attempts     |
 | LOGIN_PROTECTION_BAN_MINUTES            | int    | 5                                                                | Ban time in minutes                                                   |
 | CRYPT_KEY                               | string |                                                                  | A 32 bytes long string used for encrypting certain database fields    |
 | FILESYSTEM_BASE_PATH                    | string | current working directory                                        | The base path for loading additional ressources                       |
-| PUBLIC_SCHEME                           | string | https                                                            | The http scheme under which your server is publicly reachable         |
-| PUBLIC_PORT                             | string | 443                                                              | The http port under which your server is publicly reachable           |
+| PUBLIC_SCHEME                           | string | https                                                            | The http scheme under which your server is publicly reachable         |
+| PUBLIC_PORT                             | string | 443                                                              | The http port under which your server is publicly reachable           |
 
 ### Frontend (Admin UI, Booking UI)
 
-| Environment Variable |  Type  |  Default                            |  Description           |
-| -------------------- | ------ | ----------------------------------- | ---------------------- |
-| PORT                 | int    |  3000 (Admin UI), 3001 (Booking UI) | The server's HTTP port |
+| Environment Variable |  Type |  Default                            |  Description           |
+| -------------------- | ----- | ----------------------------------- | ---------------------- |
+| PORT                 | int   |  3000 (Admin UI), 3001 (Booking UI) | The server's HTTP port |

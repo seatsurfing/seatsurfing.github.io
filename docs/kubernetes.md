@@ -1,32 +1,35 @@
 # Kubernetes
 
 ## 1. System Requirements
+
 To set up the Seatsurfing backend on Kubernetes, the following system requirements must be met:
 
-* Linux server(s)
-* Kubernetes cluster with at least one worker node (tested with Kubernetes 1.22 and containerd version 1.5.x)
-* Persistent storage for Postgres database (tested with Longhorn 1.2.x)
-* Recommended: Reverse proxy with TLS termination (tested with nginx in front of Kubernetes' Traefik ingress)
+- Linux server(s)
+- Kubernetes cluster with at least one worker node (tested with Kubernetes 1.22 and containerd version 1.5.x)
+- Persistent storage for Postgres database (tested with Longhorn 1.2.x)
+- Recommended: Reverse proxy with TLS termination (tested with nginx in front of Kubernetes' Traefik ingress)
 
 ## 2. Create database secret
-Create a secret for your database password using ```kubectl```:
+
+Create a secret for your database password using `kubectl`:
 
 ```
 kubectl create secret generic seatsurfing-db \
   --from-literal=db-password='DB_PASSWORD'
 ```
 
-Make sure to replace ```DB_PASSWORD``` with a secure password.
+Make sure to replace `DB_PASSWORD` with a secure password.
 
 ## 3. Create database deployment
+
 Next, we'll create the necessary configurations and deployment for the Postgres database. This configuration contains:
 
-* A persistent volume claim which contains the database files (adjust as needed)
-* A deployment of Postgres version 13, inluding some adjustments to make sure Postgres runs well on Kubernetes
-* A service which exposes TCP port 5432 of our Postgres database server
-* A network policy which ensures that only our Seatsurfing backend is able to connect to the Postgres database service
+- A persistent volume claim which contains the database files (adjust as needed)
+- A deployment of Postgres version 13, inluding some adjustments to make sure Postgres runs well on Kubernetes
+- A service which exposes TCP port 5432 of our Postgres database server
+- A network policy which ensures that only our Seatsurfing backend is able to connect to the Postgres database service
 
-Create a file ```seatsurfing-db.yaml``` with the following contents (modify as needed):
+Create a file `seatsurfing-db.yaml` with the following contents (modify as needed):
 
 ```
 kind: PersistentVolumeClaim
@@ -132,17 +135,18 @@ kubectl apply -f seatsurfing-db.yaml
 ```
 
 ## 4. Create Seatsurfing deployment and ingress
+
 Now we're ready to create the configurations and the deployment of our actual Seatsurfing containers (backend, admin-ui, booking-ui). This includes:
 
-* A deployment of the Seatsurfing REST API backend, which connects to the previously deployed Postgres database server
-* A deployment of the Seatsurfing Admin Web Interface (admin-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
-* A deployment of the Seatsurfing Booking Web Interface (booking-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
-* A service which exposes port 80 of the Seatsurfing backend
-* An ingress which makes the Seatsurfing backend available at host ```seatsurfing.your-domain.com``` (you'll need to change that) using Traefik
+- A deployment of the Seatsurfing REST API backend, which connects to the previously deployed Postgres database server
+- A deployment of the Seatsurfing Admin Web Interface (admin-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
+- A deployment of the Seatsurfing Booking Web Interface (booking-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
+- A service which exposes port 80 of the Seatsurfing backend
+- An ingress which makes the Seatsurfing backend available at host `seatsurfing.your-domain.com` (you'll need to change that) using Traefik
 
 Please note: We're making the backend available insecurely via HTTP here. This example assumes you're having a reverse proxy performing TLS termination in front of your Kubernetes cluster. If this is not the case, you should really consider changing port 80 to 443 and add HTTPS encryption to the example.
 
-Create a file ```seatsurfing-backend.yaml``` with the following contents (modify as needed):
+Create a file `seatsurfing-backend.yaml` with the following contents (modify as needed):
 
 ```
 apiVersion: apps/v1
@@ -215,7 +219,7 @@ Apply the file:
 kubectl apply -f seatsurfing-backend.yaml
 ```
 
-Make sure ```seatsurfing-db``` and ```seatsurfing-backend```and "Running":
+Make sure `seatsurfing-db` and `seatsurfing-backend`and "Running":
 
 ```
 kubectl get pods | grep seatsurfing
@@ -224,13 +228,15 @@ kubectl get pods | grep seatsurfing
 Afterwards, Seatsurfing can be accessed at the specified host (i.e. https://seatsurfing.your-domain.com).
 
 ## 5. Initial configuration
+
 Access the administrator web-interface using a modern web browser (i.e. Chrome, Firefox, Safari) at: /admin/
 
-By default, an organisation with one administrator account is created on backend startup if no organisation already exists in the specified database. If not defined otherwise, use ```admin@seatsurfing.local``` as the username and ```12345678``` as the password.
+By default, an organization with one administrator account is created on backend startup if no organization already exists in the specified database. If not defined otherwise, use `admin@seatsurfing.local` as the username and `12345678` as the password.
 
 The administrator interface can be used to manage room plans, users and settings. Read more about it in the [Administration](admin-ui.md) section.
 
 ## 6. Use the web app to book spaces
+
 Let your coworkers use the progressive web app (PWA) to book spaces using their mobile devices or desktop computers:
 
 [http://localhost:8080/ui/](http://localhost:8080/ui/)

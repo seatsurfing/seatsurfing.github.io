@@ -19,7 +19,7 @@ The main area views the functionality you've selected. Right after logging in, t
 
 ## Dashboard
 
-The dashboard shows current statistics for your Seatsurfing organisation. The statistics and numbers are intended to support you in review usage and user acceptance. Furthermore, Seatsurfing calculates space utilization in real time. This way you can always keep an eye on supply and demand.
+The dashboard shows current statistics for your Seatsurfing organization. The statistics and numbers are intended to support you in review usage and user acceptance. Furthermore, Seatsurfing calculates space utilization in real time. This way you can always keep an eye on supply and demand.
 
 The top of the dashboard shows information regarding the number of users, locations and spaces as well as the total number of bookings.
 
@@ -63,7 +63,7 @@ The "Analysis" section shows a report of bookings / days of presence during the 
 
 ## Users
 
-In the "Users" section you can manage your employees which have access to your Seatsurfing organisation.
+In the "Users" section you can manage your employees which have access to your Seatsurfing organization.
 
 Depending on your configuration in the Settings (see below), your employees can log in to Seatsurfing when successfully authenticated against your corporation's user directory service. This way, there's no need to administer all Seatsurfing users manually. When logging in for the first time, a Seatsurfing user account is created automatically.
 
@@ -84,7 +84,7 @@ A "Group" is a set of users. Groups can i.e. be used as approvers or in order to
 
 ## Settings
 
-In the "Settings" section you can configure settings which apply to your entire Seatsurfing organisation.
+In the "Settings" section you can configure settings which apply to your entire Seatsurfing organization.
 
 ### Common settings
 
@@ -124,7 +124,7 @@ You can use the following placeholders in your specified URLs:
 
 ### Danger zone
 
-Use this section to delete your Seatsurfing organisation. The deletion is performed irrevocably. All data associated with your Seatsurfing organisation will be deleted and can not be restored. You should _only_ use this functionality if you're absolutely sure about what you're doing.
+Use this section to delete your Seatsurfing organization. The deletion is performed irrevocably. All data associated with your Seatsurfing organization will be deleted and can not be restored. You should _only_ use this functionality if you're absolutely sure about what you're doing.
 
 ## Subscription
 
