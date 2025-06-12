@@ -18,26 +18,31 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'index',
-    'features',
-    'concepts',
+    "index",
+    "features",
+    "concepts",
     {
-      type: 'category',
-      label: 'Getting Started',
-      items: ['saas', 'docker', 'kubernetes'],
+      type: "category",
+      label: "Getting Started",
+      items: ["saas", "docker", "kubernetes"],
     },
-    'config',
-    'upgrading',
-    'admin-ui',
+    "config",
+    "upgrading",
+    "admin-ui",
     {
-      type: 'category',
-      label: 'Auth Providers',
-      items: ['auth-provider/azure', 'auth-provider/google', 'auth-provider/keycloak'],
+      type: "category",
+      label: "Auth Providers",
+      items: [
+        "auth-provider/azure",
+        "auth-provider/google",
+        "auth-provider/keycloak",
+      ],
     },
-    'booking-ui',
-    'confluence',
-    'rest-api',
-    'support',
+    "booking-ui",
+    "msteams",
+    "confluence",
+    "rest-api",
+    "support",
   ],
 };
 
