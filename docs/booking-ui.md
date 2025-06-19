@@ -55,21 +55,29 @@ You can link your calendar to your Seatsurfing account, which means your booking
 
 Currently, Seatsurfing supports CalDAV-enabled calendars with a default HTTP authentication. CalDAV is the standard for accessing and managing calendar data.
 
-- Google Calendar features CalDAV support, but employs Google's Sign Sign On process, which is not supported at the moment.
-- Microsoft Exchange (Outlook) does not support CalDAV at all, but relies on its own proprietary.
-- Seatsurfing has implemented a one-way-sync at the moment. This means, your desk reservations will be created, updated and removed from your calendar, but any changes you perform directly in your calendar are not being reflected within Seatsurfing.
-
 To connect your CalDAV-enabled calendar, please follow these steps:
 
 1. Go to "Preferences" and select "Integrations".
-1. Under "CalDAV calendar", enter the corresponding CalDAV url of the server hosting your calendar (please ask your administrator if unclear), and enter the credentials.
+1. Under "CalDAV calendar", enter the corresponding CalDAV URL of the server hosting your calendar (please ask your administrator if unclear), and enter the credentials.
 1. Click "Connect" to retrieve the existing calendars.
 1. Choose the calendar you want your bookings to appear in and click "Save".
 
+Seatsurfing has implemented a one-way-sync at the moment. This means, your desk reservations will be created, updated and removed from your calendar, but any changes you perform directly in your calendar are not being reflected within Seatsurfing.
+
 **Nextcloud**
+
+You find the required settings as follows:
 
 - CalDAV URL: In your Nextcloud calendar, click "Settings" and then "Copy primary CalDAV address".
 - Username / password: Go to your "Personal settings", then create a new app password.
+
+**Google Calendar**
+
+Google Calendar is currently not supported as the CalDAV support relies on Google's Sign Sign On process.
+
+**Microsoft Exchange (Outlook)**
+
+Microsoft Exchange (Outlook) is currently not supported as CalDAV is not supported at all.
 
 ## Add to home screen
 
