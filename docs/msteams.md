@@ -16,3 +16,5 @@ To enable Seatsurfing accounts in the MS Teams app, administrators must complete
 
 - Enable the integration: As organization admin, navigate to “Cloud Features” in the Administration UI to enable the MS Teams integration.
 - Create matching user accounts: Ensure each MS Teams user has a corresponding Seatsurfing account where the username matches their MS Teams email address exactly.
+
+If the auth provider option “Allow login of all authenticatable users” is enabled, the users need to use the Seatsurfing login interface once to create their (corresponding) Seatsurfing user accounts.

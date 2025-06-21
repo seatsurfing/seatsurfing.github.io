@@ -11,7 +11,7 @@ Get started with Seatsurfing desk sharing for free.
     <div class="pricing-model pricing-model-free">
         <h3>Free</h3>
         <p class="pricing-price">€ 0</p>
-        <p class=">For small teams with up to 10 users – free forever.</p>
+        <p>For small teams with up to 10 users – free forever.</p>
         <hr />
         <p>Everything you need to get started:</p>
         <ul>
