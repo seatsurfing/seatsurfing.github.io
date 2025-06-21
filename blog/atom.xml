@@ -18,7 +18,7 @@
 <ul>
 <li>Feature: New and intuitive way of navigating the map using Zoom-Pan-Pinch in the Booking UI</li>
 <li>Feature: Option for mandatory booking subjects per space</li>
-<li>Feature: New user role "Service Account", meant to calling REST APIs programatically</li>
+<li>Feature: New user role "Service Account", meant to calling REST APIs programmatically</li>
 <li>Feature: New environment variables PUBLIC_SCHEME and PUBLIC_PORT to support non-standard (HTTPS port 443) setups</li>
 <li>Various bug fixes</li>
 <li>Updated dependencies</li>
