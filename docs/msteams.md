@@ -8,11 +8,11 @@ You can integrate the web booking interface for your employees into MS Teams. Th
 
 ## Installation
 
-_The MS Teams app is in development and will be available soon in the Microsoft App marketplace._
+**The MS Teams app is available for free in the [Microsoft App Store](https://appsource.microsoft.com/product/office/WA200008773).**
 
 ## Configuration
 
-To set up MS Teams integration:
+To enable Seatsurfing accounts in the MS Teams app, administrators must complete the following setup:
 
-- Enable the integration: As organization admin, navigate to "Cloud Features" in the Administration UI to enable the MS Teams integration.
+- Enable the integration: As organization admin, navigate to “Cloud Features” in the Administration UI to enable the MS Teams integration.
 - Create matching user accounts: Ensure each MS Teams user has a corresponding Seatsurfing account where the username matches their MS Teams email address exactly.
