@@ -4,10 +4,22 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Mon, 02 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Seatsurfing now available as Microsoft Teams App]]></title>
+            <link>https://seatsurfing.io/blog/seatsurfing-msteams-announcement</link>
+            <guid>https://seatsurfing.io/blog/seatsurfing-msteams-announcement</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're excited to announce that Seatsurfing is now available as a Microsoft Teams app in the Microsoft AppSource marketplace! This integration brings workspace booking directly into the Microsoft Teams environment your team already knows and loves.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to announce that Seatsurfing is now available as a Microsoft Teams app in the Microsoft AppSource marketplace! This integration brings workspace booking directly into the Microsoft Teams environment your team already knows and loves.</p>
+<p>The new Seatsurfing Teams app eliminates the need to switch between different platforms throughout your workday. Whether you're planning your week, booking a desk for tomorrow, or checking availability for a meeting, everything is now accessible right within Microsoft Teams.</p>
+<p>To get started visit the <a href="https://appsource.microsoft.com/en-us/product/office/WA200008773" target="_blank" rel="noopener noreferrer">Microsoft AppSource marketplace</a>, install the app for free and enable the Microsoft Teams integration as outlined in <a href="https://seatsurfing.io/docs/msteams">our documentation</a>.</p>
+<p>The Microsoft Teams integration is available for all customers on our free and paid hosted cloud plans. Not subscribed yet? <a href="https://seatsurfing.io/sign-up">Easily get started for free</a>.</p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[Seatsurfing 1.34 released]]></title>
             <link>https://seatsurfing.io/blog/seatsurfing-1-34-released</link>
