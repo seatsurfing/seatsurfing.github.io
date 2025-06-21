@@ -16,7 +16,7 @@ Get started with Seatsurfing desk sharing for free.
         <p>Everything you need to get started:</p>
         <ul>
             <li>Free for up to 10 users</li>
-            <li>MS Teams integration</li>
+            <li>Microsoft Teams integration</li>
             <li>Managed Cloud Hosting</li>
             <li>Servers in Germany (EU)</li>
             <li>Always the latest versions &amp; features</li>
