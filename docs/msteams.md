@@ -10,7 +10,7 @@ The Seatsurfing MS Teams app enables seamless integration, allowing users to acc
 
 ## Installation
 
-The MS Teams app is available for free in the [Microsoft App Store](https://appsource.microsoft.com/product/office/WA200008773).
+The MS Teams app is available for free in the [Microsoft AppSource marketplace](https://appsource.microsoft.com/product/office/WA200008773).
 
 ## Configuration
 
