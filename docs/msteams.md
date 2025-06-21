@@ -4,11 +4,13 @@
 
 You can integrate the web booking interface for your employees into MS Teams. This could be beneficially if you're already using MS Teams in your organization for collaboration.
 
+The Seatsurfing MS Teams app enables seamless integration, allowing users to access Seatsurfing without additional login steps.
+
 ![MS Teams Screenshot](img/msteams.png)
 
 ## Installation
 
-**The MS Teams app is available for free in the [Microsoft App Store](https://appsource.microsoft.com/product/office/WA200008773).**
+The MS Teams app is available for free in the [Microsoft App Store](https://appsource.microsoft.com/product/office/WA200008773).
 
 ## Configuration
 
