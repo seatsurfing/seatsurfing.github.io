@@ -139,8 +139,6 @@ kubectl apply -f seatsurfing-db.yaml
 Now we're ready to create the configurations and the deployment of our actual Seatsurfing containers (backend, admin-ui, booking-ui). This includes:
 
 - A deployment of the Seatsurfing REST API backend, which connects to the previously deployed Postgres database server
-- A deployment of the Seatsurfing Admin Web Interface (admin-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
-- A deployment of the Seatsurfing Booking Web Interface (booking-ui), which is not directly accessible, but incoming requests are forwarded to it via the backend
 - A service which exposes port 80 of the Seatsurfing backend
 - An ingress which makes the Seatsurfing backend available at host `seatsurfing.your-domain.com` (you'll need to change that) using Traefik
 
@@ -178,12 +176,6 @@ spec:
               key: db-password
         - name: POSTGRES_URL
           value: "postgres://seatsurfing:$(POSTGRES_PASS)@seatsurfing-db/seatsurfing?sslmode=disable"
-      - image: seatsurfing/booking-ui:latest
-        name: booking-ui
-        imagePullPolicy: Always
-      - image: seatsurfing/admin-ui:latest
-        name: admin-ui
-        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

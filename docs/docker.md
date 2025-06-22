@@ -25,23 +25,10 @@ services:
     restart: always
     networks:
       sql:
-      http:
     ports:
       - 8080:8080
     environment:
       POSTGRES_URL: 'postgres://seatsurfing:DB_PASSWORD@db/seatsurfing?sslmode=disable'
-      BOOKING_UI_BACKEND: 'booking-ui:3001'
-      ADMIN_UI_BACKEND: 'admin-ui:3000'
-  booking-ui:
-    image: seatsurfing/booking-ui
-    restart: always
-    networks:
-      http:
-  admin-ui:
-    image: seatsurfing/admin-ui
-    restart: always
-    networks:
-      http:
   db:
     image: postgres:17
     restart: always
@@ -59,7 +46,6 @@ volumes:
 
 networks:
   sql:
-  http:
 ```
 
 This starts...

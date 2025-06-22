@@ -21,9 +21,6 @@ environment:
 | --------------------------------------- | ------ | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
 | DEV                                     | bool   | 0                                                                | Development Mode, set to 1 to enable                                  |
 | PUBLIC_LISTEN_ADDR                      | string | 0.0.0.0:8080                                                     | TCP/IP listen address and port                                        |
-| ADMIN_UI_BACKEND                        | string | localhost:3000                                                   | Host serving the Admin UI frontend                                    |
-| BOOKING_UI_BACKEND                      | string | localhost:3001                                                   | Host serving the Booking UI frontend                                  |
-| DISABLE_UI_PROXY                        | bool   | 0                                                                | Disable proxy for admin and booking UI, set to 1 to disable the proxy |
 | POSTGRES_URL                            | string | postgres://postgres:root @ localhost/seatsurfing?sslmode=disable | PostgreSQL Connection                                                 |
 | JWT_PRIVATE_KEY                         | string |                                                                  | Path to PEM file with RSA private key for JWT signing                 |
 | JWT_PUBLIC_KEY                          | string |                                                                  | Path to PEM file with RSA public key for JWT verification             |
@@ -50,10 +47,10 @@ environment:
 | CRYPT_KEY                               | string |                                                                  | A 32 bytes long string used for encrypting certain database fields    |
 | FILESYSTEM_BASE_PATH                    | string | current working directory                                        | The base path for loading additional ressources                       |
 | PUBLIC_SCHEME                           | string | https                                                            | The http scheme under which your server is publicly reachable         |
-| PUBLIC_PORT                             | string | 443                                                              | The http port under which your server is publicly reachable           |
-
-### Frontend (Admin UI, Booking UI)
-
-| Environment Variable |  Type |  Default                            |  Description           |
-| -------------------- | ----- | ----------------------------------- | ---------------------- |
-| PORT                 | int   |  3000 (Admin UI), 3001 (Booking UI) | The server's HTTP port |
+| PUBLIC_PORT                             | int    | 443                                                              | The http port under which your server is publicly reachable           |
+| STATIC_ADMIN_UI_PATH                    | string | /app/admin-ui                                                    | The path to the static Admin UI Web Assets                            |
+| STATIC_BOOKING_UI_PATH                  | string | /app/booking-ui                                                  | The path to the static Booking UI Web Assets                          |
+| CACHE_TYPE                              | string | default                                                          | The cache to use ('default' = built-in, 'valkey' = Valkey.io)         |
+| VALKEY_HOSTS                            | string | 127.0.0.1:6379                                                   | Comma-separated list of Valkey hosts                                  |
+| VALKEY_USERNAME                         | string | default                                                          | Valkey username                                                       |
+| VALKEY_PASSWORD                         | string |                                                                  | Valkey password                                                       |
