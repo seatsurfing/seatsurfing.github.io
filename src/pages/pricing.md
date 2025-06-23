@@ -31,8 +31,9 @@ Get started with Seatsurfing desk sharing for free.
         <p>Everything from Free, plus:</p>
         <ul>
             <li>As many users as you need</li>
-            <li>Custom domains</li>
             <li>Booking approvals & restrictions</li>
+            <li>Recurring bookings</li>
+            <li>Custom domains</li>
             <li>3rd party Identity Provider (IDP)</li>
             <li>Monthly payment</li>
             <li>24/7 email support</li>
