@@ -95,7 +95,7 @@ export default {
             title: "Seatsurfing",
             items: [
               {
-                label: "Create free account",
+                label: "Get it free",
                 to: "sign-up/",
               },
               {
