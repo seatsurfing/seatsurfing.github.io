@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "@theme/Layout";
 import SignupForm from "../components/SignupForm";
 
@@ -16,7 +15,11 @@ export default function SignUp() {
               </p>
               <p class="text--bold">
                 You can always upgrade to our Paid Plan after signing-up to
-                unlock unlimited users and other enterprise features 🚀.
+                unlock unlimited users and{" "}
+                <a href="/features" target="_blank">
+                  other enterprise features
+                </a>{" "}
+                🚀.
               </p>
               <SignupForm plan="free" />
             </article>

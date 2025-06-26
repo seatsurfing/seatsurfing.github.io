@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "@theme/Layout";
 import SignupForm from "../components/SignupForm";
 
@@ -16,7 +15,11 @@ export default function SignUpPaid() {
               </p>
               <p class="text--bold">
                 After signing up, you need to upgrade to the Paid Plan in your
-                administration interface to unlock all features 🚀.
+                administration interface to unlock{" "}
+                <a href="/features" target="_blank">
+                  all features
+                </a>{" "}
+                🚀.
               </p>
               <SignupForm plan="paid" />
             </article>
