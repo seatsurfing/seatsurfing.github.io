@@ -1,40 +1,59 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Flexible Booking by App',
-    Svg: require('@site/static/img/undraw_mobile_apps_re_3wjf.svg').default,
+    title: "Book Anywhere, Anytime",
+    Svg: require("@site/static/img/undraw_mobile_apps_re_3wjf.svg").default,
     description: (
       <>
-        Seatsurfing’s web app runs on any current mobile device, desktop computer and even integrated into Confluence. Already on your way to the office? Just select an available seat in the app, book it, and you’re done.
+        Access Seatsurfing from your phone, desktop,{" "}
+        <a
+          href="https://appsource.microsoft.com/en-us/product/office/WA200008773"
+          target="_blank"
+        >
+          Microsoft Teams
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://marketplace.atlassian.com/apps/1224242"
+          target="_blank"
+        >
+          Atlassian Confluence
+        </a>
+        . Heading to the office? Find and reserve your perfect seat in seconds
+        &ndash; it's that simple.
       </>
     ),
   },
   {
-    title: 'Simple Management',
-    Svg: require('@site/static/img/undraw_cms_re_asu0.svg').default,
+    title: "Hybrid Work Features",
+    Svg: require("@site/static/img/undraw_cms_re_asu0.svg").default,
     description: (
       <>
-        Use your web browser to upload your floor plans to Seatsurfing. Place seats and rooms using drag & drop. Keep an eye on upcoming bookings, utilization and your users.
+        Upload floor plans and set up your space layout with drag & drop. Our{" "}
+        <a href="/features">enterprise features</a> take your workplace
+        management to the next level.
       </>
     ),
   },
   {
-    title: 'Cloud Native',
-    Svg: require('@site/static/img/undraw_cloud_files_wmo8.svg').default,
+    title: "Ready When You Are",
+    Svg: require("@site/static/img/undraw_cloud_files_wmo8.svg").default,
     description: (
       <>
-        Seatsurfing is a cloud native Software as a Service (SaaS) solution that gets you aboard within seconds. <a href="/sign-up/">Test-drive with our free plan</a> today and upgrade at any time to experience advanced features and unlimited users.
+        Start using Seatsurfing instantly with our cloud-native platform. Begin
+        with our <a href="/sign-up/">free plan</a> today and{" "}
+        <a href="/pricing/">scale up</a> seamlessly as your team grows &ndash;
+        no installation required.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
