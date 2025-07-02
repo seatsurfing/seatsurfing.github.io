@@ -1,4 +1,4 @@
-import React from "react";
+import Translate from "@docusaurus/Translate";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -18,7 +18,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/sign-up">
-            Start for free
+            <Translate>Start for free</Translate>
           </Link>
         </div>
       </div>
