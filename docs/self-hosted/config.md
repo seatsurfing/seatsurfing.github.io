@@ -1,7 +1,5 @@
 # Configuration
 
-**_Only relevant for self-hosted environments._**
-
 While you can configure organization-specific settings in the administrator web interface, global settings are set using environment variables. Set these environment variables when running the Seatsurfing backend Docker container.
 
 ## Example: Using Docker Compose
@@ -53,4 +51,4 @@ environment:
 | CACHE_TYPE                              | string | default                                                          | The cache to use ('default' = built-in, 'valkey' = Valkey.io)         |
 | VALKEY_HOSTS                            | string | 127.0.0.1:6379                                                   | Comma-separated list of Valkey hosts                                  |
 | VALKEY_USERNAME                         | string | default                                                          | Valkey username                                                       |
-| VALKEY_PASSWORD                         | string |                                                                  | Valkey password                                                       |
+| VALKEY_PASSWORD                         | string |                                                                  | Valkey password                                                       |
