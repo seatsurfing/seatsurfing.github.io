@@ -1,4 +1,4 @@
-# Confluence
+# Atlassian Confluence
 
 You can integrate the web booking interface for your employees into [Atlassian Confluence](https://www.atlassian.com/software/confluence). This could be beneficially if you're already using Confluence in your organization for collaboration. As organizing common spaces for real-life collaboration is an essential part of this, Seatsurfing is also available as a Confluence App.
 

@@ -21,13 +21,6 @@ const sidebars = {
     "index",
     "features",
     "concepts",
-    {
-      type: "category",
-      label: "Getting Started",
-      items: ["saas", "docker", "kubernetes"],
-    },
-    "config",
-    "upgrading",
     "admin-ui",
     {
       type: "category",
@@ -41,6 +34,16 @@ const sidebars = {
     "booking-ui",
     "msteams",
     "confluence",
+    {
+      type: "category",
+      label: "Self-Hosted",
+      items: [
+        "self-hosted/docker",
+        "self-hosted/kubernetes",
+        "self-hosted/config",
+        "self-hosted/upgrading",
+      ],
+    },
     "rest-api",
     "support",
   ],
