@@ -1,9 +1,10 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import { translate } from "@docusaurus/Translate";
 
 const FeatureList = [
   {
-    title: "Book Anywhere, Anytime",
+    title: translate({ message: "Book Anywhere, Anytime" }),
     Svg: require("@site/static/img/undraw_mobile_apps_re_3wjf.svg").default,
     description: (
       <>
@@ -27,7 +28,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Hybrid Work Features",
+    title: translate({ message: "Hybrid Work Features" }),
     Svg: require("@site/static/img/undraw_cms_re_asu0.svg").default,
     description: (
       <>
@@ -38,7 +39,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Ready When You Are",
+    title: translate({ message: "Ready When You Are" }),
     Svg: require("@site/static/img/undraw_cloud_files_wmo8.svg").default,
     description: (
       <>
