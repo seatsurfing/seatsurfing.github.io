@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 export default {
   title: "Seatsurfing",
   tagline:
-    "Desk sharing, room reservation, free seating, and co-working in your organization.",
+    "Desk sharing, room reservation, free seating, and co-working for enterprises.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
