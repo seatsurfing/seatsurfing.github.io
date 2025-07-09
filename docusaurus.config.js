@@ -79,6 +79,10 @@ export default {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
+            type: "localeDropdown",
+            position: "right",
+          },
+          {
             to: "/sign-up",
             label: "Get it free",
             position: "right",
