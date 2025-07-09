@@ -2,6 +2,12 @@
   "link.item.label.Get it free": {
     "message": "Kostenlos nutzen"
   },
+  "link.item.label.Pricing": {
+    "message": "Preise"
+  },
+  "link.item.label.Documentation": {
+    "message": "Dokumentation"
+  },
   "link.item.label.Imprint": {
     "message": "Impressum"
   }

@@ -1,4 +1,13 @@
 {
+  "item.label.Pricing": {
+    "message": "Preise"
+  },
+  "item.label.Features": {
+    "message": "Funktionen"
+  },
+  "item.label.Docs": {
+    "message": "Dokumentation"
+  },
   "item.label.Get it free": {
     "message": "Kostenlos nutzen"
   }
