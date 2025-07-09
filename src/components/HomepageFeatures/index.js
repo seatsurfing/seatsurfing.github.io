@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import { translate } from "@docusaurus/Translate";
+import Translate from "@docusaurus/Translate";
 
 const FeatureList = [
   {
@@ -8,22 +9,24 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_mobile_apps_re_3wjf.svg").default,
     description: (
       <>
-        Access Seatsurfing from your phone, desktop,{" "}
+        <Translate>Access Seatsurfing from your phone, desktop,</Translate>{" "}
         <a
           href="https://appsource.microsoft.com/en-us/product/office/WA200008773"
           target="_blank"
         >
           Microsoft Teams
         </a>{" "}
-        or{" "}
+        <Translate>or</Translate>{" "}
         <a
           href="https://marketplace.atlassian.com/apps/1224242"
           target="_blank"
         >
           Atlassian Confluence
         </a>
-        . Heading to the office? Find and reserve your perfect seat in seconds
-        &ndash; it's that simple.
+        <Translate>
+          . Heading to the office? Find and reserve your perfect seat in seconds
+          – it's that simple.
+        </Translate>
       </>
     ),
   },
@@ -32,9 +35,13 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_cms_re_asu0.svg").default,
     description: (
       <>
-        Upload floor plans and set up your space layout with drag & drop. Our{" "}
-        <a href="/features">enterprise features</a> take your workplace
-        management to the next level.
+        <Translate>
+          Upload floor plans and set up your space layout with drag & drop. Our
+        </Translate>{" "}
+        <a href="/features">
+          <Translate>enterprise features</Translate>
+        </a>{" "}
+        <Translate>take your workplace management to the next level.</Translate>
       </>
     ),
   },
@@ -43,10 +50,20 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_cloud_files_wmo8.svg").default,
     description: (
       <>
-        Start using Seatsurfing instantly with our cloud-native platform. Begin
-        with our <a href="/sign-up/">free plan</a> today and{" "}
-        <a href="/pricing/">scale up</a> seamlessly as your team grows &ndash;
-        no installation required.
+        <Translate>
+          Start using Seatsurfing instantly with our cloud-native platform.
+          Begin with our
+        </Translate>{" "}
+        <a href="/sign-up/">
+          <Translate>free plan</Translate>
+        </a>{" "}
+        <Translate>today and</Translate>{" "}
+        <a href="/pricing/">
+          <Translate>scale up</Translate>
+        </a>{" "}
+        <Translate>
+          seamlessly as your team grows – no installation required.
+        </Translate>
       </>
     ),
   },
