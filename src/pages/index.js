@@ -17,6 +17,9 @@ const subtitle = translate({
   message:
     "Desk sharing, room reservation, free seating, and co-working for enterprises.",
 });
+const video = translate({
+  message: "https://www.youtube.com/watch?v=WYa08A7iJNo",
+});
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -48,7 +51,7 @@ export default function Home() {
           <div className={styles.videoContainer}>
             <div className={styles.videoHeight}></div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=WYa08A7iJNo"
+              url={video}
               light={true}
               width="100%"
               height="100%"
