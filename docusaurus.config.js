@@ -77,6 +77,7 @@ export default {
             position: "left",
             label: "Docs",
           },
+          { to: "/support", label: "Support", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
