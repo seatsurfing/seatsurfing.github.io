@@ -1,5 +1,8 @@
 {
   "link.item.label.Get it free": {
     "message": "Kostenlos nutzen"
+  },
+  "link.item.label.Imprint": {
+    "message": "Impressum"
   }
 }

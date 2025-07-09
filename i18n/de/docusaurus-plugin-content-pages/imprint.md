@@ -1,10 +1,10 @@
 ---
-title: Imprint
+title: Impressum
 ---
 
-# Imprint
+# Impressum
 
-## Legal information
+## Rechtliche Informationen
 
 Seatsurfing GmbH<br />
 Karl-Herbert-Scheer-Str. 6<br />
@@ -13,13 +13,13 @@ Germany
 
 Email: hello@seatsurfing.io
 
-Phone: <a href="tel:+4961723951022">+49 6172 3951022</a>
+Telefon: <a href="tel:+4961723951022">+49 6172 3951022</a>
 
-Directors: Jan Jonas, Heinrich Beck
+Geschäftsführer: Jan Jonas, Heinrich Beck
 
-Commercial Register No.: Amtsgericht Bad Homburg v.d.H., HRB 16997
+Handelsregister-Nr.: Amtsgericht Bad Homburg v.d.H., HRB 16997
 
-VAT identification number: DE453833755
+MwSt.-Nummer: DE453833755
 
 ## Limitation of liability for internal content
 
