@@ -8,6 +8,15 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 import Screenshot from "@site/static/img/screenshot.webp";
 import ReactPlayer from "react-player";
+import { translate } from "@docusaurus/Translate";
+
+const title = translate({
+  message: "Desk sharing, room reservation, free seating & co-working",
+});
+const subtitle = translate({
+  message:
+    "Desk sharing, room reservation, free seating, and co-working for enterprises.",
+});
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -15,7 +24,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{subtitle}</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/sign-up">
             <Translate>Start for free</Translate>
@@ -27,12 +36,8 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title="Desk sharing, room reservation, free seating & co-working"
-      description={siteConfig.tagline}
-    >
+    <Layout title={title} description={subtitle}>
       <HomepageHeader />
       <main>
         <div className={styles.screenshotContainer}>
