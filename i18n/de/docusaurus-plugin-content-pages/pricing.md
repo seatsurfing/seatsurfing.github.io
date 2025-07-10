@@ -1,52 +1,52 @@
 ---
-title: Pricing
+title: Preise
 hide_table_of_contents: true
 ---
 
-# Pricing
+# Preise
 
-Pick your price package and begin with Seatsurfing today.
+Wähle dein passendes Preis-Paket und starte noch heute mit Seatsurfing.
 
 <section class="pricing-models">
     <div class="pricing-model pricing-model-free">
         <h3>Free</h3>
         <p class="pricing-price">€ 0</p>
-        <p>For small teams with up to 10 users – free forever.</p>
+        <p>Für kleine Teams bis zu 10 Benutzern – für immer kostenlos.</p>
         <hr />
-        <p>Everything you need to get started:</p>
+        <p>Alles, was du für den Einstieg benötigen:</p>
         <ul>
-            <li>Free for up to 10 users</li>
-            <li>Microsoft Teams integration</li>
-            <li>Managed Cloud Hosting</li>
-            <li>Servers in Germany (EU)</li>
-            <li>Always the latest versions &amp; features</li>
+            <li>Kostenlos für bis zu 10 Benutzer</li>
+            <li>Microsoft Teams Integration</li>
+            <li>Verwaltetes Cloud-Hosting</li>
+            <li>Server in Deutschland (EU)</li>
+            <li>Immer die neuesten Versionen &amp; Funktionen</li>
         </ul>
-        <a href="/sign-up/" class="button button--primary button--lg">Start now</a>
+        <a href="/sign-up/" class="button button--primary button--lg">Starte jetzt</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Paid</h3>
-        <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">per user / month</span></p>
-        <p>Enterprise features and no user limit – all you need.</p>
+        <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">pro Benutzer / Monat</span></p>
+        <p>Enterprise-Funktionen und keine Grenzen – alles, was Sie brauchen.</p>
         <hr />
-        <p>Everything from Free, plus:</p>
+        <p>Alles aus dem Free-Tarif, plus:</p>
         <ul>
-            <li>As many users as you need</li>
-            <li>Booking approvals & restrictions</li>
-            <li>Recurring bookings</li>
-            <li>Custom domains</li>
-            <li>3rd party Identity Provider (IDP)</li>
-            <li>Monthly payment</li>
-            <li>24/7 email support</li>
+            <li>So viele Benutzer wie du brauchst</li>
+            <li>Buchungsgenehmigungen & -beschränkungen</li>
+            <li>Wiederkehrende Buchungen</li>
+            <li>Custom Domains</li>
+            <li>Identitätsprovider (IDP)</li>
+            <li>Monatliche Zahlung</li>
+            <li>24/7 E-Mail-Support</li>
         </ul>
-        <a href="/sign-up-paid/" class="button button--primary button--lg button-gradient">Sign up</a>
+        <a href="/sign-up-paid/" class="button button--primary button--lg button-gradient">Anmelden</a>
     </div>
     <div class="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
         <p class="pricing-price">€ 0</p>
-        <p>Get started for free by hosting Seatsurfing on your own servers.</p>
+        <p>Starte kostenlos, indem du Seatsurfing auf deinem eigenen Servern hostest.</p>
         <hr />
-        <p>Everything is open source, unlimited users and all features for free.</p>
-        <p>See our <a href="/features/">feature matrix</a> for self-hosted limitations.</p>
+        <p>Alles ist Open Source, unbegrenzte Benutzer und alle Funktionen kostenlos.</p>
+        <p>Schau dir unsere <a href="/features/">Funktionsmatrix</a> für Einschränkungen bei selbst gehosteten Versionen an.</p>
         <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--primary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
     </div>
 </section>
