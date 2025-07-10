@@ -28,7 +28,7 @@ Wähle dein passendes Preis-Paket und starte noch heute mit Seatsurfing.
         <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">pro Benutzer / Monat</span></p>
         <p>Enterprise-Funktionen und keine Grenzen – alles, was Sie brauchen.</p>
         <hr />
-        <p>Alles aus dem Free-Tarif, plus:</p>
+        <p>Alles aus dem Free Plan, plus:</p>
         <ul>
             <li>So viele Benutzer wie du brauchst</li>
             <li>Buchungsgenehmigungen & -beschränkungen</li>
