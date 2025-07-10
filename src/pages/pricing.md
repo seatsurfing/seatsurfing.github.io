@@ -55,6 +55,7 @@ Pick your price package and begin with Seatsurfing today.
 
 <div class="faq">
 #### How does the Free Plan work?
+
 By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Paid Plan if you need more features or more users. Perfectly suited for testing.
 
 #### How can I upgrade my existing instance to the Paid Plan?
@@ -79,7 +80,7 @@ At the moment, no taxes are added to the prices stated above (§ 19 UStG in Germ
 
 #### Will I receive an invoice?
 
-Yes, you will receive an invoice for every payment automatically.
+Yes, an invoice is available for every payment.
 
 #### Where is my data stored?
 

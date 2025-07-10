@@ -54,35 +54,36 @@ Wähle dein passendes Preis-Paket und starte noch heute mit Seatsurfing.
 ## FAQ
 
 <div class="faq">
-#### How does the Free Plan work?
-By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Paid Plan if you need more features or more users. Perfectly suited for testing.
+#### Wie funktioniert der Free Plan?
 
-#### How can I upgrade my existing instance to the Paid Plan?
+Durch die Anmeldung für den kostenlosen Plan erhältst du Zugang zu fast allen Funktionen von Seatsurfing. Du benötigst keine Kreditkarte, um zu beginnen. Upgrade jederzeit auf den kostenpflichtigen Plan, wenn du mehr Funktionen oder mehr Benutzer benötigst. Perfekt zum Testen geeignet.
 
-To upgrade an existing instance, use your Seatsurfing administrator account and navigate to "Subscription".
+#### Wie kann ich meine bestehende Instanz auf den Paid Plan upgraden?
 
-#### Can I switch betweens plans?
+Um eine bestehende Instanz zu upgraden, verwende dein Seatsurfing-Administrator-Konto und navigiere zu "Subscription".
 
-Yes, you can upgrade and downgrade at any time.
+#### Kann ich zwischen den Plänen wechseln?
 
-#### How is the Paid Plan billed?
+Ja, du kannst jederzeit upgraden und downgraden.
 
-The Paid Plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
+#### Wie wird der kostenpflichtige Plan abgerechnet?
 
-#### Which payment types do you support?
+Der kostenpflichtige Plan wird im Voraus zu Beginn des Abonnementzyklus bezahlt. Änderungen in deiner Benutzeranzahl werden zur Rechnung des nächsten Abonnementzyklus hinzugefügt oder davon abgezogen.
 
-Payment is handled by [Stripe](https://stripe.com). We accept payments by credit card, PayPal, SEPA Direct Debit, Apple Pay and Google Pay.
+#### Welche Zahlungsarten unterstützt ihr?
 
-#### Will tax be added to the prices?
+Die Zahlung wird von [Stripe](https://stripe.com) abgewickelt. Wir akzeptieren Zahlungen per Kreditkarte, PayPal, SEPA-Lastschrift, Apple Pay und Google Pay.
 
-At the moment, no taxes are added to the prices stated above (§ 19 UStG in Germany). This is subject to change at a later point in time.
+#### Werden Steuern zu den Preisen hinzugefügt?
 
-#### Will I receive an invoice?
+Derzeit werden keine Steuern zu den oben genannten Preisen hinzugefügt (§ 19 UStG in Deutschland). Dies kann sich zu einem späteren Zeitpunkt ändern.
 
-Yes, you will receive an invoice for every payment automatically.
+#### Erhalte ich eine Rechnung?
 
-#### Where is my data stored?
+Ja, eine Rechnung ist für jede Zahlung verfügbar.
 
-Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Paid Plan. [Contact us](/support/) for further information.
+#### Wo werden meine Daten gespeichert?
+
+Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden mit kostenpflichtigem Plan anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
 
 </div>
