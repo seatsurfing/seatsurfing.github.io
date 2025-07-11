@@ -5,9 +5,7 @@ hide_table_of_contents: true
 
 # Features
 
-Use Seatsurfing fully managed in the cloud or host it on your own servers:
-
-Whatever you choose, Seatsurfing comes packed with all the features you need to set up desk sharing and space booking in your organization.
+Use Seatsurfing fully managed in the cloud or host it on your own servers. Whatever you choose, Seatsurfing comes packed with all the features you need to set up desk sharing and space booking in your organization.
 
 <div class="feature-table">
 |                                                                                                                 | Free                                                            | Paid                                                                               | Self-Hosted                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
