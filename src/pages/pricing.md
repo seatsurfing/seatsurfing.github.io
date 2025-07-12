@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Pricing
 
-Pick your price package and begin with Seatsurfing today.
+Pick your package and begin with Seatsurfing today.
 
 <section class="pricing-models">
     <div class="pricing-model pricing-model-free">

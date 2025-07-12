@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Preise
 
-Wähle dein passendes Preis-Paket und starte noch heute mit Seatsurfing.
+Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
 
 <section class="pricing-models">
     <div class="pricing-model pricing-model-free">
