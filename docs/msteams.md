@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-**_This is a Cloud-only feature (available in Free and Paid plan)._**
+**_This is a Cloud-only feature (available in Free and Professional plan)._**
 
 You can integrate the web booking interface for your employees into Microsoft Teams. This could be beneficially if you're already using Microsoft Teams in your organization for collaboration.
 

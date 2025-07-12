@@ -24,7 +24,7 @@ Pick your package and begin with Seatsurfing today.
         <a href="/sign-up" class="button button--primary button--lg">Start now</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
-        <h3>Paid</h3>
+        <h3>Professional</h3>
         <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">per user / month</span></p>
         <p>Enterprise features and no user limit – all you need.</p>
         <hr />
@@ -56,9 +56,9 @@ Pick your package and begin with Seatsurfing today.
 <div class="faq">
 #### How does the Free Plan work?
 
-By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Paid Plan if you need more features or more users. Perfectly suited for testing.
+By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Professional plan if you need more features or more users. Perfectly suited for testing.
 
-#### How can I upgrade my existing instance to the Paid Plan?
+#### How can I upgrade my existing instance to the Professional plan?
 
 To upgrade an existing instance, use your Seatsurfing administrator account and navigate to "Subscription".
 
@@ -66,9 +66,9 @@ To upgrade an existing instance, use your Seatsurfing administrator account and 
 
 Yes, you can upgrade and downgrade at any time.
 
-#### How is the Paid Plan billed?
+#### How is the Professional plan billed?
 
-The Paid Plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
+The Professional plan is paid upfront at the beginning of the subscription cycle. Changes in your user amount will be added to/subtracted from the invoice of the next subscription cycle.
 
 #### Which payment types do you support?
 
@@ -84,6 +84,6 @@ Yes, an invoice is available for every payment.
 
 #### Where is my data stored?
 
-Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Paid Plan. [Contact us](/support/) for further information.
+Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Professional plan. [Contact us](/support/) for further information.
 
 </div>

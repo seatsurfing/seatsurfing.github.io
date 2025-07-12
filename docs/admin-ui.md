@@ -132,7 +132,7 @@ Use this section to delete your Seatsurfing organization. The deletion is perfor
 
 As an organization administrator, you can manage your subscription.
 
-This allows you to upgrade to the Paid Plan, or, just in case, to downgrade to the Free Plan at any time.
+This allows you to upgrade to the Professional plan, or, just in case, to downgrade to the Free plan at any time.
 
 ## Search
 

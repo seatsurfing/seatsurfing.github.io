@@ -1,13 +1,13 @@
 ---
 slug: cloud-saas-paid-plan-launched
-title: Cloud-hosted Paid Plan launched
+title: Cloud-hosted Professional Plan launched
 authors: heiner
 tags: [hosting]
 ---
 
-Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Paid Plan 🤩
+Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Professional Plan 🤩
 
-The Paid Plan includes all features known from the Open Source Edition of Seatsurfing, plus:
+The Professional Plan includes all features known from the Open Source Edition of Seatsurfing, plus:
 
 <!-- truncate -->
 
@@ -20,7 +20,7 @@ The Paid Plan includes all features known from the Open Source Edition of Seatsu
     <li>...and there's more to come!</li>
 </ul>
 
-Of course, the Open Source Edition will still be the basis of the Paid Plan. This is why you can expect regular updates, enhancements and new features.
+Of course, the Open Source Edition will still be the basis of the Professional Plan. This is why you can expect regular updates, enhancements and new features.
 
 Moreover, we will continue to provide the Cloud-hosted Free Plan, which will remain cost-free for up to ten users. Perfectly suited to give Seatsurfing a try or to provide desk sharing, room reservations and other kinds of "space bookings" to small organizations.
 

@@ -206,13 +206,14 @@ export default function SignupForm() {
               }}
             />
             <label htmlFor="planPaid">
-              Paid (0.90€ / user) &ndash; enterprise features and no user limit
+              Professional (0.90€ / user) &ndash; enterprise features and no
+              user limit
             </label>
             <div>
               <small className="form-text text-muted">
                 {plan === PLAN_FREE
-                  ? "You can always upgrade to our Paid Plan after signing-up to unlock unlimited users and other enterprise features 🚀."
-                  : "After signing up, you need to upgrade to the Paid Plan in your administration interface to unlock all features 🚀."}
+                  ? "You can always upgrade to our Professional plan after signing-up to unlock unlimited users and other enterprise features 🚀."
+                  : "After signing up, you need to upgrade to the Professional plan in your administration interface to unlock all features 🚀."}
               </small>
             </div>
           </div>
@@ -243,7 +244,7 @@ export default function SignupForm() {
               </div>
             </div>
             <small id="domain-help" class="form-text text-muted">
-              Add your custom domain later (requires Paid Plan).
+              Add your custom domain later (requires Professional plan).
             </small>
             {showDomainInUse ? (
               <Admonition type="caution">Domain already in use.</Admonition>

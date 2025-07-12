@@ -24,7 +24,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         <a href="/sign-up" class="button button--primary button--lg">Starte jetzt</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
-        <h3>Paid</h3>
+        <h3>Professional</h3>
         <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">pro Benutzer / Monat</span></p>
         <p>Enterprise-Funktionen und keine Grenzen – alles, was Sie brauchen.</p>
         <hr />
@@ -58,7 +58,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
 
 Durch die Anmeldung für den kostenlosen Plan erhältst du Zugang zu fast allen Funktionen von Seatsurfing. Du benötigst keine Kreditkarte, um zu beginnen. Upgrade jederzeit auf den kostenpflichtigen Plan, wenn du mehr Funktionen oder mehr Benutzer benötigst. Perfekt zum Testen geeignet.
 
-#### Wie kann ich meine bestehende Instanz auf den Paid Plan upgraden?
+#### Wie kann ich meine bestehende Instanz auf den Professional Plan upgraden?
 
 Um eine bestehende Instanz zu upgraden, verwende dein Seatsurfing-Administrator-Konto und navigiere zu "Subscription".
 
@@ -66,9 +66,9 @@ Um eine bestehende Instanz zu upgraden, verwende dein Seatsurfing-Administrator-
 
 Ja, du kannst jederzeit upgraden und downgraden.
 
-#### Wie wird der kostenpflichtige Plan abgerechnet?
+#### Wie wird der Professional Plan abgerechnet?
 
-Der kostenpflichtige Plan wird im Voraus zu Beginn des Abonnementzyklus bezahlt. Änderungen in deiner Benutzeranzahl werden zur Rechnung des nächsten Abonnementzyklus hinzugefügt oder davon abgezogen.
+Der Professional Plan wird im Voraus zu Beginn des Abonnementzyklus bezahlt. Änderungen in deiner Benutzeranzahl werden zur Rechnung des nächsten Abonnementzyklus hinzugefügt oder davon abgezogen.
 
 #### Welche Zahlungsarten unterstützt ihr?
 
@@ -84,6 +84,6 @@ Ja, eine Rechnung ist für jede Zahlung verfügbar.
 
 #### Wo werden meine Daten gespeichert?
 
-Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden mit kostenpflichtigem Plan anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
+Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden mit Professional Plan anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
 
 </div>

@@ -10,8 +10,8 @@ export default function SignUp() {
             <article>
               <h1>Sign up and start instantly</h1>
               <p class="text--bold">
-                Our Free Plan contains everything you need to get started for up
-                to 10 users. Our Paid Plan includes unlimited users and{" "}
+                Our Free plan contains everything you need to get started for up
+                to 10 users. Our Professional plan includes unlimited users and{" "}
                 <a href="/features" target="_blank">
                   other enterprise features
                 </a>

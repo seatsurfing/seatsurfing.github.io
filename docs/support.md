@@ -1,6 +1,6 @@
 # Support
 
-## Users on our Cloud-hosted Paid Plan
+## Users on our Cloud-hosted Professional plan
 
 Your plan included premium support.
 

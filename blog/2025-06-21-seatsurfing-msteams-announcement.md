@@ -13,4 +13,4 @@ The new Seatsurfing Teams app eliminates the need to switch between different pl
 
 To get started visit the [Microsoft AppSource marketplace](https://appsource.microsoft.com/en-us/product/office/WA200008773), install the app for free and enable the Microsoft Teams integration as outlined in [our documentation](/docs/msteams).
 
-The Microsoft Teams integration is available for all customers on our free and paid hosted cloud plans. Not subscribed yet? [Easily get started for free](/sign-up).
+The Microsoft Teams integration is available for all customers on our Free and Professional hosted cloud plans. Not subscribed yet? [Easily get started for free](/sign-up).
