@@ -58,7 +58,7 @@ const FeatureList = [
           <Translate>free plan</Translate>
         </a>{" "}
         <Translate>today and</Translate>{" "}
-        <a href="/pricing/">
+        <a href="/pricing">
           <Translate>scale up</Translate>
         </a>{" "}
         <Translate>

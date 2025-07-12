@@ -329,11 +329,11 @@ export default function SignupForm() {
             />
             <label class="inline-label" htmlFor="accept-terms">
               &nbsp;I accept the{" "}
-              <a href="/privacy-policy/" target="_blank">
+              <a href="/privacy-policy" target="_blank">
                 privacy policy
               </a>{" "}
               and the{" "}
-              <a href="/terms/" target="_blank">
+              <a href="/terms" target="_blank">
                 terms of use
               </a>
               .
