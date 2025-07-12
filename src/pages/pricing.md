@@ -21,7 +21,7 @@ Pick your package and begin with Seatsurfing today.
             <li>Servers in Germany (EU)</li>
             <li>Always the latest versions &amp; features</li>
         </ul>
-        <a href="/sign-up/" class="button button--primary button--lg">Start now</a>
+        <a href="/sign-up" class="button button--primary button--lg">Start now</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Paid</h3>
@@ -38,7 +38,7 @@ Pick your package and begin with Seatsurfing today.
             <li>Monthly payment</li>
             <li>24/7 email support</li>
         </ul>
-        <a href="/sign-up-paid/" class="button button--primary button--lg button-gradient">Sign up</a>
+        <a href="/sign-up?paid" class="button button--primary button--lg button-gradient">Sign up</a>
     </div>
     <div class="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>

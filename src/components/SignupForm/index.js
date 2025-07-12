@@ -2,12 +2,19 @@ import { useState } from "react";
 import Admonition from "@theme/Admonition";
 import styles from "./styles.module.css";
 
-export default function SignupForm({ plan }) {
+export default function SignupForm() {
+  const PLAN_FREE = "free";
+  const PLAN_PAID = "paid";
   const APP_PREFIX = "https://app.seatsurfing.io";
+
+  const urlParams = new URLSearchParams(window.location.search);
 
   const [name1, setName1] = useState("");
   const [name2, setName2] = useState("");
   const [org, setOrg] = useState("");
+  const [plan, setPlan] = useState(
+    urlParams.has("paid") ? PLAN_PAID : PLAN_FREE
+  );
   const [domain, setDomain] = useState("");
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
@@ -127,7 +134,7 @@ export default function SignupForm({ plan }) {
     <>
       <form id="signup" onSubmit={onSubmit} hidden={showSuccess}>
         <div className={styles.firstname}>
-          <label for="firstname">Firstname</label>
+          <label htmlFor="firstname">Firstname</label>
           <input
             type="firstname"
             class="form-control"
@@ -137,7 +144,7 @@ export default function SignupForm({ plan }) {
           />
         </div>
         <div className={styles.lastname}>
-          <label for="lastname">Lastname</label>
+          <label htmlFor="lastname">Lastname</label>
           <input
             type="lastname"
             class="form-control"
@@ -148,7 +155,7 @@ export default function SignupForm({ plan }) {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="organization">Organization</label>
+            <label htmlFor="organization">Organization</label>
           </div>
           <div className="col col--6">
             <input
@@ -169,7 +176,48 @@ export default function SignupForm({ plan }) {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="domain">Domain</label>
+            <label>Plan</label>
+          </div>
+          <div className="col col--6">
+            <input
+              type="radio"
+              id="planFree"
+              name="plan"
+              value={PLAN_FREE}
+              checked={plan === PLAN_FREE}
+              onChange={(e) => {
+                setPlan(e.target.value);
+              }}
+            />
+            <label htmlFor="planFree">
+              Free &ndash; no cost, no commitment for up to 10 users
+            </label>
+            <br />
+            <input
+              type="radio"
+              id="planPaid"
+              name="plan"
+              value={PLAN_PAID}
+              checked={plan === PLAN_PAID}
+              onChange={(e) => {
+                setPlan(e.target.value);
+              }}
+            />
+            <label htmlFor="planPaid">
+              Paid (0.90€ / user) &ndash; enterprise features and no user limit
+            </label>
+            <div>
+              <small className="form-text text-muted">
+                {plan === PLAN_FREE
+                  ? "You can always upgrade to our Paid Plan after signing-up to unlock unlimited users and other enterprise features 🚀."
+                  : "After signing up, you need to upgrade to the Paid Plan in your administration interface to unlock all features 🚀."}
+              </small>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--2">
+            <label htmlFor="domain">Domain</label>
           </div>
           <div className="col col--6">
             <div class="domain-input">
@@ -193,7 +241,7 @@ export default function SignupForm({ plan }) {
               </div>
             </div>
             <small id="domain-help" class="form-text text-muted">
-              Add your company's domain later (requires Paid Plan).
+              Add your custom domain later (requires Paid Plan).
             </small>
             {showDomainInUse ? (
               <Admonition type="caution">Domain already in use.</Admonition>
@@ -204,7 +252,7 @@ export default function SignupForm({ plan }) {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="ap-firstname">Firstname</label>
+            <label htmlFor="ap-firstname">Firstname</label>
           </div>
           <div className="col col--6">
             <input
@@ -220,7 +268,7 @@ export default function SignupForm({ plan }) {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="ap-lastname">Lastname</label>
+            <label htmlFor="ap-lastname">Lastname</label>
           </div>
           <div className="col col--6">
             <input
@@ -236,7 +284,7 @@ export default function SignupForm({ plan }) {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="email">Email address</label>
+            <label htmlFor="email">Email address</label>
           </div>
           <div className="col col--6">
             <input
@@ -249,14 +297,14 @@ export default function SignupForm({ plan }) {
               onChange={(e) => setEmail(e.target.value)}
             />
             <small id="emailHelp" class="form-text text-muted">
-              We'll only use your email address for the purpose of signing up
-              and handle it confidentially.
+              We treat your email address confidentially and will use it for the
+              sign up process and sending product information.
             </small>
           </div>
         </div>
         <div className="row">
           <div className="col col--2">
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
           </div>
           <div className="col col--6">
             <input
@@ -279,7 +327,7 @@ export default function SignupForm({ plan }) {
               checked={terms}
               onChange={(e) => setTerms(e.target.checked)}
             />
-            <label class="inline-label" for="accept-terms">
+            <label class="inline-label" htmlFor="accept-terms">
               &nbsp;I accept the{" "}
               <a href="/privacy-policy/" target="_blank">
                 privacy policy

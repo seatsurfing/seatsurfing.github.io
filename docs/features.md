@@ -48,5 +48,5 @@ The most important features of Seatsurfing are:
 
 You can choose your desired hosting model:
 
-- Software as a Servic (SaaS) in free and paid plans provided by seatsurfing.io ([click here to create a free account](/sign-up/))
+- Software as a Servic (SaaS) in free and paid plans provided by seatsurfing.io ([click here to create a free account](/sign-up))
 - Hosting on your own server by deploying a pre-built container image (i.e. Docker, Podman, Kubernates)

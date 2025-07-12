@@ -5,7 +5,7 @@ authors: heiner
 tags: [hosting]
 ---
 
-Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Paid Plan 🤩 
+Many of you, our users, asked us for. Today, we are excited to finally announce the launch and immediate availability of our Cloud-hosted Paid Plan 🤩
 
 The Paid Plan includes all features known from the Open Source Edition of Seatsurfing, plus:
 
@@ -25,9 +25,11 @@ Of course, the Open Source Edition will still be the basis of the Paid Plan. Thi
 Moreover, we will continue to provide the Cloud-hosted Free Plan, which will remain cost-free for up to ten users. Perfectly suited to give Seatsurfing a try or to provide desk sharing, room reservations and other kinds of "space bookings" to small organizations.
 
 #### You are already subscribed to the Free Plan and want to upgrade?
+
 Just log in to your organizations' administration web-interface, navigate to "Subscription" and upgrade in no time.
 
 #### You are new to Seatsurfing and want to sign up?
+
 Create a new account and have your Seatsurfing instance ready within seconds:
 
-<a href="/sign-up/" class="button button--primary button--lg button-gradient">Create Account</a>
+<a href="/sign-up" class="button button--primary button--lg button-gradient">Create Account</a>

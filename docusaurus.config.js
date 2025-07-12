@@ -104,23 +104,23 @@ export default {
             items: [
               {
                 label: "Get it free",
-                to: "sign-up/",
+                to: "sign-up",
               },
               {
                 label: "Pricing",
-                to: "pricing/",
+                to: "pricing",
               },
               {
                 label: "Documentation",
-                to: "docs/",
+                to: "docs",
               },
               {
                 label: "Blog",
-                to: "blog/",
+                to: "blog",
               },
               {
                 label: "Support",
-                to: "support/",
+                to: "support",
               },
             ],
           },
@@ -146,15 +146,15 @@ export default {
             items: [
               {
                 label: "Imprint",
-                to: "imprint/",
+                to: "imprint",
               },
               {
                 label: "Terms",
-                to: "terms/",
+                to: "terms",
               },
               {
                 label: "Privacy Policy",
-                to: "privacy-policy/",
+                to: "privacy-policy",
               },
             ],
           },

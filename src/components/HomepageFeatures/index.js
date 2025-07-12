@@ -54,7 +54,7 @@ const FeatureList = [
           Start using Seatsurfing instantly with our cloud-native platform.
           Begin with our
         </Translate>{" "}
-        <a href="/sign-up/">
+        <a href="/sign-up">
           <Translate>free plan</Translate>
         </a>{" "}
         <Translate>today and</Translate>{" "}

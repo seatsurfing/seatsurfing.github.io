@@ -21,7 +21,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Server in Deutschland (EU)</li>
             <li>Immer die neuesten Versionen &amp; Funktionen</li>
         </ul>
-        <a href="/sign-up/" class="button button--primary button--lg">Starte jetzt</a>
+        <a href="/sign-up" class="button button--primary button--lg">Starte jetzt</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Paid</h3>
@@ -38,7 +38,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Monatliche Zahlung</li>
             <li>24/7 E-Mail-Support</li>
         </ul>
-        <a href="/sign-up-paid/" class="button button--primary button--lg button-gradient">Anmelden</a>
+        <a href="/sign-up?paid" class="button button--primary button--lg button-gradient">Anmelden</a>
     </div>
     <div class="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
