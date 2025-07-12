@@ -7,14 +7,16 @@ export default function SignupForm() {
   const PLAN_PAID = "paid";
   const APP_PREFIX = "https://app.seatsurfing.io";
 
-  const urlParams = new URLSearchParams(window.location.search);
-
   const [name1, setName1] = useState("");
   const [name2, setName2] = useState("");
   const [org, setOrg] = useState("");
-  const [plan, setPlan] = useState(
-    urlParams.has("paid") ? PLAN_PAID : PLAN_FREE
-  );
+  const [plan, setPlan] = useState(() => {
+    if (typeof window !== "undefined") {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.has("paid") ? PLAN_PAID : PLAN_FREE;
+    }
+    return PLAN_FREE;
+  });
   const [domain, setDomain] = useState("");
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
