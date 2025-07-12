@@ -6,7 +6,7 @@ Your plan included premium support.
 
 <a href="/support" class="button button--primary button--lg">Contact support</a>
 
-## Users on the Free Plan or self-hosted environments
+## Users on the Free plan or self-hosted environments
 
 Please refer to the following channels for more information:
 

@@ -54,9 +54,9 @@ Pick your package and begin with Seatsurfing today.
 ## FAQ
 
 <div class="faq">
-#### How does the Free Plan work?
+#### How does the Free plan work?
 
-By signing up for the Free Plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Professional plan if you need more features or more users. Perfectly suited for testing.
+By signing up for the Free plan, you get access to almost all of Seatsurfing's features. You do not need a credit card to get started. Upgrade at any time to the Professional plan if you need more features or more users. Perfectly suited for testing.
 
 #### How can I upgrade my existing instance to the Professional plan?
 
