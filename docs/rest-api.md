@@ -142,3 +142,10 @@ Seatsurfing's REST API uses the well known HTTP status codes to inform the calle
 | Get all auth providers of an organization                | /auth-provider/             | GET    |           |       |     X      |              |
 | Create a new auth provider in an organization            | /auth-provider/             | POST   |           |       |     X      |              |
 | Get public auth provider information for an organization | /auth-provider/org/{"{id}"} | GET    |     X     |       |            |              |
+
+### Healthcheck
+
+
+| Function                                                 |  Endpoint                   | Method | Anonymous |  User |  Org Admin |  Super Admin |
+| :------------------------------------------------------- | :-------------------------- | :----- | :-------: | :---: | :--------: | :----------: |
+| Get status of the application                            | /healthcheck                | GET    |     X     |       |            |              |
