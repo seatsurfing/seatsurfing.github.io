@@ -8,7 +8,7 @@ Unser Support ist 24 Stunden täglich für Kunden verfügbar, die den kostenpfli
 
 Bevor du unser Support-Team kontaktierst, befolge bitte diese Schritte::
 
-- Lies [die Dokumentation](/docs/).
+- Lies [die Dokumentation](/docs).
 - Überprüfe den Status unserer Systeme unter [status.seatsurfing.io](https://status.seatsurfing.io).
 - Lies und akzeptiere abschließend unsere [Datenschutzrichtlinie](/privacy-policy).
 

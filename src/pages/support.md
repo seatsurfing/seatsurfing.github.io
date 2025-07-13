@@ -8,7 +8,7 @@ Our support is available 24 hours / day for customers subscribed to the Professi
 
 Before contacting our support team, please follow these steps:
 
-- Read [the documentation](/docs/).
+- Read [the documentation](/docs).
 - Check our systems' status at [status.seatsurfing.io](https://status.seatsurfing.io).
 - Finally, read and accept our [privacy policy](/privacy-policy).
 
