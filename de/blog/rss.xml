@@ -4,10 +4,22 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/de/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Wed, 25 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[End of Life Announcement: Seatsurfing for Confluence Server and Data Center Support]]></title>
+            <link>https://seatsurfing.io/de/blog/discontinuation-confluence-server-dc</link>
+            <guid>https://seatsurfing.io/de/blog/discontinuation-confluence-server-dc</guid>
+            <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Effective October 15, 2025, we will be discontinuing support for the app “Seatsurfing for Confluence” in Confluence Server and Confluence Data Center environments.]]></description>
+            <content:encoded><![CDATA[<p>Effective <strong>October 15, 2025</strong>, we will be discontinuing support for the app “Seatsurfing for Confluence” in Confluence Server and Confluence Data Center environments.</p>
+<p>Please note: This change only affects Confluence Server and Confluence Data Center environments. Our <a href="https://marketplace.atlassian.com/apps/1224242/" target="_blank" rel="noopener noreferrer">Confluence Cloud version</a> app remains fully supported and will continue to receive updates and new features. We are focusing our development efforts on enhancing the Cloud experience to better serve our users' evolving needs. We'll be sharing more details about the upcoming features in the near future.</p>
+<p>Please contact us at <a href="mailto:hello@seatsurfing.io" target="_blank" rel="noopener noreferrer">hello@seatsurfing.io</a> if you have any questions about this discontinuation or need assistance.</p>
+<p>The Confluence Cloud integration is available for all customers on our free and paid hosted cloud plans. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[Seatsurfing 1.36: Recurring bookings are here]]></title>
             <link>https://seatsurfing.io/de/blog/seatsurfing-1-36-released</link>
@@ -384,18 +396,6 @@
             <content:encoded><![CDATA[<p>We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.</p>
 <p>For more information, please refer to the documentation. We’ve updated it in order to represent necessary instructions on how to get your Docker container up and running quickly.</p>
 <p>Please also note that Seatsurfing’s App for iPhone and iPad got a new home at the App Store. You should therefore uninstall your existing Seatsurfing App and get the new version from the App Store. The app for Google Android remains at its known place.</p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[Daily basis booking and bookers’ names in Seatsurfing 1.2]]></title>
-            <link>https://seatsurfing.io/de/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</link>
-            <guid>https://seatsurfing.io/de/blog/daily-basis-booking-and-bookers-names-in-seatsurfing-1-2</guid>
-            <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.]]></description>
-            <content:encoded><![CDATA[<p>Today we’ve released version 1.2.0 of the Seatsurfing App. This new version includes two new requested features we’re happy to depict here.</p>
-<p>The first feature is daily basis booking. We want to make it easier for the employees of some organizations to book their seats. If you want to keep seat booking really easy, you can activate the daily basis booking functionality in the administration interface. When activated, users using the App or the Booking Web Interface just need to pick a desired date and do not need to provide a time range. The selected space is then booked for one or multiple entire days.</p>
-<p>The second feature allows for showing the names of the colleagues having booked a space during the selected time range. When activated by the organization’s administrator, users are able to tap or click an occupied seat to show the names and time ranges of this seat. We did not have implemented this feature at first with respect to the users’ privacy. However, we think that you should have the chance to decide for yourself.</p>
-<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.2 shows the user&amp;#39;s names" src="https://seatsurfing.io/de/assets/images/show_names-19873429cb1a59ca1c78dc9dc5f32af5.gif" width="256" height="554" class="img_ev3q"></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
