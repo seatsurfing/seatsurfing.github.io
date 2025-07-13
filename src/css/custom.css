@@ -110,9 +110,8 @@ header.hero--primary {
   flex-basis: 350px;
 }
 
-.pricing-model .button--primary {
+.pricing-model .button {
   display: block;
-  background-color: #909090;
   position: absolute;
   bottom: 0;
   width: calc(100% - 50px);
