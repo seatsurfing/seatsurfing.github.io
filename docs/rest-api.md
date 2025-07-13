@@ -145,7 +145,6 @@ Seatsurfing's REST API uses the well known HTTP status codes to inform the calle
 
 ### Healthcheck
 
-
 | Function                                                 |  Endpoint                   | Method | Anonymous |  User |  Org Admin |  Super Admin |
 | :------------------------------------------------------- | :-------------------------- | :----- | :-------: | :---: | :--------: | :----------: |
 | Get status of the application                            | /healthcheck                | GET    |     X     |       |            |              |
