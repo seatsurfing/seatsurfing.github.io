@@ -8,7 +8,7 @@ export default function SignUp() {
         <div className="row mdxPageWrapper_node_modules-@docusaurus-theme-classic-lib-theme-MDXPage-styles-module">
           <div className="col col--8">
             <article>
-              <h1>Sign up and start instantly</h1>
+              <h1>Sign up and start now</h1>
               <p class="text--bold">
                 Our Free plan contains everything you need to get started for up
                 to 10 users. Our Professional plan includes unlimited users and{" "}

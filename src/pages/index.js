@@ -30,7 +30,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{subtitle}</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/sign-up">
-            <Translate>Start for free</Translate>
+            <Translate>Start now for free</Translate>
           </Link>
         </div>
       </div>
