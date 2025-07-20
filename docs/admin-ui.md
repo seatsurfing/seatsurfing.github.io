@@ -104,7 +104,20 @@ In the "Settings" section you can configure settings which apply to your entire 
 
 **Confluence Shared Secret:** A shared secret which is required for signing messages when using Seatsurfing's Confluence App.
 
-**Domains:** A list of domains which can be used your user's email addresses. If not a global administrator, adding a domain requires an ownership verification. This requires access to your domain's DNS server as a TXT record needs to be added.
+**Domains:** A list of domains under which Seatsurfing can be accessed for the selected organization. Adding a domain requires an ownership verification. This requires access to your domain's DNS server as a TXT record needs to be added.
+
+### Custom domains
+**_Only relevant for cloud-hosted environments._**
+
+By adding a custom domain, you can access your organization's Seatsurfing instance under a custom (sub-)domain – such as ```seatsurfing.your-company.com``` instead of ```your-company.seatsurfing.app```.
+
+To add a custom domain, please follow these steps:
+1. Set up a CNAME DNS record for your desired (sub-)domain and point it to:
+   
+   ```custom-de-1.seatsurfing.io.```
+1. Add this (sub-)domain as a new entry to the domain list in the Settings section of the Administration UI.
+1. Perform the shown steps to verify domain ownership by adding a TXT DNS record to your DNS zone.
+1. Wait a few minutes until our systems have verified ownership and accessibility of your custom domain name.
 
 ### Auth Providers
 
