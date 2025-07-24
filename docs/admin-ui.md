@@ -112,11 +112,12 @@ In the "Settings" section you can configure settings which apply to your entire 
 By adding a custom domain, you can access your organization's Seatsurfing instance under a custom (sub-)domain – such as ```seatsurfing.your-company.com``` instead of ```your-company.seatsurfing.app```.
 
 To add a custom domain, please follow these steps:
+1. Add your (sub-)domain as a new entry to the domain list in the Settings section of the Administration UI.
+1. Perform the shown steps to verify domain ownership by adding a TXT DNS record for this specific (sub-)domain to your DNS zone (i.e. for ```seatsurfing.your-company.com```) and clicking "Verify".
+1. After the verification has been successful, you can safely remove the TXT record.
 1. Set up a CNAME DNS record for your desired (sub-)domain and point it to:
    
    ```custom-de-1.seatsurfing.io.```
-1. Add this (sub-)domain as a new entry to the domain list in the Settings section of the Administration UI.
-1. Perform the shown steps to verify domain ownership by adding a TXT DNS record to your DNS zone.
 1. Wait a few minutes until our systems have verified ownership and accessibility of your custom domain name.
 
 ### Auth Providers
