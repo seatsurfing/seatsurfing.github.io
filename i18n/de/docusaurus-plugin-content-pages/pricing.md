@@ -21,7 +21,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Server in Deutschland (EU)</li>
             <li>Immer die neuesten Versionen &amp; Funktionen</li>
         </ul>
-        <a href="/sign-up" class="button button--primary button--lg">Anmelden</a>
+        <a href="./sign-up" class="button button--primary button--lg">Anmelden</a>
     </div>
     <div class="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Professional</h3>
@@ -38,7 +38,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Monatliche Zahlung</li>
             <li>24/7 E-Mail-Support</li>
         </ul>
-        <a href="/sign-up?paid" class="button button--primary button--lg button-gradient">Anmelden</a>
+        <a href="./sign-up?paid" class="button button--primary button--lg button-gradient">Anmelden</a>
     </div>
     <div class="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
@@ -46,7 +46,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         <p>Starte kostenlos, indem du Seatsurfing auf deinem eigenen Servern hostest.</p>
         <hr />
         <p>Alles ist Open Source, unbegrenzte Benutzer und alle Funktionen kostenlos.</p>
-        <p>Schau dir unsere <a href="/features">Funktionsmatrix</a> für Einschränkungen bei selbst gehosteten Versionen an.</p>
+        <p>Schau dir unsere <a href="./features">Funktionsmatrix</a> für Einschränkungen bei selbst gehosteten Versionen an.</p>
         <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--secondary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
     </div>
 </section>

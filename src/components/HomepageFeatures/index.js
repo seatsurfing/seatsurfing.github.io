@@ -38,7 +38,7 @@ const FeatureList = [
         <Translate>
           Upload floor plans and set up your space layout with drag & drop. Our
         </Translate>{" "}
-        <a href="/features">
+        <a href="./features">
           <Translate>enterprise features</Translate>
         </a>{" "}
         <Translate>take your workplace management to the next level.</Translate>
@@ -54,11 +54,11 @@ const FeatureList = [
           Start using Seatsurfing instantly with our cloud-native platform.
           Begin with our
         </Translate>{" "}
-        <a href="/sign-up">
+        <a href="./sign-up">
           <Translate>free plan</Translate>
         </a>{" "}
         <Translate>today and</Translate>{" "}
-        <a href="/pricing">
+        <a href="./pricing">
           <Translate>scale up</Translate>
         </a>{" "}
         <Translate>
