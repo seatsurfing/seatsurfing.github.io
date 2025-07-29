@@ -124,7 +124,7 @@ To add a custom domain, please follow these steps:
 
 **Allow login of all authenticatable users:** When enabled, users can authenticate using an associated auth provider (see below) without having to be managed in Seatsurfing's internal user directory beforehand. A user account in Seatsurfing's database will be created upon first successful authentication.
 
-Auth providers are services taking care of authenticating your users using standardised, secure protocols. Seatsurfing currently supports the OAuth 2 protocol.
+Auth providers (Identity Providers, IdP) are services taking care of authenticating your users using standardised, secure protocols. Seatsurfing currently supports the OAuth 2 protocol.
 
 By adding an auth provider, you can validate your Seatsurfing logins using your company's internal user directory. The passwords (or other identification criteria) entered by your users are not transferred to Seatsurfing when using an auth provider.
 
@@ -135,6 +135,8 @@ Auth providers can be used in addition to password authentication. When logging 
 You can use the following placeholders in your specified URLs:
 
 - `{logoutRedirectUri}` - the Logout URL your users will be redirected to after logging out
+
+**Note for self-hosted instances:** Make sure you've set and verified the domain at which your Seatsurfing instance is reachable in the "Domains" section of Seatsurfing's Settings. The domain set here as the primary domain *must* be the same as the Redirect URI configured at your identity provider. If not set correctly, you'll see errors like *"No primary domain found for organization"* in the server's logs and *"Possibly your account is not activated in this organization*" on the resulting login page.
 
 ### Danger zone
 
