@@ -58,5 +58,50 @@
   },
   "other enterprise features": {
     "message": "weitere Enterprise-Funktionen"
+  },
+  "Sign up": {
+    "message": "Anmelden"
+  },
+  "Organization": {
+    "message": "Organisation"
+  },
+  "Your company Ltd.": {
+    "message": "Dein Unternehmen GmbH"
+  },
+  "Free – no cost, no commitment for up to 10 users": {
+    "message": "Kostenlos – keine Kosten, keine Verpflichtung für bis zu 10 Benutzer"
+  },
+  "Professional (0.90€ / user) – enterprise features and no user limit": {
+    "message": "Professional (0,90€ / Benutzer) – Enterprise-Funktionen und keine Benutzerbegrenzung"
+  },
+  "You can always upgrade to our Professional plan after signing-up to unlock unlimited users and other enterprise features 🚀.": {
+    "message": "Sie können nach der Anmeldung jederzeit auf unseren Professional-Plan upgraden, um unbegrenzte Benutzer und andere Unternehmensfunktionen freizuschalten 🚀"
+  },
+  "After signing up, you need to upgrade to the Professional plan in your administration interface to unlock all features 🚀.": {
+    "message": "Nach der Anmeldung müssen Sie in Ihrer Administrationsoberfläche auf den Professional-Plan upgraden, um alle Funktionen freizuschalten 🚀."
+  },
+  "Firstname": {
+    "message": "Vorname"
+  },
+  "Lastname": {
+    "message": "Nachname"
+  },
+  "Email address": {
+    "message": "E-Mail-Adresse"
+  },
+  "Password": {
+    "message": "Passwort"
+  },
+  "We treat your email address confidentially and will use it for the sign up process and sending product information.": {
+    "message": "Wir behandeln deine E-Mail-Adresse vertraulich und verwenden sie für den Anmeldeprozess und das Versenden von Produktinformationen."
+  },
+  "I accept the": {
+    "message": "Ich akzeptiere die"
+  },
+  "privacy policy": {
+    "message": "Datenschutzrichtlinie"
+  },
+  "terms of use": {
+    "message": "Nutzungsbedingungen"
   }
 }

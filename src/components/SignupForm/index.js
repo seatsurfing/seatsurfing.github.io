@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Admonition from "@theme/Admonition";
 import styles from "./styles.module.css";
+import { translate } from "@docusaurus/Translate";
+import Translate from "@docusaurus/Translate";
+import Link from "@docusaurus/Link";
 
 export default function SignupForm() {
   const PLAN_FREE = "free";
@@ -157,14 +160,16 @@ export default function SignupForm() {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label htmlFor="organization">Organization</label>
+            <label htmlFor="organization">
+              <Translate>Organization</Translate>
+            </label>
           </div>
           <div className="col col--6">
             <input
               type="organization"
               className={styles.input}
               id="organization"
-              placeholder="Your company Ltd."
+              placeholder={translate({ message: "Your company Ltd." })}
               minlength="3"
               autofocus="autofocus"
               required={true}
@@ -192,7 +197,9 @@ export default function SignupForm() {
               }}
             />
             <label htmlFor="planFree">
-              Free &ndash; no cost, no commitment for up to 10 users
+              <Translate>
+                Free – no cost, no commitment for up to 10 users
+              </Translate>
             </label>
             <br />
             <input
@@ -206,14 +213,22 @@ export default function SignupForm() {
               }}
             />
             <label htmlFor="planPaid">
-              Professional (0.90€ / user) &ndash; enterprise features and no
-              user limit
+              <Translate>
+                Professional (0.90€ / user) – enterprise features and no user
+                limit
+              </Translate>
             </label>
             <div>
               <small className="form-text text-muted">
                 {plan === PLAN_FREE
-                  ? "You can always upgrade to our Professional plan after signing-up to unlock unlimited users and other enterprise features 🚀."
-                  : "After signing up, you need to upgrade to the Professional plan in your administration interface to unlock all features 🚀."}
+                  ? translate({
+                      message:
+                        "You can always upgrade to our Professional plan after signing-up to unlock unlimited users and other enterprise features 🚀.",
+                    })
+                  : translate({
+                      message:
+                        "After signing up, you need to upgrade to the Professional plan in your administration interface to unlock all features 🚀.",
+                    })}
               </small>
             </div>
           </div>
@@ -255,14 +270,15 @@ export default function SignupForm() {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label htmlFor="ap-firstname">Firstname</label>
+            <label htmlFor="ap-firstname">
+              <Translate>Firstname</Translate>
+            </label>
           </div>
           <div className="col col--6">
             <input
               type="text"
               className={styles.input}
               id="ap-firstname"
-              placeholder="Firstname"
               required={true}
               value={firstname}
               onChange={(e) => setFirstname(e.target.value)}
@@ -271,14 +287,15 @@ export default function SignupForm() {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label htmlFor="ap-lastname">Lastname</label>
+            <label htmlFor="ap-lastname">
+              <Translate>Lastname</Translate>
+            </label>
           </div>
           <div className="col col--6">
             <input
               type="text"
               className={styles.input}
               id="ap-lastname"
-              placeholder="Lastname"
               required={true}
               value={lastname}
               onChange={(e) => setLastname(e.target.value)}
@@ -287,7 +304,9 @@ export default function SignupForm() {
         </div>
         <div className="row">
           <div className="col col--2">
-            <label htmlFor="email">Email address</label>
+            <label htmlFor="email">
+              <Translate>Email address</Translate>
+            </label>
           </div>
           <div className="col col--6">
             <input
@@ -300,14 +319,18 @@ export default function SignupForm() {
               onChange={(e) => setEmail(e.target.value)}
             />
             <small id="emailHelp" class="form-text text-muted">
-              We treat your email address confidentially and will use it for the
-              sign up process and sending product information.
+              <Translate>
+                We treat your email address confidentially and will use it for
+                the sign up process and sending product information.
+              </Translate>
             </small>
           </div>
         </div>
         <div className="row">
           <div className="col col--2">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">
+              <Translate>Password</Translate>
+            </label>
           </div>
           <div className="col col--6">
             <input
@@ -331,14 +354,14 @@ export default function SignupForm() {
               onChange={(e) => setTerms(e.target.checked)}
             />
             <label class="inline-label" htmlFor="accept-terms">
-              &nbsp;I accept the{" "}
-              <a href="/privacy-policy" target="_blank">
-                privacy policy
-              </a>{" "}
+              &nbsp;<Translate>I accept the</Translate>{" "}
+              <Link target="_blank" to="/privacy-policy">
+                <Translate>privacy policy</Translate>
+              </Link>{" "}
               and the{" "}
-              <a href="/terms" target="_blank">
-                terms of use
-              </a>
+              <Link target="_blank" to="/terms">
+                <Translate>terms of use</Translate>
+              </Link>
               .
             </label>
           </div>
@@ -355,7 +378,9 @@ export default function SignupForm() {
                   Loading...
                 </div>
               ) : (
-                <div>Next &#10217;</div>
+                <div>
+                  <Translate>Sign up</Translate>
+                </div>
               )}
             </button>
           </div>
