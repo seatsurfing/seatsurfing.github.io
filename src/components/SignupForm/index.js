@@ -4,8 +4,11 @@ import styles from "./styles.module.css";
 import { translate } from "@docusaurus/Translate";
 import Translate from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function SignupForm() {
+  const { i18n } = useDocusaurusContext();
+
   const PLAN_FREE = "free";
   const PLAN_PAID = "paid";
   const APP_PREFIX = "https://app.seatsurfing.io";
@@ -47,7 +50,9 @@ export default function SignupForm() {
       lastname: name2,
       email: email,
       organization: org,
-      language: "en",
+      language: ["en", "de"].includes(i18n.currentLocale)
+        ? i18n.currentLocale
+        : "en",
       domain: domain,
       contactFirstname: firstname,
       contactLastname: lastname,
