@@ -52,5 +52,11 @@
   },
   "seamlessly as your team grows – no installation required.": {
     "message": "wenn dein Team wächst – keine Installation erforderlich."
+  },
+  "Our Free plan contains everything you need to get started for up to 10 users. Our Professional plan includes unlimited users and": {
+    "message": "Unser Free Plan bietet alle Funktionen um mit bis zu 10 Benutzern zu starten. Unser Professional Plan beinhaltet unbegrenzte Benutzer und"
+  },
+  "other enterprise features": {
+    "message": "weitere Enterprise-Funktionen"
   }
 }
