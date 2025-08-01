@@ -40,6 +40,19 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         </ul>
         <a href="/de/sign-up?paid" className="button button--primary button--lg button-gradient">Anmelden</a>
     </div>
+     <div className="pricing-model pricing-model-enterprise">
+        <h3>Enterprise</h3>
+        <p className="pricing-price"><span className="pricing-enterprise">Enterprise-Preise sind ab 500 und mehr Benutzern verfügbar.</span></p>
+        <p>Single-Tenant-Infrastrukture – maximale Compliance.</p>
+        <hr />
+        <p>Everything from Professional, plus:</p>
+        <ul>
+            <li>Dedizierte Infrastruktur</li>
+            <li>Maximaler Datenschutz</li>
+            <li>24/7 Prioritäts-E-Mail-Support</li>
+        </ul>
+        <a href="mailto:hello@seatsurfing.io" className="button button--primary button--lg">Contact us</a>
+    </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
         <p className="pricing-price">€ 0</p>

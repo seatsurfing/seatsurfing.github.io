@@ -4,7 +4,7 @@ title: Support
 
 # Support
 
-Unser Support ist 24 Stunden täglich für Kunden verfügbar, die den kostenpflichtigen Professional Plan abonniert haben.
+Unser Support ist 24 Stunden täglich für Kunden verfügbar, die den kostenpflichtigen Professional oder Enterprise Plan abonniert haben.
 
 Bevor du unser Support-Team kontaktierst, befolge bitte diese Schritte::
 

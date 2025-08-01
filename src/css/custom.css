@@ -94,7 +94,7 @@ header.hero--primary {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  gap: 20px 30px;
+  gap: 20px 15px;
   flex-wrap: wrap;
   margin-bottom: 100px;
 }
@@ -107,7 +107,7 @@ header.hero--primary {
   padding: 25px;
   padding-bottom: 75px;
   position: relative;
-  flex-basis: 350px;
+  flex-basis: 330px;
 }
 
 .pricing-model .button {
@@ -138,6 +138,17 @@ header.hero--primary {
 
 .pricing-price {
   font-size: 42px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.pricing-enterprise {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 .pricing-price-suffix {
@@ -188,11 +199,19 @@ span.blue-dot {
   order: 2;
 }
 
-.pricing-model-oss {
+.pricing-model-enterprise {
   order: 3;
 }
 
+.pricing-model-oss {
+  order: 4;
+}
+
 @media screen and (max-width: 761px) {
+  .pricing-model-enterprise {
+    order: 3;
+  }
+
   .pricing-model-free {
     order: 2;
   }

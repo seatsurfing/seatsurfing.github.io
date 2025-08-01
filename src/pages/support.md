@@ -4,7 +4,7 @@ title: Support
 
 # Support
 
-Our support is available 24 hours / day for customers subscribed to the Professional plan.
+Our support is available 24 hours / day for customers subscribed to the Professional or Enterprise plan.
 
 Before contacting our support team, please follow these steps:
 
