@@ -55,6 +55,10 @@
   width: 120px;
 }
 
+.feature-table td strong {
+  font-size: 12px;
+}
+
 .feature-table td:first-child {
   width: auto;
   text-align: left;
