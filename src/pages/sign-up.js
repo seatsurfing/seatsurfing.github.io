@@ -13,7 +13,7 @@ export default function SignUp() {
               <h1>
                 <Translate>Start now for free</Translate>
               </h1>
-              <p class="text--bold">
+              <p className="text--bold">
                 <Translate>
                   Our Free plan contains everything you need to get started for
                   up to 10 users. Our Professional plan includes unlimited users

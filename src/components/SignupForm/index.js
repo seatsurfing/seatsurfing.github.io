@@ -147,7 +147,7 @@ export default function SignupForm() {
           <label htmlFor="firstname">Firstname</label>
           <input
             type="firstname"
-            class="form-control"
+            className="form-control"
             id="firstname"
             value={name1}
             onChange={(e) => setName1(e.target.value)}
@@ -157,7 +157,7 @@ export default function SignupForm() {
           <label htmlFor="lastname">Lastname</label>
           <input
             type="lastname"
-            class="form-control"
+            className="form-control"
             id="lastname"
             value={name2}
             onChange={(e) => setName2(e.target.value)}
@@ -175,8 +175,8 @@ export default function SignupForm() {
               className={styles.input}
               id="organization"
               placeholder={translate({ message: "Your company Ltd." })}
-              minlength="3"
-              autofocus="autofocus"
+              minLength="3"
+              autoFocus
               required={true}
               value={org}
               onChange={(e) => {
@@ -243,14 +243,14 @@ export default function SignupForm() {
             <label htmlFor="domain">Domain</label>
           </div>
           <div className="col col--6">
-            <div class="domain-input">
+            <div className="domain-input">
               <div className={styles.domainbox}>
                 <input
                   type="text"
                   className={styles.subdomain}
                   id="domain"
                   aria-describedby="domain-invalid domain-help"
-                  minlength="3"
+                  minLength="3"
                   required={true}
                   value={domain}
                   onChange={(e) => {
@@ -258,12 +258,12 @@ export default function SignupForm() {
                     onDomainChange(e.target.value);
                   }}
                 />
-                <span class="input-group-text" id="domain-suffix">
+                <span className="input-group-text" id="domain-suffix">
                   &nbsp;.seatsurfing.app
                 </span>
               </div>
             </div>
-            <small id="domain-help" class="form-text text-muted">
+            <small id="domain-help" className="form-text text-muted">
               Add your custom domain later (requires Professional plan).
             </small>
             {showDomainInUse ? (
@@ -323,7 +323,7 @@ export default function SignupForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <small id="emailHelp" class="form-text text-muted">
+            <small id="emailHelp" className="form-text text-muted">
               <Translate>
                 We treat your email address confidentially and will use it for
                 the sign up process and sending product information.
@@ -352,13 +352,13 @@ export default function SignupForm() {
           <div className="col col--8">
             <input
               type="checkbox"
-              class="custom-control-input"
+              className="custom-control-input"
               id="accept-terms"
               required={true}
               checked={terms}
               onChange={(e) => setTerms(e.target.checked)}
             />
-            <label class="inline-label" htmlFor="accept-terms">
+            <label className="inline-label" htmlFor="accept-terms">
               &nbsp;<Translate>I accept the</Translate>{" "}
               <Link target="_blank" to="/privacy-policy">
                 <Translate>privacy policy</Translate>
@@ -375,11 +375,11 @@ export default function SignupForm() {
           <div className="col col--8">
             <button
               type="submit"
-              class="button button--primary button--lg"
+              className="button button--primary button--lg"
               disabled={!allowSubmit}
             >
               {loading ? (
-                <div class="loader" id="signup-loading">
+                <div className="loader" id="signup-loading">
                   Loading...
                 </div>
               ) : (
