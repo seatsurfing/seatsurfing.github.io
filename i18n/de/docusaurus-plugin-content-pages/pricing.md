@@ -7,10 +7,10 @@ hide_table_of_contents: true
 
 Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
 
-<section class="pricing-models">
-    <div class="pricing-model pricing-model-free">
+<section className="pricing-models">
+    <div className="pricing-model pricing-model-free">
         <h3>Free</h3>
-        <p class="pricing-price">€ 0</p>
+        <p className="pricing-price">€ 0</p>
         <p>Für kleine Teams bis zu 10 Benutzern – für immer kostenlos.</p>
         <hr />
         <p>Alles, was du für den Einstieg benötigen:</p>
@@ -21,11 +21,11 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Server in Deutschland (EU)</li>
             <li>Immer die neuesten Versionen &amp; Funktionen</li>
         </ul>
-        <a href="/de/sign-up" class="button button--primary button--lg">Anmelden</a>
+        <a href="/de/sign-up" className="button button--primary button--lg">Anmelden</a>
     </div>
-    <div class="pricing-model pricing-model-highlight border-gradient-purple">
+    <div className="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Professional</h3>
-        <p class="pricing-price">€ 0.90<span class="pricing-price-suffix">pro Benutzer / Monat</span></p>
+        <p className="pricing-price">€ 0.90<span className="pricing-price-suffix">pro Benutzer / Monat</span></p>
         <p>Enterprise-Funktionen und keine Grenzen – alles, was Sie brauchen.</p>
         <hr />
         <p>Alles aus dem Free Plan, plus:</p>
@@ -38,22 +38,22 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Monatliche Zahlung</li>
             <li>24/7 E-Mail-Support</li>
         </ul>
-        <a href="/de/sign-up?paid" class="button button--primary button--lg button-gradient">Anmelden</a>
+        <a href="/de/sign-up?paid" className="button button--primary button--lg button-gradient">Anmelden</a>
     </div>
-    <div class="pricing-model pricing-model-oss">
+    <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
-        <p class="pricing-price">€ 0</p>
+        <p className="pricing-price">€ 0</p>
         <p>Starte kostenlos, indem du Seatsurfing auf deinem eigenen Servern hostest.</p>
         <hr />
         <p>Alles ist Open Source, unbegrenzte Benutzer und alle Funktionen kostenlos.</p>
         <p>Schau dir unsere <a href="/de/features">Funktionsmatrix</a> für Einschränkungen bei selbst gehosteten Versionen an.</p>
-        <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" class="button button--secondary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
+        <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" className="button button--secondary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" className="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
     </div>
 </section>
 
 ## FAQ
 
-<div class="faq">
+<div className="faq">
 #### Wie funktioniert der Free Plan?
 
 Durch die Anmeldung für den kostenlosen Plan erhältst du Zugang zu fast allen Funktionen von Seatsurfing. Du benötigst keine Kreditkarte, um zu beginnen. Upgrade jederzeit auf den kostenpflichtigen Plan, wenn du mehr Funktionen oder mehr Benutzer benötigst. Perfekt zum Testen geeignet.
