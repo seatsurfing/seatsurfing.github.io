@@ -11,6 +11,9 @@
   "link.item.label.Imprint": {
     "message": "Impressum"
   },
+  "link.item.label.Terms": {
+    "message": "Nutzungsbedingungen"
+  },
   "link.item.label.Privacy Policy": {
     "message": "Datenschutzrichtlinie"
   }
