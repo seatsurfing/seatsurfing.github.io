@@ -40,6 +40,19 @@ Pick your package and begin with Seatsurfing today.
         </ul>
         <a href="/sign-up?paid" className="button button--primary button--lg button-gradient">Sign up</a>
     </div>
+    <div className="pricing-model pricing-model-enterprise">
+        <h3>Enterprise</h3>
+        <p className="pricing-price"><span className="pricing-enterprise">Enterprise pricing is available for 500 and more users.</span></p>
+        <p>Single-tenant infrastructure – maximum compliance.</p>
+        <hr />
+        <p>Everything from Professional, plus:</p>
+        <ul>
+            <li>Dedicated infrastructure</li>
+            <li>Maximum data protection</li>
+            <li>24/7 priority email support</li>
+        </ul>
+        <a href="mailto:hello@seatsurfing.io" className="button button--primary button--lg">Contact us</a>
+    </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
         <p className="pricing-price">€ 0</p>
