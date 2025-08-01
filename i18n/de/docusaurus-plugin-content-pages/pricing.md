@@ -51,7 +51,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Maximaler Datenschutz</li>
             <li>24/7 Prioritäts-E-Mail-Support</li>
         </ul>
-        <a href="mailto:hello@seatsurfing.io" className="button button--primary button--lg">Contact us</a>
+        <a href="mailto:hello@seatsurfing.io" className="button button--primary button--lg">Kontaktiere uns</a>
     </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
