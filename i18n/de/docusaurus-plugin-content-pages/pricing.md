@@ -43,7 +43,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
      <div className="pricing-model pricing-model-enterprise">
         <h3>Enterprise</h3>
         <p className="pricing-price"><span className="pricing-enterprise">Enterprise-Preise sind ab 500 und mehr Benutzern verfügbar.</span></p>
-        <p>Single-Tenant-Infrastrukture – maximale Compliance.</p>
+        <p>Single-Tenant-Infrastruktur – maximale Compliance.</p>
         <hr />
         <p>Alles aus dem Professional Plan, plus:</p>
         <ul>
