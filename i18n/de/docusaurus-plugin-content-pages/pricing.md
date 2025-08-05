@@ -47,7 +47,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         <hr />
         <p>Alles aus dem Professional Plan, plus:</p>
         <ul>
-            <li>Dedizierte Infrastruktur</li>
+            <li>Dedizierte Infrastruktur (in Deutschland, Finnland oder USA)</li>
             <li>Maximaler Datenschutz</li>
             <li>24/7 Prioritäts-E-Mail-Support</li>
         </ul>

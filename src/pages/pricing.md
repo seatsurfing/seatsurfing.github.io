@@ -47,7 +47,7 @@ Pick your package and begin with Seatsurfing today.
         <hr />
         <p>Everything from Professional, plus:</p>
         <ul>
-            <li>Dedicated infrastructure</li>
+            <li>Dedicated infrastructure (in Germany, Finnland or US)</li>
             <li>Maximum data protection</li>
             <li>24/7 priority email support</li>
         </ul>
