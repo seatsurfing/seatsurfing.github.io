@@ -53,10 +53,12 @@
 .feature-table td {
   text-align: center;
   width: 120px;
+  line-height: normal;
 }
 
 .feature-table td strong {
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .feature-table td:first-child {
