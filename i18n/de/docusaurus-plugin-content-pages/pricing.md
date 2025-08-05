@@ -97,6 +97,6 @@ Ja, eine Rechnung ist für jede Zahlung verfügbar.
 
 #### Wo werden meine Daten gespeichert?
 
-Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden mit Professional Plan anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
+Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden unseres Enterprise Plans anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
 
 </div>

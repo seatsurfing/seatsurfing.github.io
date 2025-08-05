@@ -97,6 +97,6 @@ Yes, an invoice is available for every payment.
 
 #### Where is my data stored?
 
-Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Professional plan. [Contact us](/support/) for further information.
+Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Enterprise plan. [Contact us](/support/) for further information.
 
 </div>
