@@ -33,7 +33,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>So viele Benutzer wie du brauchst</li>
             <li>Buchungsgenehmigungen & -beschränkungen</li>
             <li>Wiederkehrende Buchungen</li>
-            <li>Custom Domains</li>
+            <li>Benutzerdefinierte Domains</li>
             <li>Identitätsprovider (IDP)</li>
             <li>Monatliche Zahlung</li>
             <li>24/7 E-Mail-Support</li>

@@ -103,5 +103,8 @@
   },
   "terms of use": {
     "message": "Nutzungsbedingungen"
+  },
+  "Add your custom domain later (requires Professional plan).": {
+    "message": "Konfiguriere deine benutzerdefinierte Domain später (benötigt Professional-Plan)"
   }
 }

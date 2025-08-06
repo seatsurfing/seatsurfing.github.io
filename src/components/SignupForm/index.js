@@ -264,7 +264,9 @@ export default function SignupForm() {
               </div>
             </div>
             <small id="domain-help" className="form-text text-muted">
-              Add your custom domain later (requires Professional plan).
+              <Translate>
+                Add your custom domain later (requires Professional plan).
+              </Translate>
             </small>
             {showDomainInUse ? (
               <Admonition type="caution">Domain already in use.</Admonition>
