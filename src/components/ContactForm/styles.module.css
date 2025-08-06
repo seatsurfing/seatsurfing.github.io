@@ -1,0 +1,21 @@
+.noDisplay {
+    display: none;
+}
+
+.firstname,
+.lastname {
+    display: none;
+}
+
+.input, .subdomain {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.domainbox {
+    display: flex;
+}

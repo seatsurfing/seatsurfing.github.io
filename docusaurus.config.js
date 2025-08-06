@@ -103,10 +103,6 @@ export default {
             title: "Seatsurfing",
             items: [
               {
-                label: "Get it free",
-                to: "sign-up",
-              },
-              {
                 label: "Pricing",
                 to: "pricing",
               },
@@ -121,6 +117,10 @@ export default {
               {
                 label: "Support",
                 to: "support",
+              },
+              {
+                label: "Contact",
+                to: "contact",
               },
             ],
           },
