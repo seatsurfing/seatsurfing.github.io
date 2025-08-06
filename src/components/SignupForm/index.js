@@ -45,7 +45,7 @@ export default function SignupForm() {
     setLoading(true);
     setShowError(false);
     setShowSuccess(false);
-    let data = {
+    const data = {
       firstname: name1,
       lastname: name2,
       email: email,
@@ -77,11 +77,11 @@ export default function SignupForm() {
   };
 
   const queryAjax = (method, url, data) => {
-    let headers = new Headers();
+    const headers = new Headers();
     if (data) {
       headers.append("Content-Type", "application/json");
     }
-    let options = {
+    const options = {
       method: method,
       mode: "cors",
       cache: "no-cache",
@@ -126,10 +126,10 @@ export default function SignupForm() {
 
   const setDomainFromOrg = (org) => {
     const valid = "abcdefghijklmnopqrstuvwxyz-_";
-    let org2 = org.trim();
+    const org2 = org.trim();
     let res = "";
     for (let i = 0; i < org2.length; i++) {
-      let c = org2[i].toLowerCase();
+      const c = org2[i].toLowerCase();
       if (c === " ") {
         res += "-";
       } else if (valid.indexOf(c) > -1) {
