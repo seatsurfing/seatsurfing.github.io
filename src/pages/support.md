@@ -8,7 +8,7 @@ Our support is available 24 hours / day for customers subscribed to the Professi
 
 Before contacting our support team, please follow these steps:
 
-- Read [the documentation](/docs).
+- Read the [documentation](/docs).
 - Check our systems' status at [status.seatsurfing.io](https://status.seatsurfing.io).
 - Finally, read and accept our [privacy policy](/privacy-policy).
 
@@ -19,3 +19,5 @@ Email: hello@seatsurfing.io
 Phone: <a href="tel:+4961723951022">+49 6172 3951022</a>
 
 Please expect a response time of approximately 24 hours.
+
+For security issues please contact security@seatsurfing.io.
