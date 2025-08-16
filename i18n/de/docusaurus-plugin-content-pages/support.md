@@ -12,7 +12,9 @@ Bevor du unser Support-Team kontaktierst, befolge bitte diese Schritte::
 - Überprüfe den Status unserer Systeme unter [status.seatsurfing.io](https://status.seatsurfing.io).
 - Lies und akzeptiere abschließend unsere [Datenschutzrichtlinie](/privacy-policy).
 
-Kontaktiere uns per E-Mail (empfohlen) oder telefonisch:
+Kontaktiere uns über unser support portal (empfohlen), per E-Mail oder telefonisch:
+
+Support Portal: https://seatsurfing.atlassian.net/servicedesk
 
 Email: hello@seatsurfing.io
 

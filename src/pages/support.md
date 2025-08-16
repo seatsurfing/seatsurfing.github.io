@@ -12,7 +12,9 @@ Before contacting our support team, please follow these steps:
 - Check our systems' status at [status.seatsurfing.io](https://status.seatsurfing.io).
 - Finally, read and accept our [privacy policy](/privacy-policy).
 
-Contact us via email (recommended) or phone:
+Contact us via our support portal (recommended), email or phone:
+
+Support portal: https://seatsurfing.atlassian.net/servicedesk
 
 Email: hello@seatsurfing.io
 
