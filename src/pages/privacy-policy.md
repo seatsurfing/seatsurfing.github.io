@@ -38,7 +38,7 @@ The servers for the Seatsurfing app are located in Germany, unless explicitly co
 
 ### Support portal
 
-We use “Jira Service Management”, a service desk provided by Atlassian Pty Ltd (“Atlassian”). When you submit a request through our [support portal](https://seatsurfing.atlassian.net/servicedesk/customer/portals), or by emailing to support@seatsurfing.io, your data will be stored and processed on Atlassian's servers worldwide in accordance with [Atlassian’s privacy policy](https://www.atlassian.com/legal/privacy-policy).
+We use “Jira Service Management”, a service desk provided by Atlassian Pty Ltd (“Atlassian”). When you submit a request through our [support portal](https://seatsurfing.atlassian.net/servicedesk), or by emailing to support@seatsurfing.io, your data will be stored and processed on Atlassian's servers worldwide in accordance with [Atlassian’s privacy policy](https://www.atlassian.com/legal/privacy-policy).
 
 ## Your rights according to General Data Protection Regulation (GDPR)
 
