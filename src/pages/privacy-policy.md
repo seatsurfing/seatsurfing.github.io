@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Effective 2025-04-12
+Effective 2025-08-16
 
 We created this privacy policy in order to inform you about the information we collect, how we use your data and which choices you as a visitor of the Seatsurfing website and the Seatsurfing app have.
 
@@ -22,11 +22,11 @@ The legislative basis according to [article 6 (1) of the DSGVO](https://eur-lex.
 
 ## Which personal data we store
 
-### On this website
+### Seatsurfing website
 
 You can use this website without providing any personal information. If you optionally choose to use functionalities that require the input of personal information, we will only use these for the purpose stated.
 
-### In the app
+### Seatsurfing app
 
 Using the app is only possible if your organization previously set up a user account for you. The processing of your login details (username, password, and other information) happens on our servers or directly on the servers of your organization, depending on your organization’s configuration. If your organization processes your login information, we use established standards such as OpenID Connect or OAuth so your sensitive data is processed directly by your organization’s systems. In this case, your log in details are neither stored nor processed by our servers. However, your email address is always stored on and processed by our systems to identify the relevant organization and the available authentication methods.
 
@@ -34,9 +34,11 @@ To enable a personalized usage of the app, it’s necessary to store a minimum s
 
 Furthermore, we store and process the bookings you place using the app. For these bookings, we store the timestamp, enter and leave date, and the details of your booking (such as the selected space) and link them with your user account.
 
-## Where we store your data
+The servers for the Seatsurfing app are located in Germany, unless explicitly communicated otherwise.
 
-Our servers are located in Germany.
+### Support portal
+
+We use “Jira Service Management”, a service desk provided by Atlassian Pty Ltd (“Atlassian”). When you submit a request through our [support portal](https://seatsurfing.atlassian.net/servicedesk/customer/portals), or by emailing to support@seatsurfing.io, your data will be stored and processed on Atlassian's servers worldwide in accordance with [Atlassian’s privacy policy](https://www.atlassian.com/legal/privacy-policy).
 
 ## Your rights according to General Data Protection Regulation (GDPR)
 
