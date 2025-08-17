@@ -14,7 +14,7 @@ Bevor du unser Support-Team kontaktierst, befolge bitte diese Schritte::
 
 Kontaktiere uns über unser support portal (empfohlen), per E-Mail oder telefonisch:
 
-Support Portal: https://seatsurfing.atlassian.net/servicedesk
+Support Portal: https://support.seatsurfing.io
 
 Email: hello@seatsurfing.io
 

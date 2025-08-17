@@ -51,7 +51,7 @@ Pick your package and begin with Seatsurfing today.
             <li>Maximum data protection</li>
             <li>24/7 priority email support</li>
         </ul>
-        <a href="https://seatsurfing.atlassian.net/servicedesk/customer/portal/1/create/10003" target="_blank" className="button button--primary button--lg">Contact us</a>
+        <a href="https://support.seatsurfing.io/customer/portal/1/create/10003" target="_blank" className="button button--primary button--lg">Contact us</a>
     </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
