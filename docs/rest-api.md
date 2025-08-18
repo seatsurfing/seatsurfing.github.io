@@ -29,6 +29,35 @@ Seatsurfing's REST API uses the well known HTTP status codes to inform the calle
 - Org Admin: An organization's administrator
 - Super Admin: Global administrator with access to all organizations and all functions
 
+## Session management
+### Token lifetimes
+* Access Token Lifetime: 15 minutes
+* Refresh Token Lifetime: 1 day
+* Access Token Refresh in Seatsurfing's web frontends: 5 minuntes
+
+### Storage locations in web frontends
+* Session Storage:
+  * Access Token
+  * Access Token Expiry Timestamp
+  * Logout URL
+* Local Storage:
+  * Refresh Token
+
+### Authentication flow in web frontends
+* When logging in:
+  * Access Token is stored in browser's session storage via AjaxConfigBrowserPersister.
+  * Refresh Token is stored in browser's local storage via AjaxConfigBrowserPersister.
+* When performing a page reload in the browser:
+  * Check if Access Token is present in session storage.
+  * If no Access Token was found, check if Refresh Token is present in Local Storage. If so, try to retrieve a new Access Token using the Refresh Token.
+  * Use the Access Token to fetch the current user's details.
+  * If fetching the user's details fails due to invalid Access Token, delete all credentials from the session and local Storages and perform redirect to login page.
+* When performing an AJAX Call:
+  * Check if a Access Token with sufficient remaining validity period (expiry timestamp) exists in session storage.
+  * If the Access Token needs to be refreshed and a Refresh Token exists, retrieve a new Access Token using the Refresh Token and store Access and Refresh Token in session/local storage. If retrieving a new Access Token fails, delete all credentials from the session and local storage.
+  * If a valid Access Token exists, perform the actual AJAX Call.
+
+
 ## Endpoints
 
 ### Authentication
