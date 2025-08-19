@@ -121,7 +121,7 @@ export default {
               },
               {
                 label: "Blog",
-                href: "blog",
+                to: "blog",
               },
             ],
           },
