@@ -51,7 +51,7 @@ Pick your package and begin with Seatsurfing today.
             <li>Maximum data protection</li>
             <li>24/7 priority email support</li>
         </ul>
-        <a href="https://support.seatsurfing.io/customer/portal/1/create/10003" target="_blank" className="button button--primary button--lg">Contact us</a>
+        <a href="/contact" target="_blank" className="button button--primary button--lg">Contact us</a>
     </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
@@ -98,6 +98,6 @@ Yes, an invoice is available for every payment.
 
 #### Where is my data stored?
 
-Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Enterprise plan. [Contact us](/support/) for further information.
+Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Enterprise plan. [Contact us](/contact) for further information.
 
 </div>

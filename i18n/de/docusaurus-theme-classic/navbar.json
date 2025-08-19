@@ -6,7 +6,10 @@
     "message": "Funktionen"
   },
   "item.label.Docs": {
-    "message": "Doku"
+    "message": "Dokumentation"
+  },
+  "item.label.Contact": {
+    "message": "Kontakt"
   },
   "item.label.Get it free": {
     "message": "Kostenlos nutzen"

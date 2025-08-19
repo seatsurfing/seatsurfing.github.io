@@ -77,7 +77,12 @@ export default {
             position: "left",
             label: "Docs",
           },
-          { to: "/support", label: "Support", position: "left" },
+          { to: "/contact", label: "Contact", position: "left" },
+          {
+            to: "https://support.seatsurfing.io",
+            label: "Support",
+            position: "left",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
@@ -103,24 +108,20 @@ export default {
             title: "Seatsurfing",
             items: [
               {
-                label: "Get it free",
-                to: "sign-up",
-              },
-              {
-                label: "Pricing",
-                to: "pricing",
-              },
-              {
                 label: "Documentation",
                 to: "docs",
               },
               {
-                label: "Blog",
-                to: "blog",
+                label: "Support",
+                to: "https://support.seatsurfing.io",
               },
               {
-                label: "Support",
-                to: "support",
+                label: "Contact",
+                to: "contact",
+              },
+              {
+                label: "Blog",
+                href: "blog",
               },
             ],
           },

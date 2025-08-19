@@ -51,7 +51,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
             <li>Maximaler Datenschutz</li>
             <li>24/7 Prioritäts-E-Mail-Support</li>
         </ul>
-        <a href="https://support.seatsurfing.io/customer/portal/1/create/10003" target="_blank" className="button button--primary button--lg">Kontaktiere uns</a>
+        <a href="/de/contact" target="_blank" className="button button--primary button--lg">Kontaktiere uns</a>
     </div>
     <div className="pricing-model pricing-model-oss">
         <h3>Self-Hosted</h3>
@@ -98,6 +98,6 @@ Ja, eine Rechnung ist für jede Zahlung verfügbar.
 
 #### Wo werden meine Daten gespeichert?
 
-Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden unseres Enterprise Plans anbieten. [Kontaktiere uns](/support/) für weitere Informationen.
+Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden unseres Enterprise Plans anbieten. [Kontaktiere uns](/contact) für weitere Informationen.
 
 </div>

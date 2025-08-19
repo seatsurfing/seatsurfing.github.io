@@ -406,7 +406,7 @@ export default function SignupForm() {
           {showError ? (
             <Admonition type="caution">
               <b>That didn't work!</b> Please try again later or{" "}
-              <Link target="_blank" to="/support">
+              <Link target="_blank" to="/contact">
                 <Translate>contact us</Translate>
               </Link>
               .
