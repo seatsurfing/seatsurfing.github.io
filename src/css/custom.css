@@ -1,10 +1,15 @@
 @import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
+
+/* make sure "Font Awesome 7 Free" is included in (prod) CSS */
 @font-face {
   font-family: "Font Awesome 7 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
   src: url("@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2");
+}
+.fa-solid {
+  font-family: "Font Awesome 7 Free", sans-serif;
 }
 
 /**
