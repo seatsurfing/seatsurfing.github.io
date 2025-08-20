@@ -60,7 +60,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         <hr />
         <p>Alles ist Open Source, unbegrenzte Benutzer und alle Funktionen kostenlos. Schau dir unsere <a href="/de/features">Funktionsmatrix</a> für Einschränkungen bei selbst gehosteten Versionen an.</p>
         <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fa-solid fa-headset"></i></span> Benötigst du Support? <a href="https://github.com/sponsors/seatsurfing" target="_blank">Kontaktiere uns</a> für Support-Optionen bei einer selbst-gehostete Instanz.</li>
+            <li class="margin-bottom--md"><span class="fa-li"><i class="fa-solid fa-headset"></i></span> Benötigst du Support? <a href="https://github.com/sponsors/seatsurfing" target="_blank">Kontaktiere uns</a> für Support-Optionen bei einer selbst-gehostete Instanz.</li>
             <li><span class="fa-li"><i class="fa-solid fa-hand-holding-heart"></i></span> Unterstütze das Projekt und <a href="https://github.com/sponsors/seatsurfing" target="_blank">werde Sponsor</a>.</li>
         </ul>
         <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" className="button button--secondary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" className="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
