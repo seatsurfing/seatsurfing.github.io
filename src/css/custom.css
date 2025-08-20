@@ -1,4 +1,11 @@
-@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2");
+}
 
 /**
  * Any CSS included here will be global. The classic template
