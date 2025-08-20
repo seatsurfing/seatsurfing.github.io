@@ -4,21 +4,18 @@ title: Contact
 
 # Contact
 
-Please read and accept our [privacy policy](/privacy-policy) before getting in touch with us.
+We are looking forward hearing from you! Please read and accept our [privacy policy](/privacy-policy) before getting in touch with us.
 
 ## General inquiries
 
-For general inquiries, you can contact us via
-
-Email: hello@seatsurfing.io
-
-Phone: <a href="tel:+4961723951022">+49 6172 3951022</a>
+<p><i class="fa-solid fa-table-list"></i> <a href="https://seatsurfing.atlassian.net/servicedesk/customer/portal/1/group/1/create/10003" target="_blank">Contact form</a></p>
+<p><i class="fa-solid fa-envelope"></i> hello@seatsurfing.io</p>
+<p><i class="fa-solid fa-phone"></i> <a href="tel:+4961723951022">+49 6172 3951022</a></p>
 
 ## Support
 
-Email: support@seatsurfing.io
-
-Support portal: https://support.seatsurfing.io
+<p><i class="fa-solid fa-house"></i> <a href="https://support.seatsurfing.io" target="_blank">Support portal</a></p>
+<p><i class="fa-solid fa-envelope"></i> support@seatsurfing.io</p>
 
 _Customers subscribed to the [Professional or Enterprise plan](/pricing) can expect a response time of 24 hours._
 

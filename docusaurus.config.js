@@ -78,11 +78,6 @@ export default {
             label: "Docs",
           },
           { to: "/contact", label: "Contact", position: "left" },
-          {
-            to: "https://support.seatsurfing.io",
-            label: "Support",
-            position: "left",
-          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",

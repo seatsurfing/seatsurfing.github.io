@@ -14,12 +14,12 @@ Pick your package and begin with Seatsurfing today.
         <p>For small teams with up to 10 users – free forever.</p>
         <hr />
         <p>Everything you need to get started:</p>
-        <ul>
-            <li>Free for up to 10 users</li>
-            <li>Microsoft Teams integration</li>
-            <li>Managed Cloud Hosting</li>
-            <li>Servers in Germany (EU)</li>
-            <li>Always the latest versions &amp; features</li>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Free for up to 10 users</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Microsoft Teams integration</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Managed Cloud Hosting</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Servers in Germany (EU)</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Always the latest versions &amp; features</li>
         </ul>
         <a href="/sign-up" className="button button--primary button--lg">Sign up</a>
     </div>
@@ -29,14 +29,14 @@ Pick your package and begin with Seatsurfing today.
         <p>Enterprise features and no user limit – all you need.</p>
         <hr />
         <p>Everything from Free, plus:</p>
-        <ul>
-            <li>As many users as you need</li>
-            <li>Booking approvals & restrictions</li>
-            <li>Recurring bookings</li>
-            <li>Custom domains</li>
-            <li>3rd party Identity Provider (IDP)</li>
-            <li>Monthly payment</li>
-            <li>24/7 email support</li>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> As many users as you need</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Booking approvals & restrictions</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Recurring bookings</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Custom domains</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 3rd party Identity Provider (IDP)</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Monthly payment</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 support</li>
         </ul>
         <a href="/sign-up?paid" className="button button--primary button--lg button-gradient">Sign up</a>
     </div>
@@ -46,10 +46,10 @@ Pick your package and begin with Seatsurfing today.
         <p>Single-tenant infrastructure – maximum compliance.</p>
         <hr />
         <p>Everything from Professional, plus:</p>
-        <ul>
-            <li>Dedicated infrastructure (in Germany, Finnland or US)</li>
-            <li>Maximum data protection</li>
-            <li>24/7 priority email support</li>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Dedicated infrastructure (in Germany, Finnland or US)</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Maximum data protection</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 priority support</li>
         </ul>
         <a href="/contact" target="_blank" className="button button--primary button--lg">Contact us</a>
     </div>
@@ -58,11 +58,14 @@ Pick your package and begin with Seatsurfing today.
         <p className="pricing-price">€ 0</p>
         <p>Get started for free by hosting Seatsurfing on your own servers.</p>
         <hr />
-        <p>Everything is open source, unlimited users and all features for free.</p>
-        <p>See our <a href="/features">feature matrix</a> for self-hosted limitations.</p>
-        <p><span class="blue-heart"></span> Support the project and <a href="https://github.com/sponsors/seatsurfing" target="_blank">become a sponsor</a>.</p>
+        <p>Everything is open source, unlimited users and all features for free. See our <a href="/features">feature matrix</a> for self-hosted limitations.</p>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-headset"></i></span> Need support? <a href="https://github.com/sponsors/seatsurfing" target="_blank">Contact us</a> for self-hosted instance support options.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-hand-holding-heart"></i></span> Support the project and <a href="https://github.com/sponsors/seatsurfing" target="_blank">become a sponsor</a>.</li>
+        </ul>
         <a href="https://github.com/seatsurfing/seatsurfing" target="_blank" className="button button--secondary button--lg">GitHub <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" className="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
     </div>
+
 </section>
 
 ## FAQ

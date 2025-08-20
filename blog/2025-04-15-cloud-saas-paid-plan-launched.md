@@ -11,13 +11,13 @@ The Professional plan includes all features known from the Open Source Edition o
 
 <!-- truncate -->
 
-<ul class="blue-dots">
-    <li>Carefree Software as a Service (Saas) hosting on fast servers located in Germany</li>
-    <li>As many users as you need (pay per user)</li>
-    <li>Add your organization's custom domain to access your Seatsurfing instance</li>
-    <li>24/7 premium support</li>
-    <li>Monthly payment</li>
-    <li>...and there's more to come!</li>
+<ul class="fa-ul">
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Carefree Software as a Service (Saas) hosting on fast servers located in Germany</li>
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> As many users as you need (pay per user)</li>
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Add your organization's custom domain to access your Seatsurfing instance</li>
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 premium support</li>
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Monthly payment</li>
+    <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> &hellip;and there's more to come!</li>
 </ul>
 
 Of course, the Open Source Edition will still be the basis of the Professional plan. This is why you can expect regular updates, enhancements and new features.
