@@ -4,7 +4,7 @@ title: Terms of service
 
 # Terms of service
 
-Effective 2025-04-12
+Effective 2025-08-30
 
 ## 1. Preamble
 
@@ -12,7 +12,7 @@ This Agreement governs the relationship between the licensee (hereinafter: Licen
 
 ## 2. License grant
 
-Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, Commercial, Royalty free, Without the rights to create derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
+Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, Commercial, Without the rights to create derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
 
 1. Limited: Licensee may use Software for the purpose of:
    1. Running Software on Licensee’s Website[s] and Server[s];
@@ -21,7 +21,7 @@ Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, C
    1. Distribute verbatim copies of Software’s output (including compiled binaries).
 1. Binary Restricted: Licensee may sublicense Software as a part of a larger work containing more than Software, distributed solely in Object or Binary form under a personal, non-sublicensable, limited license. Such redistribution shall be limited to unlimited codebases.
 1. Non Assignable & Non-Transferable: Licensee may not assign or transfer his rights and duties under this license.
-1. Commercial, Royalty Free: Licensee may use Software for any purpose, including paid-services, without any royalties.
+1. Commercial: Licensee may use Software for any purpose in commercial environments, but must not use Software to provide paid-services.
 
 ## 3. Term & termination
 
