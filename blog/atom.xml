@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://seatsurfing.io/blog</id>
     <title>Seatsurfing Blog</title>
-    <updated>2025-07-11T00:00:00.000Z</updated>
+    <updated>2025-09-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://seatsurfing.io/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
     <icon>https://seatsurfing.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[September '25 news]]></title>
+        <id>https://seatsurfing.io/blog/news-september-2025</id>
+        <link href="https://seatsurfing.io/blog/news-september-2025"/>
+        <updated>2025-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're happy to share some updates that have rolled out over the past few weeks. These improvements are part of our ongoing commitment to making Seatsurfing a great workplace management solution for teams of all sizes.]]></summary>
+        <content type="html"><![CDATA[<p>We're happy to share some updates that have rolled out over the past few weeks. These improvements are part of our ongoing commitment to making Seatsurfing a great workplace management solution for teams of all sizes.</p>
+<p><strong>🌍 German website launch</strong></p>
+<p>Our website is now available in German at <a href="https://seatsurfing.io/de" target="_blank" rel="noopener noreferrer">https://seatsurfing.io/de</a>.</p>
+<p><strong>🏢 Introducing our Enterprise plan</strong></p>
+<p>Our Enterprise plan is designed for organizations with 500 or more users. This plan includes dedicated hosting options in Germany, Finland, or the USA. This ensures optimal performance and maximum data protection. Check out all the details on our updated <a href="https://seatsurfing.io/pricing/">pricing page</a>.</p>
+<p><strong>🎧 New support portal</strong></p>
+<p>We've launched our dedicated support portal at <a href="https://support.seatsurfing.io/" target="_blank" rel="noopener noreferrer">https://support.seatsurfing.io</a> for all general inquiries and technical support requests. Professional and Enterprise plan customers can expect responses within 24 hours.</p>
+<p><strong>📧 Enhanced onboarding experience</strong></p>
+<p>We've enhanced our onboarding process for new customers on both Free, Professional and Enterprise plans. After creating your account, you'll receive a series of helpful emails over your first few days to guide you through setup, share best practices, and help you get the most out of Seatsurfing.</p>
+<p><strong>🔧 Platform updates and bug fixes</strong></p>
+<p>Our development team has rolled out several platform updates focused on stability and performance improvements. You can find detailed information about all recent releases on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer">GitHub releases page</a>.</p>
+<p><strong>💝 Refreshed GitHub sponsorship</strong></p>
+<p>We've updated our GitHub Sponsorship page! Visit <a href="https://github.com/sponsors/seatsurfing" target="_blank" rel="noopener noreferrer">https://github.com/sponsors/seatsurfing</a> to learn more about supporting our open-source project.</p>
+<p><strong>📬 Dedicated contact channels</strong></p>
+<p>We now have dedicated email addresses for specific types of inquiries:</p>
+<ul>
+<li>Support requests: <a href="mailto:support@seatsurfing.io" target="_blank" rel="noopener noreferrer">support@seatsurfing.io</a></li>
+<li>Security concerns: <a href="mailto:security@seatsurfing.io" target="_blank" rel="noopener noreferrer">security@seatsurfing.io</a></li>
+</ul>
+<p><em>Ready to transform your workplace with smart desk booking? <a href="https://seatsurfing.io/sign-up">Get started with Seatsurfing today for free</a> or <a href="https://seatsurfing.io/contact">get in touch with us</a>.</em></p>]]></content>
+        <author>
+            <name>Jan</name>
+            <uri>https://github.com/janjonas</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[End of Life Announcement: Seatsurfing for Confluence Server and Data Center Support]]></title>
         <id>https://seatsurfing.io/blog/discontinuation-confluence-server-dc</id>
@@ -456,21 +488,6 @@
         <summary type="html"><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></summary>
         <content type="html"><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>
 <a href="https://seatsurfing.io/sign-up" class="button button--primary button--lg">Create Account</a>]]></content>
-        <author>
-            <name>Heiner</name>
-            <uri>https://github.com/virtualzone</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seatsurfing 1.5 enables self-hosted Docker instances]]></title>
-        <id>https://seatsurfing.io/blog/seatsurfing-1-5-enables-self-hosted-docker-instances</id>
-        <link href="https://seatsurfing.io/blog/seatsurfing-1-5-enables-self-hosted-docker-instances"/>
-        <updated>2021-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.]]></summary>
-        <content type="html"><![CDATA[<p>We’re happy to announce the availability of Seatsurfing 1.5. The new version marks a big change in Seatsurfing’s operating model: Seatsurfing’s Backend is now available on Docker Hub and thus allows you to host your Seatsurfing instance on-premises and free of charge. At the same time we’ve removed the Cloud hosting option (for now). We decided to go this way as we think it’s easier for most European organization to comply with the data protection regulations when going on-premises. However, we’ll consider bringing back Seatsurfing as a Cloud-hosted Software as a Service (SaaS) at a later time.</p>
-<p>For more information, please refer to the documentation. We’ve updated it in order to represent necessary instructions on how to get your Docker container up and running quickly.</p>
-<p>Please also note that Seatsurfing’s App for iPhone and iPad got a new home at the App Store. You should therefore uninstall your existing Seatsurfing App and get the new version from the App Store. The app for Google Android remains at its known place.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
