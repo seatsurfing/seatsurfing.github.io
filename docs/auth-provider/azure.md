@@ -27,4 +27,4 @@ You can connect your Microsoft Azure Tenant as an Auth Provider for Seatsurfing.
 ## 3. Finish Azure Configuration
 
 1. Head back to the App Registration you've created in the Azure Portal in Step 1.
-1. Navigate to "Authentication" and add a new "Platform configuration" (type "Web application > Web") and use the "Callback URL" from Step 2 as a "Redirect URI" (i.e. `https://<YOUR SEATSURFING DOMAIN>/auth/xyz/callback`).
+1. Navigate to "Authentication" and add a new "Platform configuration" (type "Web application > Web") and use the "Callback URL" from Step 2 as a "Redirect URI" (i.e. `https://<YOUR SEATSURFING DOMAIN>/auth/<YOUR UUID>/callback`).
