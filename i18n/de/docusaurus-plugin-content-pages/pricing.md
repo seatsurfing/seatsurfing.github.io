@@ -25,7 +25,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
     </div>
     <div className="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Professional</h3>
-        <p className="pricing-price">€ 0.90<span className="pricing-price-suffix">pro Benutzer / Monat</span></p>
+        <p className="pricing-price">€ 0,90<span className="pricing-price-suffix">pro Benutzer / Monat</span></p>
         <p>Enterprise-Funktionen und keine Grenzen – alles, was Du brauchst.</p>
         <hr />
         <p>Alles aus dem Free Plan, plus:</p>
