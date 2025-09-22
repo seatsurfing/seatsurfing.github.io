@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-free": "7.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-player": "^3.3.2"
+    "react-player": "^3.3.3"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1"
