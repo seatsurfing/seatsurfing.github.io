@@ -72,11 +72,15 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
 <div className="faq">
 #### Wie funktioniert der Free Plan?
 
-Durch die Anmeldung für den kostenlosen Plan erhältst du Zugang zu fast allen Funktionen von Seatsurfing. Du benötigst keine Kreditkarte, um zu beginnen. Upgrade jederzeit auf den kostenpflichtigen Plan, wenn du mehr Funktionen oder mehr Benutzer benötigst. Perfekt zum Testen geeignet.
+Durch die Anmeldung für den kostenlosen Free Plan erhältst du Zugang zu fast allen Funktionen von Seatsurfing. Du benötigst keine Kreditkarte, um zu beginnen. Upgrade jederzeit auf den kostenpflichtigen Plan, wenn du mehr Funktionen oder mehr Benutzer benötigst. Perfekt zum Testen geeignet.
 
 #### Wie kann ich meine bestehende Instanz auf den Professional Plan upgraden?
 
 Um eine bestehende Instanz zu upgraden, verwende dein Seatsurfing-Administrator-Konto und navigiere zu "Subscription".
+
+#### Kann ich den Professional Plan kostenlos testen?
+
+Ja, du kannst den Professional Plan 30 Tage lang kostenlos und unverbindlich testen. Während dieser Testphase hast du Zugriff auf alle Professional Features ohne Einschränkungen. Nach Ablauf der 30-tägigen Testphase musst du auf den Professional Plan upgraden, um weiterhin alle Enterprise-Funktionen nutzen zu können. Ohne Upgrade wird ein automatischer Downgrade auf den kostenlosen Free Plan durchgeführt.
 
 #### Kann ich zwischen den Plänen wechseln?
 

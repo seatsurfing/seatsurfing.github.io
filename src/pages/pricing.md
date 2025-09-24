@@ -79,6 +79,10 @@ By signing up for the Free plan, you get access to almost all of Seatsurfing's f
 
 To upgrade an existing instance, use your Seatsurfing administrator account and navigate to "Subscription".
 
+#### Can I try the Professional plan for free?
+
+Yes, you can test the Professional plan free of charge and without commitment for 30 days. During this trial period, you'll have access to all Professional features without any restrictions. After the 30-day trial period expires, you'll need to upgrade to the Professional plan to continue using all Enterprise features. Without an upgrade, an downgrade to the Free plan is performed automatically.
+
 #### Can I switch betweens plans?
 
 Yes, you can upgrade and downgrade at any time.
