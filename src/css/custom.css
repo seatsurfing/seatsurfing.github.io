@@ -52,14 +52,6 @@
   font-size: 18px;
 }
 
-/* signup button in sidebar */
-.navbar-sidebar__item .button--primary {
-  background-color: var(--ifm-color-primary);
-}
-.navbar-sidebar__item .button--primary:hover {
-  background-color: var(--ifm-color-primary-darkest);
-}
-
 .feature-table {
   table-layout: fixed;
 }
@@ -154,6 +146,9 @@ header.hero--primary {
   background: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
   border: 0;
   color: #fff;
+}
+.button-gradient:hover {
+  background: linear-gradient(to right, #6835c7 0%, #c73690 100%);
 }
 
 .pricing-price {

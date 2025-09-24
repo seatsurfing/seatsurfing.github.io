@@ -87,7 +87,7 @@ export default {
             to: "/sign-up?paid",
             label: "Start free trial",
             position: "right",
-            className: "button button--primary",
+            className: "button button--primary button-gradient",
           },
           {
             href: "https://github.com/seatsurfing/seatsurfing/",
