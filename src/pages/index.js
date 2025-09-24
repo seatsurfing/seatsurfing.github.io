@@ -29,8 +29,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{subtitle}</p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/sign-up">
-            <Translate>Start now for free</Translate>
+          <Link
+            className="button button--primary button--lg button-gradient"
+            to="/sign-up?paid"
+          >
+            <Translate>Start free trial</Translate>
           </Link>
         </div>
       </div>

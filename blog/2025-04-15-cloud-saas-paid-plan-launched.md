@@ -32,4 +32,4 @@ Just log in to your organizations' administration web-interface, navigate to "Su
 
 Create a new account and have your Seatsurfing instance ready within seconds:
 
-<a href="/sign-up" class="button button--primary button--lg button-gradient">Create Account</a>
+<a href="/sign-up" class="button button--primary button--lg button-gradient">Get it free</a>

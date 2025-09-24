@@ -9,4 +9,4 @@ If you want to give Seatsurfing a try, we’ve created an easy way for you: You 
 
 <!-- truncate -->
 
-<a href="/sign-up" class="button button--primary button--lg">Create Account</a>
+<a href="/sign-up" class="button button--primary button--lg">Get it free</a>

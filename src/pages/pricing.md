@@ -21,7 +21,7 @@ Pick your package and begin with Seatsurfing today.
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Servers in Germany (EU)</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Always the latest versions &amp; features</li>
         </ul>
-        <a href="/sign-up" className="button button--primary button--lg">Sign up</a>
+        <a href="/sign-up" className="button button--primary button--lg">Get it free</a>
     </div>
     <div className="pricing-model pricing-model-highlight border-gradient-purple">
         <h3>Professional</h3>
@@ -38,7 +38,7 @@ Pick your package and begin with Seatsurfing today.
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Monthly payment</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 support</li>
         </ul>
-        <a href="/sign-up?paid" className="button button--primary button--lg button-gradient">Sign up</a>
+        <a href="/sign-up?paid" className="button button--primary button--lg button-gradient">Start free trial</a>
     </div>
     <div className="pricing-model pricing-model-enterprise">
         <h3>Enterprise</h3>
@@ -81,7 +81,7 @@ To upgrade an existing instance, use your Seatsurfing administrator account and 
 
 #### Can I try the Professional plan for free?
 
-Yes, you can test the Professional plan free of charge and without commitment for 30 days. During this trial period, you'll have access to all Professional features without any restrictions. After the 30-day trial period expires, you'll need to upgrade to the Professional plan to continue using all Enterprise features. Without an upgrade, an downgrade to the Free plan is performed automatically.
+Yes, you can test the Professional plan free of charge and without commitment for 30 days. During this trial period, you'll have access to all Professional features without any restrictions. After the 30-day trial period expires, you'll need to upgrade to the Professional plan to continue using all Enterprise features. Without an upgrade, a downgrade to the Free plan is performed automatically.
 
 #### Can I switch betweens plans?
 

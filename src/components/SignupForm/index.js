@@ -219,8 +219,8 @@ export default function SignupForm() {
             />
             <label htmlFor="planPaid">
               <Translate>
-                Professional (0.90€ / user) – enterprise features and no user
-                limit
+                Professional (30 days free, then €0.90 / user) – enterprise
+                features and no user limit
               </Translate>
             </label>
             <div>
@@ -232,7 +232,7 @@ export default function SignupForm() {
                     })
                   : translate({
                       message:
-                        "After signing up, you need to upgrade to the Professional plan in your administration interface to unlock all features 🚀.",
+                        "After signing up, a free 30 days trial period starts automatically. As an administrator, you can permanently activate all features at any time 🚀.",
                     })}
               </small>
             </div>
