@@ -52,7 +52,7 @@
   font-size: 18px;
 }
 
-/* "Get it free" primary button in sidebar */
+/* signup button in sidebar */
 .navbar-sidebar__item .button--primary {
   background-color: var(--ifm-color-primary);
 }

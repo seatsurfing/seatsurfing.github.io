@@ -84,8 +84,8 @@ export default {
             position: "right",
           },
           {
-            to: "/sign-up",
-            label: "Get it free",
+            to: "/sign-up?paid",
+            label: "Start free trial",
             position: "right",
             className: "button button--primary",
           },
