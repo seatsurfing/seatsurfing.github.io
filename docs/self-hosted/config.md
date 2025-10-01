@@ -13,8 +13,6 @@ environment:
 
 ## List of environment variables
 
-### Backend
-
 | Environment Variable                    |  Type  |  Default                                                         |  Description                                                          |
 | --------------------------------------- | ------ | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
 | DEV                                     | bool   | 0                                                                | Development Mode, set to 1 to enable                                  |
@@ -27,6 +25,7 @@ environment:
 | SMTP_START_TLS                          | bool   | 0                                                                | Use SMTP STARTTLS extension, set to 1 to enable                       |
 | SMTP_INSECURE_SKIP_VERIFY               | bool   | 0                                                                | Disable SMTP TLS certificate validation                               |
 | SMTP_AUTH                               | bool   | 0                                                                | SMTP authentication, set to 1 to enable                               |
+| SMTP_AUTH_METHOD                        | string | PLAIN                                                            | SMTP authentication method: PLAIN or LOGIN                            |
 | SMTP_AUTH_USER                          | string |                                                                  | SMTP auth username                                                    |
 | SMTP_AUTH_PASS                          | string |                                                                  | SMTP auth password                                                    |
 | MAIL_SENDER_ADDRESS                     | string | no-reply@seatsurfing.local                                       | Mail sender address                                                   |
@@ -46,9 +45,40 @@ environment:
 | FILESYSTEM_BASE_PATH                    | string | current working directory                                        | The base path for loading additional ressources                       |
 | PUBLIC_SCHEME                           | string | https                                                            | The http scheme under which your server is publicly reachable         |
 | PUBLIC_PORT                             | int    | 443                                                              | The http port under which your server is publicly reachable           |
-| STATIC_ADMIN_UI_PATH                    | string | /app/admin-ui                                                    | The path to the static Admin UI Web Assets                            |
-| STATIC_BOOKING_UI_PATH                  | string | /app/booking-ui                                                  | The path to the static Booking UI Web Assets                          |
+| STATIC_UI_PATH                          | string | /app/ui                                                          | The path to the static UI Web Assets                            |
 | CACHE_TYPE                              | string | default                                                          | The cache to use ('default' = built-in, 'valkey' = Valkey.io)         |
 | VALKEY_HOSTS                            | string | 127.0.0.1:6379                                                   | Comma-separated list of Valkey hosts                                  |
 | VALKEY_USERNAME                         | string | default                                                          | Valkey username                                                       |
 | VALKEY_PASSWORD                         | string |                                                                  | Valkey password                                                       |
+
+## Recommended M365 SMTP configuration
+
+**Please note:** Required option ```SMTP_AUTH_METHOD``` has been added in version 1.44.0.
+
+```bash
+MAIL_SERVICE=smtp
+SMTP_HOST=smtp.office365.com
+SMTP_PORT=587
+SMTP_START_TLS=1
+SMTP_AUTH=1
+SMTP_AUTH_METHOD=LOGIN
+SMTP_AUTH_USER=your-email@yourdomain.com
+SMTP_AUTH_PASS=your-app-password
+MAIL_SENDER_ADDRESS=your-email@yourdomain.com
+```
+
+### Security Notes
+
+- Use App Passwords instead of regular passwords when possible
+- Ensure STARTTLS is enabled (`SMTP_START_TLS=1`)
+- Never set `SMTP_INSECURE_SKIP_VERIFY=1` in production
+
+### Troubleshooting
+
+If emails still fail to send:
+
+1. Verify your M365 account has SMTP AUTH enabled
+2. Use an App Password instead of your regular password
+3. Check that your firewall allows outbound connections to port 587
+4. Enable debug logging to see detailed SMTP conversation
+5. Try both PLAIN and LOGIN authentication methods
