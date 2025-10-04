@@ -41,11 +41,12 @@ environment:
 | LOGIN_PROTECTION_MAX_FAILS              | int    | 10                                                               | Number of failed login attempts before user gets banned               |
 | LOGIN_PROTECTION_SLIDING_WINDOW_SECONDS | int    | 600                                                              | Sliding window size in seconds for checking failed login attempts     |
 | LOGIN_PROTECTION_BAN_MINUTES            | int    | 5                                                                | Ban time in minutes                                                   |
+| DISABLE_PASSWORD_LOGIN                  | bool   | 0                                                                | Disable password-based login entirely (use SSO only)                  |
 | CRYPT_KEY                               | string |                                                                  | A 32 bytes long string used for encrypting certain database fields    |
 | FILESYSTEM_BASE_PATH                    | string | current working directory                                        | The base path for loading additional ressources                       |
 | PUBLIC_SCHEME                           | string | https                                                            | The http scheme under which your server is publicly reachable         |
 | PUBLIC_PORT                             | int    | 443                                                              | The http port under which your server is publicly reachable           |
-| STATIC_UI_PATH                          | string | /app/ui                                                          | The path to the static UI Web Assets                            |
+| STATIC_UI_PATH                          | string | /app/ui                                                          | The path to the static UI Web Assets                                  |
 | CACHE_TYPE                              | string | default                                                          | The cache to use ('default' = built-in, 'valkey' = Valkey.io)         |
 | VALKEY_HOSTS                            | string | 127.0.0.1:6379                                                   | Comma-separated list of Valkey hosts                                  |
 | VALKEY_USERNAME                         | string | default                                                          | Valkey username                                                       |
