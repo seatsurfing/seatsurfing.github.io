@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://seatsurfing.io/de/blog</id>
     <title>Seatsurfing Blog</title>
-    <updated>2025-09-06T00:00:00.000Z</updated>
+    <updated>2025-10-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://seatsurfing.io/de/blog"/>
     <subtitle>Seatsurfing Blog</subtitle>
     <icon>https://seatsurfing.io/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[30-day free trial for Seatsurfing Professional now available]]></title>
+        <id>https://seatsurfing.io/de/blog/free-trial-professional</id>
+        <link href="https://seatsurfing.io/de/blog/free-trial-professional"/>
+        <updated>2025-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to announce that our Professional Plan is now available with a 30-day free trial. This means you can explore all the enterprise features that help growing teams manage desk sharing and space booking efficiently – without any commitment.]]></summary>
+        <content type="html"><![CDATA[<p>We're excited to announce that our Professional Plan is now available with a 30-day free trial. This means you can explore all the enterprise features that help growing teams manage desk sharing and space booking efficiently – without any commitment.</p>
+<p>Getting started with your 30-day trial is simple:</p>
+<ul>
+<li><strong>New to Seatsurfing?</strong> <a href="https://seatsurfing.io/de/sign-up?paid">Simply sign up for a Professional Plan</a> account and your trial begins immediately.</li>
+<li><strong>Already using Seatsurfing?</strong> Existing users can activate the trial directly in the admin area under the "Subscription" section. No need to create a new account.</li>
+</ul>
+<p>To continue using all Professional Plan features beyond the 30-day trial, admins need to subscribe before the trial period ends. If you choose not to subscribe, your account will automatically convert to the Free Plan after 30 days. You can continue using Seatsurfing at no cost with up to 10 users and access to a <a href="https://seatsurfing.io/de/features">limited features set</a>.</p>]]></content>
+        <author>
+            <name>Jan</name>
+            <uri>https://github.com/janjonas</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[September '25 news]]></title>
         <id>https://seatsurfing.io/de/blog/news-september-2025</id>
@@ -474,20 +493,6 @@
 </ul>
 <p>Head to <a href="https://seatsurfing.io/de/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.io/de/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content>
-        <author>
-            <name>Heiner</name>
-            <uri>https://github.com/virtualzone</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free test accounts]]></title>
-        <id>https://seatsurfing.io/de/blog/free-test-accounts</id>
-        <link href="https://seatsurfing.io/de/blog/free-test-accounts"/>
-        <updated>2021-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></summary>
-        <content type="html"><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>
-<a href="https://seatsurfing.io/sign-up" class="button button--primary button--lg">Get it free</a>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>

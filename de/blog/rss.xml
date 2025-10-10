@@ -4,10 +4,25 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/de/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Sat, 06 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[30-day free trial for Seatsurfing Professional now available]]></title>
+            <link>https://seatsurfing.io/de/blog/free-trial-professional</link>
+            <guid>https://seatsurfing.io/de/blog/free-trial-professional</guid>
+            <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're excited to announce that our Professional Plan is now available with a 30-day free trial. This means you can explore all the enterprise features that help growing teams manage desk sharing and space booking efficiently – without any commitment.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to announce that our Professional Plan is now available with a 30-day free trial. This means you can explore all the enterprise features that help growing teams manage desk sharing and space booking efficiently – without any commitment.</p>
+<p>Getting started with your 30-day trial is simple:</p>
+<ul>
+<li><strong>New to Seatsurfing?</strong> <a href="https://seatsurfing.io/de/sign-up?paid">Simply sign up for a Professional Plan</a> account and your trial begins immediately.</li>
+<li><strong>Already using Seatsurfing?</strong> Existing users can activate the trial directly in the admin area under the "Subscription" section. No need to create a new account.</li>
+</ul>
+<p>To continue using all Professional Plan features beyond the 30-day trial, admins need to subscribe before the trial period ends. If you choose not to subscribe, your account will automatically convert to the Free Plan after 30 days. You can continue using Seatsurfing at no cost with up to 10 users and access to a <a href="https://seatsurfing.io/de/features">limited features set</a>.</p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[September '25 news]]></title>
             <link>https://seatsurfing.io/de/blog/news-september-2025</link>
@@ -403,16 +418,6 @@
 </ul>
 <p>Head to <a href="https://seatsurfing.io/de/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.io/de/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[Free test accounts]]></title>
-            <link>https://seatsurfing.io/de/blog/free-test-accounts</link>
-            <guid>https://seatsurfing.io/de/blog/free-test-accounts</guid>
-            <pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.]]></description>
-            <content:encoded><![CDATA[<p>If you want to give Seatsurfing a try, we’ve created an easy way for you: You can now create test accounts directly on our website. In just a few seconds, your organization will be set up. You can then test Seatsurfing with up to ten users for free. Visit the sign up page to create your account.</p>
-<a href="https://seatsurfing.io/sign-up" class="button button--primary button--lg">Get it free</a>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
