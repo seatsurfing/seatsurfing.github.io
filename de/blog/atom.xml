@@ -16,10 +16,10 @@
         <content type="html"><![CDATA[<p>We're excited to announce that our Professional Plan is now available with a 30-day free trial. This means you can explore all the enterprise features that help growing teams manage desk sharing and space booking efficiently – without any commitment.</p>
 <p>Getting started with your 30-day trial is simple:</p>
 <ul>
-<li><strong>New to Seatsurfing?</strong> <a href="https://seatsurfing.io/de/sign-up?paid">Simply sign up for a Professional Plan</a> account and your trial begins immediately.</li>
-<li><strong>Already using Seatsurfing?</strong> Existing users can activate the trial directly in the admin area under the "Subscription" section. No need to create a new account.</li>
+<li class=""><strong>New to Seatsurfing?</strong> <a class="" href="https://seatsurfing.io/de/sign-up?paid">Simply sign up for a Professional Plan</a> account and your trial begins immediately.</li>
+<li class=""><strong>Already using Seatsurfing?</strong> Existing users can activate the trial directly in the admin area under the "Subscription" section. No need to create a new account.</li>
 </ul>
-<p>To continue using all Professional Plan features beyond the 30-day trial, admins need to subscribe before the trial period ends. If you choose not to subscribe, your account will automatically convert to the Free Plan after 30 days. You can continue using Seatsurfing at no cost with up to 10 users and access to a <a href="https://seatsurfing.io/de/features">limited features set</a>.</p>]]></content>
+<p>To continue using all Professional Plan features beyond the 30-day trial, admins need to subscribe before the trial period ends. If you choose not to subscribe, your account will automatically convert to the Free Plan after 30 days. You can continue using Seatsurfing at no cost with up to 10 users and access to a <a class="" href="https://seatsurfing.io/de/features">limited features set</a>.</p>]]></content>
         <author>
             <name>Jan</name>
             <uri>https://github.com/janjonas</uri>
@@ -34,24 +34,24 @@
         <summary type="html"><![CDATA[We're happy to share some updates that have rolled out over the past few weeks. These improvements are part of our ongoing commitment to making Seatsurfing a great workplace management solution for teams of all sizes.]]></summary>
         <content type="html"><![CDATA[<p>We're happy to share some updates that have rolled out over the past few weeks. These improvements are part of our ongoing commitment to making Seatsurfing a great workplace management solution for teams of all sizes.</p>
 <p><strong>🌍 German website launch</strong></p>
-<p>Our website is now available in German at <a href="https://seatsurfing.io/de" target="_blank" rel="noopener noreferrer">https://seatsurfing.io/de</a>.</p>
+<p>Our website is now available in German at <a href="https://seatsurfing.io/de" target="_blank" rel="noopener noreferrer" class="">https://seatsurfing.io/de</a>.</p>
 <p><strong>🏢 Introducing our Enterprise plan</strong></p>
-<p>Our Enterprise plan is designed for organizations with 500 or more users. This plan includes dedicated hosting options in Germany, Finland, or the USA. This ensures optimal performance and maximum data protection. Check out all the details on our updated <a href="https://seatsurfing.io/de/pricing/">pricing page</a>.</p>
+<p>Our Enterprise plan is designed for organizations with 500 or more users. This plan includes dedicated hosting options in Germany, Finland, or the USA. This ensures optimal performance and maximum data protection. Check out all the details on our updated <a class="" href="https://seatsurfing.io/de/pricing/">pricing page</a>.</p>
 <p><strong>🎧 New support portal</strong></p>
-<p>We've launched our dedicated support portal at <a href="https://support.seatsurfing.io/" target="_blank" rel="noopener noreferrer">https://support.seatsurfing.io</a> for all general inquiries and technical support requests. Professional and Enterprise plan customers can expect responses within 24 hours.</p>
+<p>We've launched our dedicated support portal at <a href="https://support.seatsurfing.io/" target="_blank" rel="noopener noreferrer" class="">https://support.seatsurfing.io</a> for all general inquiries and technical support requests. Professional and Enterprise plan customers can expect responses within 24 hours.</p>
 <p><strong>📧 Enhanced onboarding experience</strong></p>
 <p>We've enhanced our onboarding process for new customers on both Free, Professional and Enterprise plans. After creating your account, you'll receive a series of helpful emails over your first few days to guide you through setup, share best practices, and help you get the most out of Seatsurfing.</p>
 <p><strong>🔧 Platform updates and bug fixes</strong></p>
-<p>Our development team has rolled out several platform updates focused on stability and performance improvements. You can find detailed information about all recent releases on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer">GitHub releases page</a>.</p>
+<p>Our development team has rolled out several platform updates focused on stability and performance improvements. You can find detailed information about all recent releases on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
 <p><strong>💝 Refreshed GitHub sponsorship</strong></p>
-<p>We've updated our GitHub Sponsorship page! Visit <a href="https://github.com/sponsors/seatsurfing" target="_blank" rel="noopener noreferrer">https://github.com/sponsors/seatsurfing</a> to learn more about supporting our open-source project.</p>
+<p>We've updated our GitHub Sponsorship page! Visit <a href="https://github.com/sponsors/seatsurfing" target="_blank" rel="noopener noreferrer" class="">https://github.com/sponsors/seatsurfing</a> to learn more about supporting our open-source project.</p>
 <p><strong>📬 Dedicated contact channels</strong></p>
 <p>We now have dedicated email addresses for specific types of inquiries:</p>
 <ul>
-<li>Support requests: <a href="mailto:support@seatsurfing.io" target="_blank" rel="noopener noreferrer">support@seatsurfing.io</a></li>
-<li>Security concerns: <a href="mailto:security@seatsurfing.io" target="_blank" rel="noopener noreferrer">security@seatsurfing.io</a></li>
+<li class="">Support requests: <a href="mailto:support@seatsurfing.io" target="_blank" rel="noopener noreferrer" class="">support@seatsurfing.io</a></li>
+<li class="">Security concerns: <a href="mailto:security@seatsurfing.io" target="_blank" rel="noopener noreferrer" class="">security@seatsurfing.io</a></li>
 </ul>
-<p><em>Ready to transform your workplace with smart desk booking? <a href="https://seatsurfing.io/de/sign-up">Get started with Seatsurfing today for free</a> or <a href="https://seatsurfing.io/de/contact">get in touch with us</a>.</em></p>]]></content>
+<p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/de/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/de/contact">get in touch with us</a>.</em></p>]]></content>
         <author>
             <name>Jan</name>
             <uri>https://github.com/janjonas</uri>
@@ -65,9 +65,9 @@
         <updated>2025-07-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Effective October 15, 2025, we will be discontinuing support for the app “Seatsurfing for Confluence” in Confluence Server and Confluence Data Center environments.]]></summary>
         <content type="html"><![CDATA[<p>Effective <strong>October 15, 2025</strong>, we will be discontinuing support for the app “Seatsurfing for Confluence” in Confluence Server and Confluence Data Center environments.</p>
-<p>Please note: This change only affects Confluence Server and Confluence Data Center environments. Our <a href="https://marketplace.atlassian.com/apps/1224242/" target="_blank" rel="noopener noreferrer">Confluence Cloud version</a> app remains fully supported and will continue to receive updates and new features. We are focusing our development efforts on enhancing the Cloud experience to better serve our users' evolving needs. We'll be sharing more details about the upcoming features in the near future.</p>
-<p>Please contact us at <a href="mailto:hello@seatsurfing.io" target="_blank" rel="noopener noreferrer">hello@seatsurfing.io</a> if you have any questions about this discontinuation or need assistance.</p>
-<p>The Confluence Cloud integration is available for all customers on our free and paid hosted cloud plans. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>]]></content>
+<p>Please note: This change only affects Confluence Server and Confluence Data Center environments. Our <a href="https://marketplace.atlassian.com/apps/1224242/" target="_blank" rel="noopener noreferrer" class="">Confluence Cloud version</a> app remains fully supported and will continue to receive updates and new features. We are focusing our development efforts on enhancing the Cloud experience to better serve our users' evolving needs. We'll be sharing more details about the upcoming features in the near future.</p>
+<p>Please contact us at <a href="mailto:hello@seatsurfing.io" target="_blank" rel="noopener noreferrer" class="">hello@seatsurfing.io</a> if you have any questions about this discontinuation or need assistance.</p>
+<p>The Confluence Cloud integration is available for all customers on our free and paid hosted cloud plans. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>]]></content>
         <author>
             <name>Jan</name>
             <uri>https://github.com/janjonas</uri>
@@ -83,14 +83,14 @@
         <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing version 1.36. This release adds recurring bookings. Users can now book their favorite spots weekly or monthly with just one click. Whether you prefer the same desk every Tuesday or need your usual spot for the entire next week, you can now set it once and let Seatsurfing handle the rest.</p>
 <p>Here's what changed in Seatsurfing 1.36 since the release of Seatsurfing 1.34:</p>
 <ul>
-<li>Feature: Recurring bookings</li>
-<li>Feature: Performance improvements (caching of settings and static web exports)</li>
-<li>Feature: Read-only and read-write service accounts</li>
-<li>Various bug fixes</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Recurring bookings</li>
+<li class="">Feature: Performance improvements (caching of settings and static web exports)</li>
+<li class="">Feature: Read-only and read-write service accounts</li>
+<li class="">Various bug fixes</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>Customers on our Free hosted cloud plans need to upgrade as recurring bookings are a <a href="https://seatsurfing.io/de/features">Professional feature</a>. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
-<p>Self-hosting users can find the source code of version 1.36 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and should carefully review the <strong>breaking changes warning</strong> in the <a href="https://github.com/seatsurfing/seatsurfing/releases/tag/v1.36.0" target="_blank" rel="noopener noreferrer">release notes</a> before upgrading. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>Customers on our Free hosted cloud plans need to upgrade as recurring bookings are a <a class="" href="https://seatsurfing.io/de/features">Professional feature</a>. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.36 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and should carefully review the <strong>breaking changes warning</strong> in the <a href="https://github.com/seatsurfing/seatsurfing/releases/tag/v1.36.0" target="_blank" rel="noopener noreferrer" class="">release notes</a> before upgrading. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Jan</name>
             <uri>https://github.com/janjonas</uri>
@@ -105,8 +105,8 @@
         <summary type="html"><![CDATA[We're excited to announce that Seatsurfing is now available as a Microsoft Teams app in the Microsoft AppSource marketplace! This integration brings workspace booking directly into the Microsoft Teams environment your team already knows and loves.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to announce that Seatsurfing is now available as a Microsoft Teams app in the Microsoft AppSource marketplace! This integration brings workspace booking directly into the Microsoft Teams environment your team already knows and loves.</p>
 <p>The new Seatsurfing Teams app eliminates the need to switch between different platforms throughout your workday. Whether you're planning your week, booking a desk for tomorrow, or checking availability for a meeting, everything is now accessible right within Microsoft Teams.</p>
-<p>To get started visit the <a href="https://appsource.microsoft.com/en-us/product/office/WA200008773" target="_blank" rel="noopener noreferrer">Microsoft AppSource marketplace</a>, install the app for free and enable the Microsoft Teams integration as outlined in <a href="https://seatsurfing.io/de/docs/msteams">our documentation</a>.</p>
-<p>The Microsoft Teams integration is available for all customers on our Free and Professional hosted cloud plans. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>]]></content>
+<p>To get started visit the <a href="https://appsource.microsoft.com/en-us/product/office/WA200008773" target="_blank" rel="noopener noreferrer" class="">Microsoft AppSource marketplace</a>, install the app for free and enable the Microsoft Teams integration as outlined in <a class="" href="https://seatsurfing.io/de/docs/msteams">our documentation</a>.</p>
+<p>The Microsoft Teams integration is available for all customers on our Free and Professional hosted cloud plans. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>]]></content>
         <author>
             <name>Jan</name>
             <uri>https://github.com/janjonas</uri>
@@ -122,15 +122,15 @@
         <content type="html"><![CDATA[<p>Today we've released Seatsurfing version 1.34. The new version improves the way users can navigate floor plans, introduces the specification of subjects when placing bookings, and adds technical Service Accounts.</p>
 <p>Here's what changed in Seatsurfing 1.34 since the release of Seatsurfing 1.32:</p>
 <ul>
-<li>Feature: New and intuitive way of navigating the map using Zoom-Pan-Pinch in the Booking UI</li>
-<li>Feature: Option for mandatory booking subjects per space</li>
-<li>Feature: New user role "Service Account", meant to calling REST APIs programmatically</li>
-<li>Feature: New environment variables PUBLIC_SCHEME and PUBLIC_PORT to support non-standard (HTTPS port 443) setups</li>
-<li>Various bug fixes</li>
-<li>Updated dependencies</li>
+<li class="">Feature: New and intuitive way of navigating the map using Zoom-Pan-Pinch in the Booking UI</li>
+<li class="">Feature: Option for mandatory booking subjects per space</li>
+<li class="">Feature: New user role "Service Account", meant to calling REST APIs programmatically</li>
+<li class="">Feature: New environment variables PUBLIC_SCHEME and PUBLIC_PORT to support non-standard (HTTPS port 443) setups</li>
+<li class="">Various bug fixes</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
-<p>Self-hosting users can find the source code of version 1.34 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.34 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -146,15 +146,15 @@
         <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing version 1.32. Everything in this new version is about groups: You can now organize your users in groups. These groups can be used as approvers for your spaces, i.e. a space admin in a space's approver group must approve a user's booking request before it becomes definite. Furthermore, you can use groups to restrict users who can book specific spaces, i.e. only users in an allowed group are permitted to place a booking.</p>
 <p>Here's what changed in Seatsurfing 1.32 since the release of Seatsurfing 1.31:</p>
 <ul>
-<li>Feature: Organize users in groups</li>
-<li>Feature: Specify approver and allowed booker groups per space</li>
-<li>Feature: Approve bookings</li>
-<li>Feature: Restrict space-booking by group memberships</li>
-<li>Various bug fixes</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Organize users in groups</li>
+<li class="">Feature: Specify approver and allowed booker groups per space</li>
+<li class="">Feature: Approve bookings</li>
+<li class="">Feature: Restrict space-booking by group memberships</li>
+<li class="">Various bug fixes</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
-<p>Self-hosting users can find the source code of version 1.32 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.32 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -170,15 +170,15 @@
         <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing version 1.31. The new version lets users import their bookings into their calendar applications (such as Microsoft Outlook, Apple Calendar, Google Mail etc.) using the Booking Web Interface. Additionally, users can opt for receiving booking confirmations via email, and these emails also include an attachment which can be imported to calendars in no time. By the way, we're now sending emails in HTML formatting, providing a greater user experience.</p>
 <p>Here's what changed in Seatsurfing 1.31 since the release of Seatsurfing 1.28:</p>
 <ul>
-<li>Feature: Add ability to download iCalendar (.ics) events from Booking UI (1.30)</li>
-<li>Feature: Add email booking confirmations per user opt-in in Booking UI (1.31)</li>
-<li>Feature: Add support for HTML emails (1.31)</li>
-<li>Feature: Add email footer support (1.31)</li>
-<li>Various bug fixes</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Add ability to download iCalendar (.ics) events from Booking UI (1.30)</li>
+<li class="">Feature: Add email booking confirmations per user opt-in in Booking UI (1.31)</li>
+<li class="">Feature: Add support for HTML emails (1.31)</li>
+<li class="">Feature: Add email footer support (1.31)</li>
+<li class="">Various bug fixes</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
-<p>Self-hosting users can find the source code of version 1.31 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>Customers on our Free and Professional hosted cloud plans always enjoy the latest versions automatically. Not subscribed yet? <a class="" href="https://seatsurfing.io/de/sign-up">Easily get started for free</a>.</p>
+<p>Self-hosting users can find the source code of version 1.31 on <a href="https://github.com/seatsurfing/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/orgs/seatsurfing/packages?repo_name=seatsurfing" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -196,9 +196,9 @@
 <ul class="fa-ul"><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Carefree Software as a Service (Saas) hosting on fast servers located in Germany</li><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> As many users as you need (pay per user)</li><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Add your organization's custom domain to access your Seatsurfing instance</li><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 premium support</li><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Monthly payment</li><li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> …and there's more to come!</li></ul>
 <p>Of course, the Open Source Edition will still be the basis of the Professional plan. This is why you can expect regular updates, enhancements and new features.</p>
 <p>Moreover, we will continue to provide the Cloud-hosted Free plan, which will remain cost-free for up to ten users. Perfectly suited to give Seatsurfing a try or to provide desk sharing, room reservations and other kinds of "space bookings" to small organizations.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade">You are already subscribed to the Free plan and want to upgrade?<a href="https://seatsurfing.io/de/blog/cloud-saas-paid-plan-launched#you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade" class="hash-link" aria-label="Direkter Link zur You are already subscribed to the Free plan and want to upgrade?" title="Direkter Link zur You are already subscribed to the Free plan and want to upgrade?" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade">You are already subscribed to the Free plan and want to upgrade?<a href="https://seatsurfing.io/de/blog/cloud-saas-paid-plan-launched#you-are-already-subscribed-to-the-free-plan-and-want-to-upgrade" class="hash-link" aria-label="Direkter Link zur You are already subscribed to the Free plan and want to upgrade?" title="Direkter Link zur You are already subscribed to the Free plan and want to upgrade?" translate="no">​</a></h4>
 <p>Just log in to your organizations' administration web-interface, navigate to "Subscription" and upgrade in no time.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="you-are-new-to-seatsurfing-and-want-to-sign-up">You are new to Seatsurfing and want to sign up?<a href="https://seatsurfing.io/de/blog/cloud-saas-paid-plan-launched#you-are-new-to-seatsurfing-and-want-to-sign-up" class="hash-link" aria-label="Direkter Link zur You are new to Seatsurfing and want to sign up?" title="Direkter Link zur You are new to Seatsurfing and want to sign up?" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="you-are-new-to-seatsurfing-and-want-to-sign-up">You are new to Seatsurfing and want to sign up?<a href="https://seatsurfing.io/de/blog/cloud-saas-paid-plan-launched#you-are-new-to-seatsurfing-and-want-to-sign-up" class="hash-link" aria-label="Direkter Link zur You are new to Seatsurfing and want to sign up?" title="Direkter Link zur You are new to Seatsurfing and want to sign up?" translate="no">​</a></h4>
 <p>Create a new account and have your Seatsurfing instance ready within seconds:</p>
 <a href="https://seatsurfing.io/sign-up" class="button button--primary button--lg button-gradient">Get it free</a>]]></content>
         <author>
@@ -216,31 +216,31 @@
         <content type="html"><![CDATA[<p>The past weeks ran fast: We've released eight new versions (plus multiple fix versions) of Seatsurfing, each containing exciting new features. Features which our users asked for. As we've not blogged about versions 1.22 to 1.28, this blog post summarized the most remarkable features and improvements since the release of version 1.21 which was released by the end of 2024.</p>
 <p>Here's what changed in Seatsurfing 1.29 since the release of Seatsurfing 1.21:</p>
 <ul>
-<li>Feature: Add Estonian translation for Booking UI (1.28)</li>
-<li>Feature: Add ability to assign attributes to spaces in Admin UI (1.27)</li>
-<li>Feature: Show and search for space attributes in Booking UI (1.27)</li>
-<li>Feature: Add Azure Communication Services (ACS) as alternative to SMTP for sending mails (1.26)</li>
-<li>Feature: Cloud hosted Seatsurfing adds individual subdomains and custom domains (1.25)</li>
-<li>Feature: Sse real email address as username (1.25)</li>
-<li>Feature: ARIA labels to Booking UI form for improved accessibility (1.25)</li>
-<li>Feature: Allow to cancel your bookings directly from the map (1.23)</li>
-<li>Feature: Connect your calendar via CalDAV and keep track of your space bookings (1.22)</li>
-<li>Feature: Add filtering options for Number of spaces, Number of free spaces and Buddies on site (1.22)</li>
-<li>Improvement: Make language changes persistent (1.28)</li>
-<li>Improvement: Display version on preferences page in Admin UI (1.28)</li>
-<li>Improvement: Optimize language handling in Admin and Booking UI (1.27)</li>
-<li>Improvement: Perform database schema updates more resilient (1.26)</li>
-<li>Improvement: Support PostgreSQL &lt; v16 (1.26)</li>
-<li>Improvement: Sdd auth provider template for Okta (1.26)</li>
-<li>Improvement: Improve password reset process (1.25)</li>
-<li>Improvement: List user bookings according to location's timezone (1.24)</li>
-<li>Improvement: Create/verify JWT Access Tokens with asymmetric RSA algorithm (1.24)</li>
-<li>Improvement: Optimized date formatting (1.22)</li>
-<li>Improvement: Added Content Security Policy (CSP) to the frontends (1.22)</li>
-<li>Various bug fixes</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Add Estonian translation for Booking UI (1.28)</li>
+<li class="">Feature: Add ability to assign attributes to spaces in Admin UI (1.27)</li>
+<li class="">Feature: Show and search for space attributes in Booking UI (1.27)</li>
+<li class="">Feature: Add Azure Communication Services (ACS) as alternative to SMTP for sending mails (1.26)</li>
+<li class="">Feature: Cloud hosted Seatsurfing adds individual subdomains and custom domains (1.25)</li>
+<li class="">Feature: Sse real email address as username (1.25)</li>
+<li class="">Feature: ARIA labels to Booking UI form for improved accessibility (1.25)</li>
+<li class="">Feature: Allow to cancel your bookings directly from the map (1.23)</li>
+<li class="">Feature: Connect your calendar via CalDAV and keep track of your space bookings (1.22)</li>
+<li class="">Feature: Add filtering options for Number of spaces, Number of free spaces and Buddies on site (1.22)</li>
+<li class="">Improvement: Make language changes persistent (1.28)</li>
+<li class="">Improvement: Display version on preferences page in Admin UI (1.28)</li>
+<li class="">Improvement: Optimize language handling in Admin and Booking UI (1.27)</li>
+<li class="">Improvement: Perform database schema updates more resilient (1.26)</li>
+<li class="">Improvement: Support PostgreSQL &lt; v16 (1.26)</li>
+<li class="">Improvement: Sdd auth provider template for Okta (1.26)</li>
+<li class="">Improvement: Improve password reset process (1.25)</li>
+<li class="">Improvement: List user bookings according to location's timezone (1.24)</li>
+<li class="">Improvement: Create/verify JWT Access Tokens with asymmetric RSA algorithm (1.24)</li>
+<li class="">Improvement: Optimized date formatting (1.22)</li>
+<li class="">Improvement: Added Content Security Policy (CSP) to the frontends (1.22)</li>
+<li class="">Various bug fixes</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>As usual, you can find the source code of version 1.29 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.29 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -257,20 +257,20 @@
 <p>Enjoy the new features, I wish you a happy new year 2025!</p>
 <p>Here's what changed in Seatsurfing 1.21 since the release of Seatsurfing 1.19:</p>
 <ul>
-<li>Feature: Added support for location attributes and filters (1.21)</li>
-<li>Feature: Added ability to (temporarily) disable locations (1.21)</li>
-<li>Feature: Added optional OAuth2 / OpenID Connect Logout URL (1.21)</li>
-<li>Feature: Added missing Italian translations to Booking UI (1.21)</li>
-<li>Feature: New setting for minimum booking duration, defaults to 0 (1.20)</li>
-<li>Feature: Support for partially booked seats (1.20)</li>
-<li>Feature: Support for custom logo (1.20)</li>
-<li>Feature: Added "Disable buddies" setting (1.20)</li>
-<li>Feature: Added maximum hours before cancellation setting (1.20)</li>
-<li>Improvement: Reduce leave time by one second automatically to avoid non-existing overlaps (1.20)</li>
-<li>Improvement: Always show search box at the bottom in Booking UI (1.20)</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Added support for location attributes and filters (1.21)</li>
+<li class="">Feature: Added ability to (temporarily) disable locations (1.21)</li>
+<li class="">Feature: Added optional OAuth2 / OpenID Connect Logout URL (1.21)</li>
+<li class="">Feature: Added missing Italian translations to Booking UI (1.21)</li>
+<li class="">Feature: New setting for minimum booking duration, defaults to 0 (1.20)</li>
+<li class="">Feature: Support for partially booked seats (1.20)</li>
+<li class="">Feature: Support for custom logo (1.20)</li>
+<li class="">Feature: Added "Disable buddies" setting (1.20)</li>
+<li class="">Feature: Added maximum hours before cancellation setting (1.20)</li>
+<li class="">Improvement: Reduce leave time by one second automatically to avoid non-existing overlaps (1.20)</li>
+<li class="">Improvement: Always show search box at the bottom in Booking UI (1.20)</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>As usual, you can find the source code of version 1.21 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.21 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -287,28 +287,28 @@
 <p>Here are some of the awesome new features: You can now quickly access certain floors and spaces by direct links / QR codes. A brand-new slider allows for quickly getting an overview of the space availability in the upcoming days. Space admins can manually add and edit reservations for their users. Find out where your buddies sit at a glance. Furthermore, multiple translations made it into the new version - namely Hebrew, Romanian, Hungarian, and Dutch.</p>
 <p>Here's what changed in Seatsurfing 1.19 since the release of Seatsurfing 1.14:</p>
 <ul>
-<li>Feature: Added slider to get a quick overview of the week (1.19)</li>
-<li>Feature: Floor and space URLs can be accessed by direct links / QR codes (1.19)</li>
-<li>Feature: Hebrew translation for Booking and Admin UI (1.19)</li>
-<li>Feature: Romanian translation for Booking UI (1.19)</li>
-<li>Feature: Hungarian translation for the Booking UI (1.18)</li>
-<li>Feature: Dutch translation (1.16)</li>
-<li>Feature: Implemented no-admin-restrictions feature (1.18)</li>
-<li>Feature: Edit and create booking in Admin UI (1.18)</li>
-<li>Feature: Hovering over desks shows a tooltip to see who is sitting there (1.17)</li>
-<li>Feature: See each buddy's next booking (1.17)</li>
-<li>Feature: Add buddy by email (1.17)</li>
-<li>Feature: Add your buddies and highlight their seats (1.16)</li>
-<li>Feature: Add support for desk coloring preferences (1.16)</li>
-<li>Feature: Added support for ghcr.io (1.16)</li>
-<li>Feature: Add user concurrency limit setting (1.15)</li>
-<li>Improvement: Improved icon alignment (1.19)</li>
-<li>Improvement: Refactored Docker Builds (1.18)</li>
-<li>Fix: Switch to summer / winter time not handled correctly (1.15)</li>
-<li>Fix: Incorrect date / time format (1.15)</li>
-<li>Updated dependencies (1.19)</li>
+<li class="">Feature: Added slider to get a quick overview of the week (1.19)</li>
+<li class="">Feature: Floor and space URLs can be accessed by direct links / QR codes (1.19)</li>
+<li class="">Feature: Hebrew translation for Booking and Admin UI (1.19)</li>
+<li class="">Feature: Romanian translation for Booking UI (1.19)</li>
+<li class="">Feature: Hungarian translation for the Booking UI (1.18)</li>
+<li class="">Feature: Dutch translation (1.16)</li>
+<li class="">Feature: Implemented no-admin-restrictions feature (1.18)</li>
+<li class="">Feature: Edit and create booking in Admin UI (1.18)</li>
+<li class="">Feature: Hovering over desks shows a tooltip to see who is sitting there (1.17)</li>
+<li class="">Feature: See each buddy's next booking (1.17)</li>
+<li class="">Feature: Add buddy by email (1.17)</li>
+<li class="">Feature: Add your buddies and highlight their seats (1.16)</li>
+<li class="">Feature: Add support for desk coloring preferences (1.16)</li>
+<li class="">Feature: Added support for ghcr.io (1.16)</li>
+<li class="">Feature: Add user concurrency limit setting (1.15)</li>
+<li class="">Improvement: Improved icon alignment (1.19)</li>
+<li class="">Improvement: Refactored Docker Builds (1.18)</li>
+<li class="">Fix: Switch to summer / winter time not handled correctly (1.15)</li>
+<li class="">Fix: Incorrect date / time format (1.15)</li>
+<li class="">Updated dependencies (1.19)</li>
 </ul>
-<p>As usual, you can find the source code of version 1.19 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer">GitHub Container Registry</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.19 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>. Pre-built Docker images can be pulled from the <a href="https://github.com/seatsurfing?tab=packages&amp;repo_name=backend" target="_blank" rel="noopener noreferrer" class="">GitHub Container Registry</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -324,20 +324,20 @@
         <content type="html"><![CDATA[<p>We're happy to announce the availability of Seatsurfing 1.14. Version 1.14 adds Italian translations and the ability for users to change their own password. Besides, various improvements and fixes have been implemented.</p>
 <p>Here's what changed in Seatsurfing 1.14 since the release of Seatsurfing 1.13:</p>
 <ul>
-<li>Feature: Added Italian translation</li>
-<li>Feature: Ability to change own password in Booking UI</li>
-<li>Improvement: Upgraded dependencies</li>
-<li>Fix: Changing a super admin's properties in Admin UI resets super admin's role</li>
-<li>Fix: Prevent logging in to Admin UI as a regular user</li>
-<li>Fix: Access /ui and /admin without trailing slash</li>
-<li>Fix: Fixed date picker not shown correctly in daily booking mode</li>
-<li>Fix: Fixed broken Admin UI translations</li>
-<li>Fix: Incorrect redirects in admin and booking UI</li>
-<li>Fix: Language auto-detection not working / partly translated texts</li>
-<li>Fix: Missing minimum length check when changing a user's password using the Admin UI</li>
-<li>Fix: Added missing login attempt recordings so that anonymous Confluence users are not deleted immediately</li>
+<li class="">Feature: Added Italian translation</li>
+<li class="">Feature: Ability to change own password in Booking UI</li>
+<li class="">Improvement: Upgraded dependencies</li>
+<li class="">Fix: Changing a super admin's properties in Admin UI resets super admin's role</li>
+<li class="">Fix: Prevent logging in to Admin UI as a regular user</li>
+<li class="">Fix: Access /ui and /admin without trailing slash</li>
+<li class="">Fix: Fixed date picker not shown correctly in daily booking mode</li>
+<li class="">Fix: Fixed broken Admin UI translations</li>
+<li class="">Fix: Incorrect redirects in admin and booking UI</li>
+<li class="">Fix: Language auto-detection not working / partly translated texts</li>
+<li class="">Fix: Missing minimum length check when changing a user's password using the Admin UI</li>
+<li class="">Fix: Added missing login attempt recordings so that anonymous Confluence users are not deleted immediately</li>
 </ul>
-<p>As usual, you can find the source code of version 1.14 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.14 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -353,12 +353,12 @@
         <content type="html"><![CDATA[<p>A few days ago, we've released Seatsurfing 1.13. This new version adds French translations to the user interfaces. Furthermore, we've migrated the React-based front ends from Create React App (CRA) to Next.js. The move to Next.js allows for server-side rendering, resulting in faster load times. However, this leads to a breaking change, because the front ends are not shipped with the backend Docker image anymore, but in two separate containers (admin-ui and booking-ui).</p>
 <p>Here's what changed in Seatsurfing 1.13 since the release of Seatsurfing 1.12:</p>
 <ul>
-<li>Feature: Migrated Booking UI and Admin UI to Next.js. This leads to a separated Docker containers (front ends not bundled with backend image anymore).</li>
-<li>Feature: Added French translation</li>
-<li>Improvement: Upgraded dependencies</li>
-<li>Fix: Incorrectly formatted SQL query in GetDomains function</li>
+<li class="">Feature: Migrated Booking UI and Admin UI to Next.js. This leads to a separated Docker containers (front ends not bundled with backend image anymore).</li>
+<li class="">Feature: Added French translation</li>
+<li class="">Improvement: Upgraded dependencies</li>
+<li class="">Fix: Incorrectly formatted SQL query in GetDomains function</li>
 </ul>
-<p>As usual, you can find the source code of version 1.13 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.13 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -374,17 +374,17 @@
         <content type="html"><![CDATA[<p>We're pleased to announce the release of Seatsurfing 1.12. The new release adds features our users have requested, such as login brute force prevention, an improved login-process for single-organization instances and more.</p>
 <p>Here's what changed in Seatsurfing 1.12 since the release of Seatsurfing 1.10:</p>
 <ul>
-<li>Feature: Login brute force prevention</li>
-<li>Feature: Clean up anonymous confluence users</li>
-<li>Feature: Improved login process for single-org instances</li>
-<li>Feature: Make entire map scrollable in Booking UI</li>
-<li>Feature: Admin UI: Added check for Seatsurfing updates</li>
-<li>Feature: Booking UI: Improved layout of search config errors</li>
-<li>Fix: Clear SessionStorage on invalid AccessToken</li>
-<li>Fix: Fix for security issue</li>
-<li>Updated dependencies</li>
+<li class="">Feature: Login brute force prevention</li>
+<li class="">Feature: Clean up anonymous confluence users</li>
+<li class="">Feature: Improved login process for single-org instances</li>
+<li class="">Feature: Make entire map scrollable in Booking UI</li>
+<li class="">Feature: Admin UI: Added check for Seatsurfing updates</li>
+<li class="">Feature: Booking UI: Improved layout of search config errors</li>
+<li class="">Fix: Clear SessionStorage on invalid AccessToken</li>
+<li class="">Fix: Fix for security issue</li>
+<li class="">Updated dependencies</li>
 </ul>
-<p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -398,7 +398,7 @@
         <updated>2022-07-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></summary>
         <content type="html"><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
-<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -414,22 +414,22 @@
         <content type="html"><![CDATA[<p>Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.</p>
 <p>Here are all major new features and improvements included in Seatsurfing Backend 1.9 implemented since version 1.8:</p>
 <ul>
-<li>Backend: Admins can create bookings for users not existing yet (can be enabled in Admin UI’s settings).</li>
-<li>Confluence: When user’s email is available on login, the user is created/updated with his unique email address instead of a unique ID.</li>
-<li>Booking UI: Own booked spaces are displayed in other color.</li>
-<li>Booking UI: Space admins can see bookers’ names.</li>
-<li>Booking UI: Added tooltips.</li>
-<li>Booking UI: Fixed and improved timezone handling.</li>
-<li>Booking UI: Updated to Bootstrap v5.</li>
-<li>Admin UI: Space admins can cancel a user’s bookings.</li>
-<li>Admin UI: Fixed non-working area filter in Analysis report.</li>
-<li>Admin UI: Updated to Bootstrap v5.</li>
-<li>General: Updated URL from seatsurfing.de to seatsurfing.app.</li>
-<li>Docker image: Added multi-arch Docker image builds (amd64, arm64, arm32v7).</li>
-<li>Docker image: Server binary is built with certain ldflags to reduce file size.</li>
-<li>Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.</li>
+<li class="">Backend: Admins can create bookings for users not existing yet (can be enabled in Admin UI’s settings).</li>
+<li class="">Confluence: When user’s email is available on login, the user is created/updated with his unique email address instead of a unique ID.</li>
+<li class="">Booking UI: Own booked spaces are displayed in other color.</li>
+<li class="">Booking UI: Space admins can see bookers’ names.</li>
+<li class="">Booking UI: Added tooltips.</li>
+<li class="">Booking UI: Fixed and improved timezone handling.</li>
+<li class="">Booking UI: Updated to Bootstrap v5.</li>
+<li class="">Admin UI: Space admins can cancel a user’s bookings.</li>
+<li class="">Admin UI: Fixed non-working area filter in Analysis report.</li>
+<li class="">Admin UI: Updated to Bootstrap v5.</li>
+<li class="">General: Updated URL from seatsurfing.de to seatsurfing.app.</li>
+<li class="">Docker image: Added multi-arch Docker image builds (amd64, arm64, arm32v7).</li>
+<li class="">Docker image: Server binary is built with certain ldflags to reduce file size.</li>
+<li class="">Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.</li>
 </ul>
-<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>]]></content>
+<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -443,7 +443,7 @@
         <updated>2021-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.]]></summary>
         <content type="html"><![CDATA[<p>Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.</p>
-<p><a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer">Visit Seatsurfing on GitHub</a></p>]]></content>
+<p><a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">Visit Seatsurfing on GitHub</a></p>]]></content>
         <author>
             <name>Heiner</name>
             <uri>https://github.com/virtualzone</uri>
@@ -459,13 +459,13 @@
         <content type="html"><![CDATA[<p>We’re happy to announce the release of Seatsurfing 1.8. The new version applies to both backend and mobile app. It adds some requested features making the lives of both administrators and users easier. Users can now set their individual booking preferences leading to even quicker bookings. Administrators can set floor plan administrators and enjoy new reporting functionalities.</p>
 <p>These are the new features of Seatsurfing 1.8:</p>
 <ul>
-<li>Booking UI and mobile app: Users can now set individual bookings preferences. Configure your business days, usual check-in and check-out times, and favorite area.</li>
-<li>Admin UI: New role “Floor Plan Administrator” for users who manage floor plans and spaces, but should not be able to modify system settings or users.</li>
-<li>Admin UI: New functionality “Analysis”, showing which users have been in the office at a certain day. This is i.e. useful for Covid-19 contact tracing.</li>
-<li>Admin UI: All tables can be exported to Excel (XLSX).</li>
-<li>And as usual, minor bug fixes and improvements.</li>
+<li class="">Booking UI and mobile app: Users can now set individual bookings preferences. Configure your business days, usual check-in and check-out times, and favorite area.</li>
+<li class="">Admin UI: New role “Floor Plan Administrator” for users who manage floor plans and spaces, but should not be able to modify system settings or users.</li>
+<li class="">Admin UI: New functionality “Analysis”, showing which users have been in the office at a certain day. This is i.e. useful for Covid-19 contact tracing.</li>
+<li class="">Admin UI: All tables can be exported to Excel (XLSX).</li>
+<li class="">And as usual, minor bug fixes and improvements.</li>
 </ul>
-<p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/seatsurfing/issues" target="_blank" rel="noopener noreferrer">issue tracker on GitHub</a>.</p>
+<p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/seatsurfing/issues" target="_blank" rel="noopener noreferrer" class="">issue tracker on GitHub</a>.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.io/de/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
@@ -483,15 +483,15 @@
 <p>With version 1.7, both Seatsurfing’s app and our web booking interface got a brand new design which is much easier to use. Floor plan and search dialog have been integrated, so you can easily change your search criteria and watch the available spaces on the map update instantly. If you already know which spaces you’d like to book, you can switch to the new list mode and pick your favorite desk directly.</p>
 <p>While this is the most obvious part of the update, there’s a lot more:</p>
 <ul>
-<li>New authentication method under the hood which provides more security</li>
-<li>New “remember me” functionality</li>
-<li>Leave date and time get updated automatically when changing the enter date</li>
-<li>Added location time zone support</li>
-<li>Added ability to set maximum concurrent location occupancy</li>
-<li>Fixed bug which prevented users from booking spaces the same day with active daily basis booking</li>
-<li>Fixed bug which caused showing an incorrect booking duration in admin interface</li>
+<li class="">New authentication method under the hood which provides more security</li>
+<li class="">New “remember me” functionality</li>
+<li class="">Leave date and time get updated automatically when changing the enter date</li>
+<li class="">Added location time zone support</li>
+<li class="">Added ability to set maximum concurrent location occupancy</li>
+<li class="">Fixed bug which prevented users from booking spaces the same day with active daily basis booking</li>
+<li class="">Fixed bug which caused showing an incorrect booking duration in admin interface</li>
 </ul>
-<p>Head to <a href="https://seatsurfing.io/de/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
+<p>Head to <a class="" href="https://seatsurfing.io/de/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.io/de/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content>
         <author>
             <name>Heiner</name>
