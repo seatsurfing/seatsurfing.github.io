@@ -4,35 +4,10 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Thu, 23 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[October '25 news]]></title>
-            <link>https://seatsurfing.io/blog/news-october-2025</link>
-            <guid>https://seatsurfing.io/blog/news-october-2025</guid>
-            <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[We've been busy shipping improvements to the Seatsurfing platform over the past few weeks. Alongside numerous bug fixes and smaller enhancements, we've rolled out several features that focus on enhancing the user experience and giving administrators more control and flexibility. Here are the most important updates:]]></description>
-            <content:encoded><![CDATA[<p>We've been busy shipping improvements to the Seatsurfing platform over the past few weeks. Alongside numerous bug fixes and smaller enhancements, we've rolled out several features that focus on enhancing the user experience and giving administrators more control and flexibility. Here are the most important updates:</p>
-<p><strong>📧 Improved notification emails</strong></p>
-<p>We've enhanced our booking notification emails to provide more context at a glance. Email notifications for approved, modified, or deleted bookings now include the booking subject (when available), making it easier to identify which booking the notification refers to without having to open the full details.</p>
-<p><strong>🌐 Localization enhancements</strong></p>
-<p>The booking overview now offers more flexibility when it comes to language preferences. You can now change the localization directly within the booking overview, and we've added the ability to distinguish between British English (en-GB) and American English (en-US) formats. This ensures dates, times, and other regional formatting align with your preferences.</p>
-<p><strong>ℹ️ Area information at your fingertips</strong></p>
-<p>We've added quick access to area details in the booking overview. Simply click the area's info button to view the area's description and timezone. This makes it easier to understand the context of your bookings without navigating away from the overview.</p>
-<p><strong>🔧 Administrator improvements</strong></p>
-<p>For organization administrators, we've rolled out several enhancements to streamline user and area management:</p>
-<ul>
-<li class="">First and last names for users: You can now specify first and last names for users in the system, providing better clarity in user management.</li>
-<li class="">Mobile-optimized admin navigation: The navigation bar in the Admin UI has been optimized for mobile devices, making it easier to manage your organization on the go.</li>
-<li class="">Default timezone visibility: When editing an area, the organization's default timezone is now displayed, helping you make informed decisions about area timezone settings.</li>
-</ul>
-<p><strong>📋 More details</strong></p>
-<p>As always, you can find detailed information about all recent releases and technical changes on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
-<p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/contact">get in touch with us</a>.</em></p>]]></content:encoded>
-            <category>news</category>
-        </item>
         <item>
             <title><![CDATA[30-day free trial for Seatsurfing Professional now available]]></title>
             <link>https://seatsurfing.io/blog/free-trial-professional</link>
@@ -421,6 +396,28 @@
 </ul>
 <p>We hope you’ll enjoy this new release. If you have feature requests or questions, please let us know by using our <a href="https://github.com/seatsurfing/seatsurfing/issues" target="_blank" rel="noopener noreferrer" class="">issue tracker on GitHub</a>.</p>
 <p><img decoding="async" loading="lazy" alt="Seatsurfing 1.8 Booking Preferences" src="https://seatsurfing.io/assets/images/seatsurfing-1.8-8fcc889c04c0fb1d59842ba6e68aec23.png" width="640" height="667" class="img_ev3q"></p>]]></content:encoded>
+            <category>release</category>
+        </item>
+        <item>
+            <title><![CDATA[Seatsurfing 1.7 with fresh design and new features]]></title>
+            <link>https://seatsurfing.io/blog/seatsurfing-1-7-with-fresh-design-and-new-features</link>
+            <guid>https://seatsurfing.io/blog/seatsurfing-1-7-with-fresh-design-and-new-features</guid>
+            <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we’ve released Seatsurfing Backend and App Version 1.7.]]></description>
+            <content:encoded><![CDATA[<p>Today we’ve released Seatsurfing Backend and App Version 1.7.</p>
+<p>With version 1.7, both Seatsurfing’s app and our web booking interface got a brand new design which is much easier to use. Floor plan and search dialog have been integrated, so you can easily change your search criteria and watch the available spaces on the map update instantly. If you already know which spaces you’d like to book, you can switch to the new list mode and pick your favorite desk directly.</p>
+<p>While this is the most obvious part of the update, there’s a lot more:</p>
+<ul>
+<li class="">New authentication method under the hood which provides more security</li>
+<li class="">New “remember me” functionality</li>
+<li class="">Leave date and time get updated automatically when changing the enter date</li>
+<li class="">Added location time zone support</li>
+<li class="">Added ability to set maximum concurrent location occupancy</li>
+<li class="">Fixed bug which prevented users from booking spaces the same day with active daily basis booking</li>
+<li class="">Fixed bug which caused showing an incorrect booking duration in admin interface</li>
+</ul>
+<p>Head to <a class="" href="https://seatsurfing.io/">our website</a> for more information on how to get your Seatsurfing installation up and running quickly.</p>
+<p><img decoding="async" loading="lazy" alt="Seatsurfing 1.7 Redesign" src="https://seatsurfing.io/assets/images/seatsurfing-1.7-e4cab6a1d3ce47c5e54f28bdad422c9c.png" width="640" height="617" class="img_ev3q"></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
