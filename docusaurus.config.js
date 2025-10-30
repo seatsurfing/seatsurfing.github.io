@@ -22,10 +22,10 @@ export default {
 
   onBrokenLinks: "throw",
 
-  "markdown": {
-    "hooks": {
+  markdown: {
+    hooks: {
       onBrokenMarkdownLinks: "warn",
-    }
+    },
   },
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -154,7 +154,7 @@ export default {
                 to: "terms",
               },
               {
-                label: "Privacy Policy",
+                label: "Privacy policy",
                 to: "privacy-policy",
               },
             ],

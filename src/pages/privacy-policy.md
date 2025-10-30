@@ -1,8 +1,8 @@
 ---
-title: Privacy Policy
+title: Privacy policy
 ---
 
-# Privacy Policy
+# Privacy policy
 
 Effective 2025-08-16
 
