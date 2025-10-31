@@ -17,6 +17,7 @@ Pick your package and begin with Seatsurfing today.
         <ul class="fa-ul">
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Free for up to 10 users</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Microsoft Teams integration</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Atlassian Confluence integration</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Managed Cloud Hosting</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Servers in Germany (EU)</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Always the latest versions &amp; features</li>
