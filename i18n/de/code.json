@@ -109,5 +109,41 @@
   },
   "Add your custom domain later (requires Professional plan).": {
     "message": "Konfiguriere deine benutzerdefinierte Domain später (benötigt Professional-Plan)"
+  },
+  "Benefits": {
+    "message": "Vorteile"
+  },
+  "Free for 10 users": {
+    "message": "Kostenlos für 10 Benutzer"
+  },
+  "Self-hosted or SaaS": {
+    "message": "Self-hosted oder SaaS"
+  },
+  "Premium support": {
+    "message": "Premium-Support"
+  },
+  "Facts": {
+    "message": "Fakten"
+  },
+  "400+ active instances": {
+    "message": "400+ aktive Instanzen"
+  },
+  "Open-source since 2021": {
+    "message": "Open-Source seit 2021"
+  },
+  "250+ stars on GitHub": {
+    "message": "250+ Sterne auf GitHub"
+  },
+  "Vision": {
+    "message": "Vision"
+  },
+  "Continuously evolving": {
+    "message": "Kontinuierlich weiterentwickelt"
+  },
+  "Built with passion": {
+    "message": "Mit Leidenschaft gebaut"
+  },
+  "User-focused": {
+    "message": "Benutzerzentriert"
   }
 }

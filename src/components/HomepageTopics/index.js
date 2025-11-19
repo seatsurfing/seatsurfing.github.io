@@ -42,7 +42,7 @@ const TopicList = [
     list: (
       <ul>
         <li>
-          <Translate>Transparency first</Translate>
+          <Translate>Continuously evolving</Translate>
         </li>
         <li>
           <Translate>Built with passion</Translate>
