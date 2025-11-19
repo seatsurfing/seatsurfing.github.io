@@ -191,10 +191,6 @@ header.hero--primary {
   order: 4;
 }
 
-.topics li {
-  list-style: none;
-}
-
 @media screen and (max-width: 761px) {
   .pricing-model-enterprise {
     order: 3;

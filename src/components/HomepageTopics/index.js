@@ -58,7 +58,7 @@ const TopicList = [
 function Topic({ title, list }) {
   return (
     <div className={clsx("col col--4")}>
-      <div className="text--center padding--sm margin--sm item shadow--lw topics">
+      <div className="text--center padding--sm margin--sm item shadow--lw">
         <h3>{title}</h3>
         {list}
       </div>
@@ -68,7 +68,7 @@ function Topic({ title, list }) {
 
 export default function HomepageTopics() {
   return (
-    <section className={styles.features}>
+    <section className={styles.topics}>
       <div className="container">
         <div className="row">
           {TopicList.map((props, idx) => (
