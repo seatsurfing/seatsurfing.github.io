@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import HomepageTopics from "@site/src/components/HomepageTopics";
 
 import styles from "./index.module.css";
 import Screenshot from "@site/static/img/screenshot.webp";
@@ -62,6 +63,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <HomepageTopics />
       </main>
     </Layout>
   );
