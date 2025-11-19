@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "NODE_OPTIONS=--no-experimental-webstorage docusaurus start",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -14,18 +14,18 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.9.1",
-    "@docusaurus/preset-classic": "3.9.1",
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
     "@mdx-js/react": "^3.1.1",
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
-    "@fortawesome/fontawesome-free": "7.0.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-player": "^3.3.3"
+    "@fortawesome/fontawesome-free": "7.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-player": "^3.4.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.9.1"
+    "@docusaurus/module-type-aliases": "3.9.2"
   },
   "browserslist": {
     "production": [

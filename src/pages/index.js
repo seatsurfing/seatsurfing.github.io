@@ -42,6 +42,12 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+  const thumbnail = (
+    <img src='/img/videothumb.jpg' alt='Thumbnail' style={{width: '100%', height: '100%', position: 'absolute', top: 0, left: 0}} />
+  );
+  const playIcon = (
+    <img src='/img/64px-YouTube_Play.png' alt='Play' style={{width: '64px', height: '64px', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}} />
+  );
   return (
     <Layout title={title} description={subtitle}>
       <HomepageHeader />
@@ -54,11 +60,12 @@ export default function Home() {
           <div className={styles.videoContainer}>
             <div className={styles.videoHeight}></div>
             <ReactPlayer
-              url={video}
-              light={true}
+              src={video}
+              light={thumbnail}
               width="100%"
               height="100%"
               className={styles.videoPlayer}
+              playIcon={playIcon}
             />
           </div>
         </div>
