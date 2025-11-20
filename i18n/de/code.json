@@ -20,8 +20,11 @@
   "Desk sharing, room reservation, free seating, and co-working for enterprises.": {
     "message": "Arbeitsplatz-Sharing, Raumbuchung, freie Platzwahl und Co-Working für Unternehmen"
   },
-  "https://www.youtube.com/watch?v=WYa08A7iJNo": {
-    "message": "https://www.youtube.com/watch?v=eREkqtoFtag"
+  "/video/seatsurfing_en.mp4": {
+    "message": "/de/video/seatsurfing_de.mp4"
+  },
+  "/video/videothumb.jpg": {
+    "message": "/de/video/videothumb.jpg"
   },
   "Access Seatsurfing from your phone, desktop,": {
     "message": "Nutze Seatsurfing auf dem Mobilgerät, Desktop,"

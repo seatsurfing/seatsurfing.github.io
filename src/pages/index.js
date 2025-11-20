@@ -8,7 +8,6 @@ import HomepageTopics from "@site/src/components/HomepageTopics";
 
 import styles from "./index.module.css";
 import Screenshot from "@site/static/img/screenshot.webp";
-import ReactPlayer from "react-player";
 import { translate } from "@docusaurus/Translate";
 
 const title = translate({
@@ -18,8 +17,11 @@ const subtitle = translate({
   message:
     "Desk sharing, room reservation, free seating, and co-working for enterprises.",
 });
-const video = translate({
-  message: "https://www.youtube.com/watch?v=WYa08A7iJNo",
+const videoPosterSrc = translate({
+  message: "/video/videothumb.jpg",
+});
+const videoSrc = translate({
+  message: "/video/seatsurfing_en.mp4",
 });
 
 function HomepageHeader() {
@@ -53,14 +55,21 @@ export default function Home() {
         <HomepageFeatures />
         <div className={styles.videoContainerWrapper}>
           <div className={styles.videoContainer}>
-            <div className={styles.videoHeight}></div>
-            <ReactPlayer
-              url={video}
-              light={true}
-              width="100%"
-              height="100%"
-              className={styles.videoPlayer}
-            />
+            <video
+              id="video"
+              controls
+              className={styles.video}
+              preload="none"
+              poster={videoPosterSrc}
+              onClick={(e) => {
+                const video = document.getElementById("video");
+                // see https://stackoverflow.com/a/35563612
+                video.paused ? video.play() : video.pause();
+                e.preventDefault();
+              }}
+            >
+              <source src={videoSrc} type="video/mp4" />
+            </video>
           </div>
         </div>
         <HomepageTopics />
