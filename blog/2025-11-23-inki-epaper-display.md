@@ -20,25 +20,25 @@ Because e-paper retains its content even when unpowered, the display remains rea
 
 ## Why it’s a perfect fit for Seatsurfing
 
-- **Live Desk & Room Status:** Once configured, inki queries your Seatsurfing server to pull the current booking status (who is sitting where, which rooms are occupied, etc.) and displays it cleanly on the screen.
-- **Browser-Based Setup:** You configure inki via its own Wi-Fi access point. Point your browser to the setup page, enter your Seatsurfing API credentials (such as service account, space IDs), and you’re ready to go — no cables, no USB programmers.
-- **Logo & Branding:** You can even upload a custom logo or pictogram to be shown on the e-paper – making the display match your company’s visual identity.
-- **Low Maintenance:** Thanks to the RTC-based power control, the device can run for thousands of update cycles on simple AA or AAA batteries.
+- **Live desk & room status:** Once configured, inki queries your Seatsurfing server to pull the current booking status (who is sitting where, which rooms are occupied, etc.) and displays it cleanly on the screen.
+- **Browser-based setup:** You configure inki via its own Wi-Fi access point. Point your browser to the setup page, enter your Seatsurfing API credentials (such as service account, space IDs), and you’re ready to go — no cables, no USB programmers.
+- **Logo & branding:** You can even upload a custom logo or pictogram to be shown on the e-paper – making the display match your company’s visual identity.
+- **Low maintenance:** Thanks to the RTC-based power control, the device can run for thousands of update cycles on simple AA or AAA batteries.
 
 ## Key technical features
 
-- **Ultra-Low Power:** Uses a DS3231 RTC and a MOSFET circuit so that the Pico W is completely unpowered between wake-ups, drawing only micro-amperes.
-- **Wireless Updates:** Firmware updates are done over the air. Just connect to the inki Wi-Fi, upload the new firmware via browser, and reboot.
-- **Multiple Pages:** inki supports up to 8 configurable “pages” that users can cycle through using onboard buttons — e.g., room occupancy, “Do Not Disturb,” device info, and more.
-- **Hardware & Open Source:** The project provides full hardware design files (PCB, 3D-printed enclosure), firmware (C code), and documentation under open-source licenses.
+- **Ultra-low power:** Uses a DS3231 RTC and a MOSFET circuit so that the Pico W is completely unpowered between wake-ups, drawing only micro-amperes.
+- **Wireless updates:** Firmware updates are done over the air. Just connect to the inki Wi-Fi, upload the new firmware via browser, and reboot.
+- **Multiple pages:** inki supports up to 8 configurable “pages” that users can cycle through using onboard buttons — e.g., room occupancy, “Do Not Disturb,” device info, and more.
+- **Hardware & open source:** The project provides full hardware design files (PCB, 3D-printed enclosure), firmware (C code), and documentation under open-source licenses.
 
 ![](/img/blog/inki2.jpg)
 
 ## Real-world use cases
 
-- **Room Signage:** Mount inki outside meeting rooms to display real-time status (free, occupied, meeting name) pulled from Seatsurfing.
-- **Desk Sharing Boards:** Use in open offices to give a live visual overview of who is sitting where.
-- **Beyond Booking:** Thanks to its modular firmware, inki can be repurposed for other data-display roles — for example, visualizing live sensor data from home automation systems (e.g., Homematic/CCU Historian).
+- **Room signage:** Mount inki outside meeting rooms to display real-time status (free, occupied, meeting name) pulled from Seatsurfing.
+- **Desk sharing boards:** Use in open offices to give a live visual overview of who is sitting where.
+- **Beyond booking:** Thanks to its modular firmware, inki can be repurposed for other data-display roles — for example, visualizing live sensor data from home automation systems (e.g., Homematic/CCU Historian).
 
 ## Why we love it
 
