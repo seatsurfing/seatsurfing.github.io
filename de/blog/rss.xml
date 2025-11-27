@@ -22,24 +22,24 @@ Because e-paper retains its content even when unpowered, the display remains rea
 <p><img decoding="async" loading="lazy" src="https://seatsurfing.io/de/assets/images/inki1-473e21ed7902dcbf539cef50d741ee35.jpg" width="1024" height="897" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-its-a-perfect-fit-for-seatsurfing">Why it’s a perfect fit for Seatsurfing<a href="https://seatsurfing.io/de/blog/inki-epaper-display#why-its-a-perfect-fit-for-seatsurfing" class="hash-link" aria-label="Direkter Link zur Why it’s a perfect fit for Seatsurfing" title="Direkter Link zur Why it’s a perfect fit for Seatsurfing" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Live Desk &amp; Room Status:</strong> Once configured, inki queries your Seatsurfing server to pull the current booking status (who is sitting where, which rooms are occupied, etc.) and displays it cleanly on the screen.</li>
-<li class=""><strong>Browser-Based Setup:</strong> You configure inki via its own Wi-Fi access point. Point your browser to the setup page, enter your Seatsurfing API credentials (such as service account, space IDs), and you’re ready to go — no cables, no USB programmers.</li>
-<li class=""><strong>Logo &amp; Branding:</strong> You can even upload a custom logo or pictogram to be shown on the e-paper – making the display match your company’s visual identity.</li>
-<li class=""><strong>Low Maintenance:</strong> Thanks to the RTC-based power control, the device can run for thousands of update cycles on simple AA or AAA batteries.</li>
+<li class=""><strong>Live desk &amp; room status:</strong> Once configured, inki queries your Seatsurfing server to pull the current booking status (who is sitting where, which rooms are occupied, etc.) and displays it cleanly on the screen.</li>
+<li class=""><strong>Browser-based setup:</strong> You configure inki via its own Wi-Fi access point. Point your browser to the setup page, enter your Seatsurfing API credentials (such as service account, space IDs), and you’re ready to go — no cables, no USB programmers.</li>
+<li class=""><strong>Logo &amp; branding:</strong> You can even upload a custom logo or pictogram to be shown on the e-paper – making the display match your company’s visual identity.</li>
+<li class=""><strong>Low maintenance:</strong> Thanks to the RTC-based power control, the device can run for thousands of update cycles on simple AA or AAA batteries.</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-technical-features">Key technical features<a href="https://seatsurfing.io/de/blog/inki-epaper-display#key-technical-features" class="hash-link" aria-label="Direkter Link zur Key technical features" title="Direkter Link zur Key technical features" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Ultra-Low Power:</strong> Uses a DS3231 RTC and a MOSFET circuit so that the Pico W is completely unpowered between wake-ups, drawing only micro-amperes.</li>
-<li class=""><strong>Wireless Updates:</strong> Firmware updates are done over the air. Just connect to the inki Wi-Fi, upload the new firmware via browser, and reboot.</li>
-<li class=""><strong>Multiple Pages:</strong> inki supports up to 8 configurable “pages” that users can cycle through using onboard buttons — e.g., room occupancy, “Do Not Disturb,” device info, and more.</li>
-<li class=""><strong>Hardware &amp; Open Source:</strong> The project provides full hardware design files (PCB, 3D-printed enclosure), firmware (C code), and documentation under open-source licenses.</li>
+<li class=""><strong>Ultra-low power:</strong> Uses a DS3231 RTC and a MOSFET circuit so that the Pico W is completely unpowered between wake-ups, drawing only micro-amperes.</li>
+<li class=""><strong>Wireless updates:</strong> Firmware updates are done over the air. Just connect to the inki Wi-Fi, upload the new firmware via browser, and reboot.</li>
+<li class=""><strong>Multiple pages:</strong> inki supports up to 8 configurable “pages” that users can cycle through using onboard buttons — e.g., room occupancy, “Do Not Disturb,” device info, and more.</li>
+<li class=""><strong>Hardware &amp; open source:</strong> The project provides full hardware design files (PCB, 3D-printed enclosure), firmware (C code), and documentation under open-source licenses.</li>
 </ul>
 <p><img decoding="async" loading="lazy" src="https://seatsurfing.io/de/assets/images/inki2-48425f61d12562fc740d6a35e5e263b1.jpg" width="1024" height="764" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-world-use-cases">Real-world use cases<a href="https://seatsurfing.io/de/blog/inki-epaper-display#real-world-use-cases" class="hash-link" aria-label="Direkter Link zur Real-world use cases" title="Direkter Link zur Real-world use cases" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Room Signage:</strong> Mount inki outside meeting rooms to display real-time status (free, occupied, meeting name) pulled from Seatsurfing.</li>
-<li class=""><strong>Desk Sharing Boards:</strong> Use in open offices to give a live visual overview of who is sitting where.</li>
-<li class=""><strong>Beyond Booking:</strong> Thanks to its modular firmware, inki can be repurposed for other data-display roles — for example, visualizing live sensor data from home automation systems (e.g., Homematic/CCU Historian).</li>
+<li class=""><strong>Room signage:</strong> Mount inki outside meeting rooms to display real-time status (free, occupied, meeting name) pulled from Seatsurfing.</li>
+<li class=""><strong>Desk sharing boards:</strong> Use in open offices to give a live visual overview of who is sitting where.</li>
+<li class=""><strong>Beyond booking:</strong> Thanks to its modular firmware, inki can be repurposed for other data-display roles — for example, visualizing live sensor data from home automation systems (e.g., Homematic/CCU Historian).</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-we-love-it">Why we love it<a href="https://seatsurfing.io/de/blog/inki-epaper-display#why-we-love-it" class="hash-link" aria-label="Direkter Link zur Why we love it" title="Direkter Link zur Why we love it" translate="no">​</a></h2>
 <p><a href="https://c0de111.github.io/inki/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">inki</a> embodies the principles of simplicity, efficiency, and practicality — qualities that resonate deeply with Seatsurfing’s mission. By combining ultra-low power hardware with a smart software design, it creates a seamless, tangible way to connect digital booking data with physical space. inki achieves this by using the documented REST APIs provided by Seatsurfing's open source project. It’s exactly the kind of community-driven innovation we hoped for when we open-sourced Seatsurfing.</p>
