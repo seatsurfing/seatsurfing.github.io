@@ -20,7 +20,7 @@
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
     "@fortawesome/fontawesome-free": "7.1.0",
-    "react": "^19.2.0",
+    "react": "^19.2.1",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
