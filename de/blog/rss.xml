@@ -4,10 +4,39 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/de/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Sun, 23 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[November '25 news]]></title>
+            <link>https://seatsurfing.io/de/blog/news-november-2025</link>
+            <guid>https://seatsurfing.io/de/blog/news-november-2025</guid>
+            <pubDate>Sat, 06 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We've been hard at work enhancing the Seatsurfing platform throughout the past few weeks. Along with numerous bug fixes and performance improvements, we've introduced several powerful features designed to improve booking management, streamline administrative workflows, and provide better integration capabilities. Here's what's new:]]></description>
+            <content:encoded><![CDATA[<p>We've been hard at work enhancing the Seatsurfing platform throughout the past few weeks. Along with numerous bug fixes and performance improvements, we've introduced several powerful features designed to improve booking management, streamline administrative workflows, and provide better integration capabilities. Here's what's new:</p>
+<p><strong>📧 Enhanced confirmation emails for recurring bookings</strong></p>
+<p>We've significantly improved the booking experience for recurring reservations. When you create a recurring booking, you'll now receive a comprehensive confirmation email that includes iCal attachments for all booking dates.</p>
+<p><strong>🗂️ Automatic booking retention management</strong></p>
+<p>Organization administrators now have fine-grained control over booking data retention. We've introduced configurable retention settings that allow you to automatically delete old bookings after a specified number of days. This feature helps keep your booking database clean and manageable while ensuring compliance with data retention policies.</p>
+<p><strong>ℹ️ Area information at your fingertips</strong></p>
+<p>We've added quick access to area details in the booking overview. Simply click the area's info button to view the area's description and timezone. This makes it easier to understand the context of your bookings without navigating away from the overview.</p>
+<p><strong>👤 Set user names from IDP</strong></p>
+<p>Integration with your identity provider (IDP) just got better. Administrators can now configure Seatsurfing to automatically set users' first and last names directly from your IDP.</p>
+<p><strong>💬 Improved existing booking popup</strong></p>
+<p>We've updated the popup with clearer information that appears when you attempt to book a space that's already reserved.</p>
+<p><strong>🔧 Administrator enhancements</strong></p>
+<p>For organization administrators, we've rolled out several minor enhancements to streamline user and area management:</p>
+<ul>
+<li class="">Improved date time picker</li>
+<li class="">Display both first and last names in the user overview</li>
+<li class="">Clickable booking deeplinks for areas and spaces</li>
+</ul>
+<p><strong>📋 More details</strong></p>
+<p>As always, you can find detailed information about all recent releases and technical changes on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
+<p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/de/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/de/contact">get in touch with us</a>.</em></p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[inki, the wireless e-paper display for Seatsurfing]]></title>
             <link>https://seatsurfing.io/de/blog/inki-epaper-display</link>
@@ -441,16 +470,6 @@ Because e-paper retains its content even when unpowered, the display remains rea
 </ul>
 <p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content:encoded>
             <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[Seatsurfing is Open Source now]]></title>
-            <link>https://seatsurfing.io/de/blog/seatsurfing-is-open-source-now</link>
-            <guid>https://seatsurfing.io/de/blog/seatsurfing-is-open-source-now</guid>
-            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.]]></description>
-            <content:encoded><![CDATA[<p>Your contribution is welcome: We’ve published Seatsurfing’s source code on GitHub. The code of the backend, admin web interface, booking web interface and mobile app is licensed under the GNU General Public License (GPL) v3.0. The release of Seatsurfing’s source code happens in the hope that you as a community will contribute to future developments. Nevertheless, we’ll keep on improving Seatsurfing and ensure a stable release process.</p>
-<p><a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">Visit Seatsurfing on GitHub</a></p>]]></content:encoded>
-            <category>news</category>
         </item>
     </channel>
 </rss>
