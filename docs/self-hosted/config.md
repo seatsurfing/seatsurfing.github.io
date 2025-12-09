@@ -74,6 +74,7 @@ MAIL_SENDER_ADDRESS=your-email@yourdomain.com
 - Use App Passwords instead of regular passwords when possible
 - Ensure STARTTLS is enabled (`SMTP_START_TLS=1`)
 - Never set `SMTP_INSECURE_SKIP_VERIFY=1` in production
+- If you explicitly need unencrypted SMTP (for local delivery for example), you need to set `SMTP_START_TLS=0`
 
 ### Troubleshooting
 
