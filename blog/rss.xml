@@ -4,10 +4,59 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[December '25 news]]></title>
+            <link>https://seatsurfing.io/blog/news-december-2025</link>
+            <guid>https://seatsurfing.io/blog/news-december-2025</guid>
+            <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[In December we shipped a set of updates aimed at better usability, clearer admin controls, more transparency, and core stability improvements. Most changes came in the final week of the year, and all are available in the GitHub Releases history.]]></description>
+            <content:encoded><![CDATA[<p>In December we shipped a set of updates aimed at better usability, clearer admin controls, more transparency, and core stability improvements. Most changes came in the final week of the year, and all are available in the GitHub Releases history.</p>
+<p><strong>🗓 Better Booking Experience</strong></p>
+<ul>
+<li class=""><strong>Calendar view added to “My Bookings”:</strong> Users now see their bookings in a calendar layout, making it easier to scan multiple dates and times.</li>
+<li class=""><strong>Improved date/time picker:</strong> The date/time selector across the UI now uses a refined Flatpickr implementation for smoother interactions.</li>
+<li class=""><strong>Current filter shown in Admin Booking UI:</strong> Admins get clearer context about what bookings are being displayed rather than guessing which filters are applied.</li>
+</ul>
+<p><strong>📧 Email Transparency and Confirmations</strong></p>
+<ul>
+<li class=""><strong>Email log introduced:</strong> Admins can now track sent emails, improving visibility into system communications.</li>
+<li class=""><strong>Confirmation mail for organization deletion:</strong> When an org is deleted, a confirmation email will be sent — adding a safety feedback loop.</li>
+<li class=""><strong>Improved email recipient names:</strong> Emails now show clearer recipient details for better context.</li>
+<li class=""><strong>Mail log callback fix for ACS:</strong> Resolved an issue where the mail log wasn’t invoked when using Azure Communication Services (ACS).</li>
+</ul>
+<p><strong>⚙️ Booking Rules &amp; Admin Controls</strong></p>
+<ul>
+<li class=""><strong>Recurring bookings toggle:</strong> Admins can enable or disable recurring bookings via configuration, reducing unwanted repeats.</li>
+<li class=""><strong>Optional booking approver notifications:</strong> You decide whether approvers get notified about new pending bookings.</li>
+</ul>
+<p><strong>🧠 Clarity and Feedback in the UI</strong></p>
+<ul>
+<li class=""><strong>Error improvement when booking in the past:</strong> A clearer error code is provided if someone tries to create a booking in the past.</li>
+<li class=""><strong>Show org language &amp; primary contact on settings page:</strong> Admin settings now surface organization language and main contact info.</li>
+</ul>
+<p><strong>🔧 Bug Fixes and Dependency Hygiene</strong></p>
+<p>December releases also included:</p>
+<ul>
+<li class="">Translation fixes (e.g., German strings).</li>
+<li class="">Dependency bumps across UI and backend modules to keep libraries up to date.</li>
+<li class="">Fix for panic when user/org deleted but token still valid.</li>
+</ul>
+<p>These don’t change workflows directly but reduce friction and unexpected errors.</p>
+<p><strong>What This Means for You</strong></p>
+<ul>
+<li class="">You get <em>more clarity</em> on your bookings and communications.</li>
+<li class="">Admins now have <em>tighter control</em> over rules like recurring booking and approver notifications.</li>
+<li class="">UX feels <em>more polished</em>, with fewer rough edges when selecting dates or managing filters.</li>
+</ul>
+<p><strong>📋 More details</strong></p>
+<p>As always, you can find detailed information about all recent releases and technical changes on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
+<p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/contact">get in touch with us</a>.</em></p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[November '25 news]]></title>
             <link>https://seatsurfing.io/blog/news-november-2025</link>
@@ -442,33 +491,6 @@ Because e-paper retains its content even when unpowered, the display remains rea
             <description><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></description>
             <content:encoded><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
 <p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[Seatsurfing 1.9 released]]></title>
-            <link>https://seatsurfing.io/blog/seatsurfing-1-9-released</link>
-            <guid>https://seatsurfing.io/blog/seatsurfing-1-9-released</guid>
-            <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.]]></description>
-            <content:encoded><![CDATA[<p>Today we’ve released Seatsurfing Backend version 1.9.0, including Server (RESTful API), Admin UI and Booking UI. Since release 1.8 a lot of improvements were made and new features were added. For example, your own booked spaces are highlighted in floor plans, display glitches in Confluence mode have been fixed and time zone handling has been improved.</p>
-<p>Here are all major new features and improvements included in Seatsurfing Backend 1.9 implemented since version 1.8:</p>
-<ul>
-<li class="">Backend: Admins can create bookings for users not existing yet (can be enabled in Admin UI’s settings).</li>
-<li class="">Confluence: When user’s email is available on login, the user is created/updated with his unique email address instead of a unique ID.</li>
-<li class="">Booking UI: Own booked spaces are displayed in other color.</li>
-<li class="">Booking UI: Space admins can see bookers’ names.</li>
-<li class="">Booking UI: Added tooltips.</li>
-<li class="">Booking UI: Fixed and improved timezone handling.</li>
-<li class="">Booking UI: Updated to Bootstrap v5.</li>
-<li class="">Admin UI: Space admins can cancel a user’s bookings.</li>
-<li class="">Admin UI: Fixed non-working area filter in Analysis report.</li>
-<li class="">Admin UI: Updated to Bootstrap v5.</li>
-<li class="">General: Updated URL from seatsurfing.de to seatsurfing.app.</li>
-<li class="">Docker image: Added multi-arch Docker image builds (amd64, arm64, arm32v7).</li>
-<li class="">Docker image: Server binary is built with certain ldflags to reduce file size.</li>
-<li class="">Docker image: Switched to “Distroless” container image to reduce image size and attack vectors.</li>
-</ul>
-<p>As usual, you can find the source code of version 1.9 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
