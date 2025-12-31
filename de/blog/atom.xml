@@ -39,9 +39,9 @@
 <p><strong>🔧 Bug fixes and dependency hygiene</strong></p>
 <p>December releases also included:</p>
 <ul>
-<li class="">Translation fixes (e.g., German strings).</li>
-<li class="">Dependency bumps across UI and backend modules to keep libraries up to date.</li>
-<li class="">Fix for panic when user/org deleted but token still valid.</li>
+<li class="">Translation fixes (e.g., German strings)</li>
+<li class="">Dependency bumps across UI and backend modules to keep libraries up to date</li>
+<li class="">Fix for panic when user/org deleted but token still valid</li>
 </ul>
 <p>These don’t change workflows directly but reduce friction and unexpected errors.</p>
 <p><strong>📋 More details</strong></p>
