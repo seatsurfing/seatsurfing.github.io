@@ -14,30 +14,29 @@
         <updated>2025-12-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In December we shipped a set of updates aimed at better usability, clearer admin controls, more transparency, and core stability improvements. Most changes came in the final week of the year, and all are available in the GitHub Releases history.]]></summary>
         <content type="html"><![CDATA[<p>In December we shipped a set of updates aimed at better usability, clearer admin controls, more transparency, and core stability improvements. Most changes came in the final week of the year, and all are available in the GitHub Releases history.</p>
-<p><strong>🗓 Better Booking Experience</strong></p>
+<p><strong>🗓 Better booking experience</strong></p>
 <ul>
 <li class=""><strong>Calendar view added to “My Bookings”:</strong> Users now see their bookings in a calendar layout, making it easier to scan multiple dates and times.</li>
-<li class=""><strong>Improved date/time picker:</strong> The date/time selector across the UI now uses a refined Flatpickr implementation for smoother interactions.</li>
-<li class=""><strong>Current filter shown in Admin Booking UI:</strong> Admins get clearer context about what bookings are being displayed rather than guessing which filters are applied.</li>
+<li class=""><strong>Improved date/time picker:</strong> The date/time selectors across the UI were refined for smoother interactions.</li>
+<li class=""><strong>Current filter in admin Booking UI:</strong> Admins can now filter by current bookings to see who is in the office now.</li>
 </ul>
-<p><strong>📧 Email Transparency and Confirmations</strong></p>
+<p><strong>📧 Email transparency and confirmations</strong></p>
 <ul>
 <li class=""><strong>Email log introduced:</strong> Admins can now track sent emails, improving visibility into system communications.</li>
-<li class=""><strong>Confirmation mail for organization deletion:</strong> When an org is deleted, a confirmation email will be sent — adding a safety feedback loop.</li>
+<li class=""><strong>Confirmation mail for organization deletion:</strong> To delete an organization, a confirmation email is now sent to further protect the process from "deletions by mistake".</li>
 <li class=""><strong>Improved email recipient names:</strong> Emails now show clearer recipient details for better context.</li>
-<li class=""><strong>Mail log callback fix for ACS:</strong> Resolved an issue where the mail log wasn’t invoked when using Azure Communication Services (ACS).</li>
 </ul>
-<p><strong>⚙️ Booking Rules &amp; Admin Controls</strong></p>
+<p><strong>⚙️ Booking rules &amp; admin controls</strong></p>
 <ul>
-<li class=""><strong>Recurring bookings toggle:</strong> Admins can enable or disable recurring bookings via configuration, reducing unwanted repeats.</li>
-<li class=""><strong>Optional booking approver notifications:</strong> You decide whether approvers get notified about new pending bookings.</li>
+<li class=""><strong>Recurring bookings toggle:</strong> Admins can enable or disable recurring bookings via configuration.</li>
+<li class=""><strong>Optional booking approver notifications:</strong> Approvers can now decide whether or not to get notified about new pending bookings.</li>
 </ul>
-<p><strong>🧠 Clarity and Feedback in the UI</strong></p>
+<p><strong>🧠 Clarity and feedback in the UI</strong></p>
 <ul>
 <li class=""><strong>Error improvement when booking in the past:</strong> A clearer error code is provided if someone tries to create a booking in the past.</li>
-<li class=""><strong>Show org language &amp; primary contact on settings page:</strong> Admin settings now surface organization language and main contact info.</li>
+<li class=""><strong>Organizations details on admin settings page:</strong> Admin settings now include organization details such as the main contact info.</li>
 </ul>
-<p><strong>🔧 Bug Fixes and Dependency Hygiene</strong></p>
+<p><strong>🔧 Bug fixes and dependency hygiene</strong></p>
 <p>December releases also included:</p>
 <ul>
 <li class="">Translation fixes (e.g., German strings).</li>
@@ -45,12 +44,6 @@
 <li class="">Fix for panic when user/org deleted but token still valid.</li>
 </ul>
 <p>These don’t change workflows directly but reduce friction and unexpected errors.</p>
-<p><strong>What This Means for You</strong></p>
-<ul>
-<li class="">You get <em>more clarity</em> on your bookings and communications.</li>
-<li class="">Admins now have <em>tighter control</em> over rules like recurring booking and approver notifications.</li>
-<li class="">UX feels <em>more polished</em>, with fewer rough edges when selecting dates or managing filters.</li>
-</ul>
 <p><strong>📋 More details</strong></p>
 <p>As always, you can find detailed information about all recent releases and technical changes on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
 <p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/de/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/de/contact">get in touch with us</a>.</em></p>]]></content>
