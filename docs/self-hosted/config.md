@@ -18,7 +18,7 @@ environment:
 | ACS_ACCESS_KEY                          | string |                                                                  | Azure Communication Services Access Key                                          |
 | ACS_HOST                                | string |                                                                  | Azure Communication Services Host                                                |
 | ALLOW_ORG_DELETE                        | bool   | 0                                                                | Allow admins to delete their own organization                                    |
-| CACHE_TYPE                              | string | default                                                          | The cache to use ('default' = built-in, 'valkey' = Valkey.io)                    |
+| CACHE_TYPE                              | string | default                                                          | The cache to use (`default` = built-in, `valkey` = Valkey.io)                    |
 | CORS_ORIGINS                            | string |                                                                  | Origins for which CORS is enabled (`http://localhost:3000` is added in DEV mode) |
 | CRYPT_KEY                               | string |                                                                  | A 32 bytes long string used for encrypting certain database fields               |
 | DEV                                     | bool   | 0                                                                | Development Mode, set to 1 to enable                                             |
