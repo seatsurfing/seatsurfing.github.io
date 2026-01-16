@@ -48,7 +48,7 @@ Pick your package and begin with Seatsurfing today.
         <hr />
         <p>Everything from Professional, plus:</p>
         <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Dedicated infrastructure (in Germany, Finnland or US)</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Dedicated infrastructure (in Germany or Finnland)</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Maximum data protection</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 priority support</li>
         </ul>
@@ -106,6 +106,6 @@ Yes, an invoice is available for every payment.
 
 #### Where is my data stored?
 
-Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland and in the United States of America (USA) for customers subscribed to the Enterprise plan. [Contact us](/contact) for further information.
+Our servers are located in Germany, operated by Hetzner Online GmbH. We can optionally provide hosting in Finnland for customers subscribed to the Enterprise plan. [Contact us](/contact) for further information.
 
 </div>

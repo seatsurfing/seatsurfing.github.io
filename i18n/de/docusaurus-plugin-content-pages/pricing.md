@@ -48,7 +48,7 @@ Wähle dein passendes Paket und starte noch heute mit Seatsurfing.
         <hr />
         <p>Alles aus dem Professional Plan, plus:</p>
         <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Dedizierte Infrastruktur (in Deutschland, Finnland oder USA)</li>
+            <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Dedizierte Infrastruktur (in Deutschland oder Finnland)</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> Maximaler Datenschutz</li>
             <li><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span> 24/7 Prioritäts-Support</li>
         </ul>
@@ -105,6 +105,6 @@ Ja, eine Rechnung ist für jede Zahlung verfügbar.
 
 #### Wo werden meine Daten gespeichert?
 
-Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland und in den Vereinigten Staaten von Amerika (USA) für Kunden unseres Enterprise Plans anbieten. [Kontaktiere uns](/contact) für weitere Informationen.
+Unsere Server befinden sich in Deutschland und werden von der Hetzner Online GmbH betrieben. Wir können optional Hosting in Finnland für Kunden unseres Enterprise Plans anbieten. [Kontaktiere uns](/contact) für weitere Informationen.
 
 </div>
