@@ -4,10 +4,30 @@
         <title>Seatsurfing Blog</title>
         <link>https://seatsurfing.io/blog</link>
         <description>Seatsurfing Blog</description>
-        <lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[January '26 news]]></title>
+            <link>https://seatsurfing.io/blog/news-january-2026</link>
+            <guid>https://seatsurfing.io/blog/news-january-2026</guid>
+            <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[In January we shipped a set of updates focused on making the admin experience more powerful and tightening up security for self-hosted deployments. Here's what's new:]]></description>
+            <content:encoded><![CDATA[<p>In January we shipped a set of updates focused on making the admin experience more powerful and tightening up security for self-hosted deployments. Here's what's new:</p>
+<p><strong>🔍 Smarter booking filters in the admin interface</strong></p>
+<p>Administrators can now filter bookings by individual users, making it much easier to track and manage bookings across your organization. In addition, we've introduced quick filters for "Today's Bookings" and "Current Bookings", so you can jump straight to what's relevant right now.</p>
+<p><strong>🧾 Billing information in the admin interface</strong></p>
+<p>Users on Seatsurfing's Paid plans can now manage their billing address directly within the admin interface.</p>
+<p><strong>🗺️ SVG support for floor plans</strong></p>
+<p>Room plans can now be uploaded in SVG format. SVG-based floor plans offer crisp, scalable visuals at any zoom level, giving your office layouts a cleaner and more professional look regardless of screen size or device.</p>
+<p><strong>🔒 Security improvements for self-hosted instances</strong></p>
+<p>We've made several security-related improvements. Organizations running their own Seatsurfing instances can now configure individual CORS headers and define a rate-limit to protect their instances.</p>
+<p><strong>📋 More details</strong></p>
+<p>As always, you can find detailed information about all recent releases and technical changes on our <a href="https://github.com/seatsurfing/seatsurfing/releases" target="_blank" rel="noopener noreferrer" class="">GitHub releases page</a>.</p>
+<p><em>Ready to transform your workplace with smart desk booking? <a class="" href="https://seatsurfing.io/sign-up">Get started with Seatsurfing today for free</a> or <a class="" href="https://seatsurfing.io/contact">get in touch with us</a>.</em></p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[December '25 news]]></title>
             <link>https://seatsurfing.io/blog/news-december-2025</link>
@@ -474,16 +494,6 @@ Because e-paper retains its content even when unpowered, the display remains rea
 <li class="">Updated dependencies</li>
 </ul>
 <p>As usual, you can find the source code of version 1.12 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[Seatsurfing 1.10 replaces native apps with web app]]></title>
-            <link>https://seatsurfing.io/blog/seatsurfing-pwa</link>
-            <guid>https://seatsurfing.io/blog/seatsurfing-pwa</guid>
-            <pubDate>Sun, 24 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.]]></description>
-            <content:encoded><![CDATA[<p>As of July 30, 2022, the Seatsurfing mobile apps for iOS and Android will be discontinued. We decided to focus on one state-of-the-art web booking interface, which is the existing, yet improved Web Booking UI. In order to optimize the user experience of the Web Booking UI when using mobile devices (such as phones and tablets), we've turned it into a Progressive Web App (PWA). This means, you can "install" the web app to your device's home screen and benefit from enhanced caching mechanisms.</p>
-<p>As usual, you can find the source code of version 1.10 on <a href="https://github.com/seatsurfing/" target="_blank" rel="noopener noreferrer" class="">GitHub</a> and pre-built Docker images on <a href="https://hub.docker.com/r/seatsurfing/backend" target="_blank" rel="noopener noreferrer" class="">Docker Hub</a>.</p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
