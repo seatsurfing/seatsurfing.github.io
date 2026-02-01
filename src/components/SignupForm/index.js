@@ -176,6 +176,7 @@ export default function SignupForm() {
               id="organization"
               placeholder={translate({ message: "Your company Ltd." })}
               minLength="3"
+              maxLength="128"
               autoFocus
               required={true}
               value={org}
@@ -251,6 +252,7 @@ export default function SignupForm() {
                   id="domain"
                   aria-describedby="domain-invalid domain-help"
                   minLength="3"
+                  maxLength="128"
                   required={true}
                   value={domain}
                   onChange={(e) => {
@@ -287,6 +289,7 @@ export default function SignupForm() {
               className={styles.input}
               id="ap-firstname"
               required={true}
+              maxLength="128"
               value={firstname}
               onChange={(e) => setFirstname(e.target.value)}
             />
@@ -304,6 +307,7 @@ export default function SignupForm() {
               className={styles.input}
               id="ap-lastname"
               required={true}
+              maxLength="128"
               value={lastname}
               onChange={(e) => setLastname(e.target.value)}
             />
@@ -322,6 +326,7 @@ export default function SignupForm() {
               id="email"
               aria-describedby="emailHelp"
               required={true}
+              maxLength="254"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -345,6 +350,8 @@ export default function SignupForm() {
               className={styles.input}
               id="password"
               required={true}
+              minLength="8"
+              maxLength="64"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
