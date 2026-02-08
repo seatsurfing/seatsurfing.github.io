@@ -11,7 +11,7 @@ Karl-Herbert-Scheer-Str. 6<br />
 61381 Friedrichsdorf<br />
 Germany
 
-Email: hello@seatsurfing.io
+E-Mail: hello@seatsurfing.io
 
 Telefon: <a href="tel:+4961723951022">+49 6172 3951022</a>
 
@@ -19,7 +19,7 @@ Geschäftsführer: Jan Jonas, Heinrich Beck
 
 Handelsregister-Nr.: Amtsgericht Bad Homburg v.d.H., HRB 16997
 
-MwSt.-Nummer: DE453833755
+USt-IdNr.: DE453833755
 
 ## Haftungsbeschränkung für interne Inhalte
 
