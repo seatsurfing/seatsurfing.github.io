@@ -67,7 +67,11 @@ In the "Users" section you can manage your employees which have access to your S
 
 Depending on your configuration in the Settings (see below), your employees can log in to Seatsurfing when successfully authenticated against your corporation's user directory service. This way, there's no need to administer all Seatsurfing users manually. When logging in for the first time, a Seatsurfing user account is created automatically.
 
-To create or modify users manually, click the "Add" button or click a user from the list. You can set the username (using the user's email address) and his password. Setting a password is only necessary if your user is not authenticating using a linked authentication provider.
+To create or modify users manually, click the "Add" button or click a user from the list. You must provide the user's name and email address (which serves as the username). You then choose one of three authentication methods:
+
+- **Password:** You set a password directly for the user. For existing users, a "Change Password" checkbox must be ticked before a new password is applied. Use this method when you want to manage credentials centrally.
+- **Identity Provider:** You link the user to one of the configured OAuth2/OIDC Identity Providers (IdP). The user must then log in via that IdP and no password is stored in Seatsurfing. This option is only shown if at least one IdP is configured for your organization.
+- **Send Invitation Email:** Seatsurfing sends the user an email containing a one-time link to set their own password. This is the recommended method for onboarding new users without sharing a temporary password out-of-band. The link is valid for 72 hours. Until the user has clicked the link and set a password, the user account shows a "pending" status. For existing users in pending state, a "Resend Invitation" option is available to issue a new link.
 
 You can assign a user one of the following roles:
 
