@@ -88,6 +88,8 @@ In the "Settings" section you can configure settings which apply to your entire 
 
 ### Common settings
 
+**Enforce MFA:** When enabled, users who have neither a TOTP authenticator nor a registered Passkey configured are prompted to set up at least one of these MFA methods before they can use the application. Administrators (OrgAdmin) are exempt from this enforcement. Note: This setting was historically labeled "Enforce TOTP" but now covers both TOTP and Passkeys as valid second factors.
+
 **Max. bookings per user:** Limits the number of upcoming bookings per user.
 
 **Max. concurrent bookings per user:** Determines how many concurrent bookings each user may have.

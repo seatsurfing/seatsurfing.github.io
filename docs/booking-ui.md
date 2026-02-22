@@ -23,7 +23,18 @@ Open the web app on your mobile device or computer. Afterwards, you can select o
 
 If entering a password is required, you'll be asked to enter it.
 
-Otherwise, you'll see one or more available authentication methods. Choose one of them. You'll be redirected to your organization's authentication service. Due to technical reasons, you may need to enter your email address a second time. After logging in, you'll be redirected back to the Seatsurfing ap. Depending on your connection, this might take a few seconds.
+Otherwise, you'll see one or more available authentication methods. Choose one of them. You'll be redirected to your organization's authentication service. Due to technical reasons, you may need to enter your email address a second time. After logging in, you'll be redirected back to the Seatsurfing app. Depending on your connection, this might take a few seconds.
+
+### Multi-factor Authentication (MFA)
+
+If your account has MFA configured, you will be prompted for a second factor after entering your password:
+
+- **Passkey:** If you have a Passkey registered, your browser will automatically prompt you to verify using it (e.g. Touch ID, Face ID, or a hardware security key).
+- **TOTP:** If you have TOTP configured but no Passkey, you will be asked to enter the 6-digit code from your authenticator app. If you have both configured, TOTP serves as a fallback if the Passkey prompt is dismissed or fails.
+
+### Passwordless Login
+
+If you have a Passkey registered, you can also log in without entering a password at all. Click **Sign in with Passkey** on the login page and follow your browser's prompt to select and verify your Passkey.
 
 ## Place a booking
 
@@ -48,6 +59,47 @@ You'll see a list of your upcoming bookings in ascending order. To show details 
 To keep things simple, it's not possible to modify an existing booking. Instead, you'll have to cancel and place a new booking.
 
 ## Preferences
+
+### Security
+
+In the **Security** section of Preferences, you can configure Multi-factor authentication (MFA) for your account. MFA adds an additional layer of protection beyond your password. Two MFA methods are supported: TOTP (authenticator app) and Passkeys. You can set up both simultaneously; Passkeys take priority, with TOTP as a fallback if a Passkey assertion fails.
+
+MFA settings are not available for accounts that log in exclusively via an external Identity Provider (IdP/OAuth2).
+
+#### TOTP (Authenticator App)
+
+TOTP (Time-based One-Time Password) generates a 6-digit code that changes every 30 seconds in a compatible authenticator app such as Google Authenticator, Microsoft Authenticator, or Aegis.
+
+To enable TOTP:
+
+1. Go to **Preferences** and select **Security**.
+1. Click **Enable TOTP**.
+1. A QR code is shown. Scan it with your authenticator app. If preferred, click **Show secret** to view and copy the raw key manually.
+1. Enter the 6-digit code shown in your authenticator app and confirm.
+
+Once enabled, you will be asked for a TOTP code on every login after entering your password.
+
+To disable TOTP, click **Disable TOTP** in the Security preferences. Note: if your organization has MFA enforcement enabled, you cannot disable TOTP while it is your only active second factor.
+
+#### Passkeys
+
+Passkeys are a modern, phishing-resistant authentication method based on the WebAuthn/FIDO2 standard. A Passkey can be a platform authenticator (e.g. Face ID, Touch ID, Windows Hello) or a hardware security key (e.g. YubiKey).
+
+Passkeys can be used in two ways:
+
+- **As a second factor:** After entering your email and password, you are prompted to verify using a registered Passkey.
+- **Passwordless login:** On the login page, click **Sign in with Passkey** to authenticate without entering a password at all.
+
+To register a Passkey:
+
+1. Go to **Preferences** and select **Security**.
+1. Click **Add Passkey**. If your browser or device does not support Passkeys, this button will be disabled.
+1. Enter a name for the Passkey (e.g. "MacBook Touch ID" or "YubiKey").
+1. Follow your browser's prompt to complete registration using your authenticator.
+
+You can register up to 10 Passkeys per account. The list shows each Passkey's name, when it was created, and when it was last used.
+
+To rename a Passkey, click **Rename** next to the desired entry. To remove a Passkey, click **Delete** and confirm. Note: if your organization has MFA enforcement enabled, you cannot delete your last Passkey if you also have no TOTP configured.
 
 ### Calendar Integration
 

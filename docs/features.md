@@ -32,6 +32,8 @@ The most important features of Seatsurfing are:
 - Filter appropriate areas and spaces
 - Keep track of upcoming bookings and cancel if necessary
 - View bookings in personal calendar via the standardized CalDAV protocol
+- Secure account with Multi-factor authentication (MFA) via TOTP (authenticator app) or Passkeys
+- Passwordless login using Passkeys
 
 ### From an organization administrator's perspective
 
@@ -41,6 +43,7 @@ The most important features of Seatsurfing are:
 - Configurable booking settings (i.e. max. booking duration, notice and count)
 - View booking and utilization statistics
 - Authentication via username/password or OAuth2 (use your own Identity Provider/IdP)
+- Enforce Multi-factor authentication (MFA) for all users (TOTP or Passkeys)
 - Set spaces (i.e. rooms) that require an approval before a booking request is confirmed
 - Set booking limitations, i.e. limit booking to specific groups of users
 
