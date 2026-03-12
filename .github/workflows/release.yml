@@ -39,7 +39,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build and push backend
+      - name: Build and push website
         uses: docker/build-push-action@v7
         with:
           context: .
