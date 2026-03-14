@@ -1,4 +1,4 @@
-name: Release
+name: Build and Deploy Website
 
 on:
   workflow_dispatch:
@@ -48,3 +48,9 @@ jobs:
           tags: ${{ env.REGISTRY }}/seatsurfing/seatsurfing.github.io:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
+      - name: Call redeploy webhook
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://webhook.seatsurfing.io/hooks/redeploy-website"
+          method: "GET"
+          customHeaders: '{"X-Github-Token": "${{ secrets.WEBHOOK_SECRET }}"}'
